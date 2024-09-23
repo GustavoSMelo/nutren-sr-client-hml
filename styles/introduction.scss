@@ -1,0 +1,129 @@
+@keyframes introductionSrTitleAnimation {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+
+@keyframes introductionTextDesktopAnimation {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes proLineAnimation {
+    0% {
+        transform: translateX(300%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+
+@keyframes ageLineAnimation {
+    0% {
+        transform: translateX(-300%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+
+@keyframes introductionTextMobileAnimation {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes introductionInviteAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.introduction-sr-animate, .introduction-sr-title-animate, .introduction-sr-img-animate {
+    opacity: 1;
+    transition: 0.5s;
+    animation: introductionSrTitleAnimation 1.4s ease-in-out;
+}
+
+.introduction-sr-title-container-animate {
+    opacity: 1;
+    transition: 0.5s;
+    animation: introductionSrTitleAnimation 1.4s ease-in-out;
+
+}
+
+.introduction-sr-description-animate {
+    opacity: 1;
+    transition: 0.5s;
+    animation: introductionTextDesktopAnimation 1.6s ease-in-out;
+}
+
+.introduction-sr-description-after-figure-animate {
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    animation: introductionTextMobileAnimation 1.4s ease-in-out forwards;
+}
+
+.introduction-sr-img-animate {
+    @media screen and (min-width:821px) {
+        animation: introductionTextMobileAnimation 1.4s ease-in-out forwards;
+    }
+}
+
+.pro-line-animate, .invite-sr-figure-animate  {
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    animation: proLineAnimation 1.6s ease-in-out forwards;
+}
+
+.age-line-animate, .line-introduction-description  {
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    animation: ageLineAnimation 1.6s ease-in-out forwards;
+}
+
+.invite-sr-title-animate {
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    animation: introductionInviteAnimation 1.4s ease-in-out forwards;
+}
+
+.invite-sr-description-animate {
+    opacity: 1;
+    animation: ageLineAnimation 1.4s ease-in-out forwards;
+}
+

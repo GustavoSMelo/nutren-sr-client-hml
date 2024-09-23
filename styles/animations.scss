@@ -1,0 +1,43 @@
+@keyframes leftToRightAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-200%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes rightToLeftAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(200%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes topToDownAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(200%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes downToTopAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}

@@ -1,0 +1,70 @@
+.expand-title-01-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: rightToLeftAnimation 1s;
+}
+
+.expand-title-02-animate, .etaism-meditation-figure-animate,.invite-container-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: rightToLeftAnimation 1.4s;
+}
+
+.expand-title-03-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: rightToLeftAnimation 1.6s;
+}
+
+.invite-txt-01-animate,
+.etaism-title-01-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: leftToRightAnimation 1s;
+}
+
+.invite-txt-02-animate,
+.girl-number-two-img-animate,
+.etaism-title-02-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: leftToRightAnimation 1.4s;
+}
+
+.invite-txt-03-animate,
+.etaism-title-03-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: leftToRightAnimation 1.6s;
+}
+
+.invite-txt-04-animate,
+.etaism-title-04-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: leftToRightAnimation 1.6s;
+}
+
+.ageism-title-animate,
+.ageism-description-animate,
+.ageism-subdescription-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: topToDownAnimation 1.6s;
+}

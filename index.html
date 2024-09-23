@@ -1,0 +1,2739 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Feature-Policy" content="features 'Share'" />
+        <meta http-equiv="X-UA-Compitable" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:description" content="Eu tenho um convite Pró-Idade especial pra você " />
+        <meta property="og:url" content="http://nutren.com.br/senior/guiaproidade" />
+        <meta property="og:title" content="Guia Pró-Idade" />
+        <meta property="og:image" content="./assets/conviteshare.png" />
+        <meta
+            name="viewport"
+            content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, target-densitydpi=device-dpi"
+        />
+        <title>Nestle</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://www.nutren.com.br/sites/default/files/css/css_zH85RLfGPvyzPh941f6HJqyCcMlvMx98wR1OJp_PbMk.css?delta=1&language=pt-br&theme=hubnutren&include=eJxFzVsKxCAMQNENhbokiRrUkomSB7S77zBQ5vdw4TaLXHNdSqmTkCLDiCLhSpKMZC4Fu83pkwoawa9sGhv5wBMv2KjYFfewl_9yhOwoPG1QA5bsU_z7EqHqS1PnVZAf_rEzBQ%22"
+        />
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+        <link rel="stylesheet" type="text/css" href="./styles/animations.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./styles/introduction.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./styles/maindetails.css"
+        />
+        <link rel="stylesheet" type="text/css" href="./styles/awakening.css" />
+        <link rel="stylesheet" type="text/css" href="./styles/expand.css" />
+        <link rel="stylesheet" type="text/css" href="./styles/planning.css" />
+    </head>
+    <body>
+        <div class="page-guiaproidade" id="page-guiaproidade">
+            <div class="container">
+                <div class="sr-content">
+                    <section
+                        class="share-container"
+                        onclick="closeShareContainer()"
+                    >
+                        <div
+                            class="share-container-blue"
+                            onclick="event.stopPropagation()"
+                        >
+                            <figure class="close-figure">
+                                <img
+                                    class="close-img"
+                                    src="./assets/icons/close-brown-alt.png"
+                                    alt="close icon"
+                                    onclick="closeShareContainer()"
+                                />
+                            </figure>
+
+                            <h4 class="share-text">Compartilhar</h4>
+                            <div class="button-list">
+                                <button type="button" class="btn-share">
+                                    <img
+                                        onclick="inviteByFacebook()"
+                                        class="btn-share-img"
+                                        src="./assets/icons/facebook.png"
+                                        alt="copy icon"
+                                    />
+                                </button>
+
+                                <button
+                                    type="button"
+                                    class="btn-share"
+                                    onclick="inviteByWhatsapp()"
+                                >
+                                    <img
+                                        class="btn-share-img"
+                                        src="./assets/icons/whatsapp-white.png"
+                                        alt="copy icon"
+                                    />
+                                </button>
+
+                                <button
+                                    type="button"
+                                    class="btn-download"
+                                    onclick="downloadPDF()"
+                                >
+                                    Download
+                                    <img
+                                        class="btn-share-img"
+                                        src="./assets/icons/download.png"
+                                        alt="copy icon"
+                                    />
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                        class="invite-container-blue"
+                        onclick="closeInviteContainer()"
+                    >
+                        <div
+                            class="share-container-blue"
+                            onclick="event.stopPropagation()"
+                        >
+                            <figure class="close-figure">
+                                <img
+                                    class="close-img"
+                                    src="./assets/icons/close-brown-alt.png"
+                                    alt="close icon"
+                                    onclick="closeInviteContainer()"
+                                />
+                            </figure>
+
+                            <h4 class="copy-link-h4">Copie o link</h4>
+                            <div class="input-copy-text">
+                                <input
+                                    class="input-copy"
+                                    type="text"
+                                    value="nestle.com.br/guiaproidade"
+                                    readonly
+                                />
+                                <button type="button" class="btn-copy">
+                                    <img
+                                        class="copy-brown-img"
+                                        src="./assets/icons/copy-brown.png"
+                                        alt="copy icon"
+                                    />
+                                </button>
+                            </div>
+
+                            <hr class="line-invite" />
+                            <p class="whatsapp-share-txt">
+                                ou envie via Whatsapp
+                            </p>
+                            <button
+                                type="button"
+                                class="btn-share-whatsapp"
+                                onclick="inviteByWhatsapp()"
+                            >
+                                Convidar
+                                <img
+                                    class="whatsapp-icon"
+                                    src="./assets/icons/whatsapp-white.png"
+                                    alt="whatsapp-white"
+                                />
+                            </button>
+                        </div>
+                    </section>
+                    <section class="introduction-sr">
+                        <div class="introduction-sr-title-container">
+                            <span>
+                                <h2 class="introduction-sr-title">
+                                    Guia <br />
+                                    PRÓ <br />
+                                    idade
+                                </h2>
+                                <hr class="pro-line" />
+                                <hr class="age-line" />
+                            </span>
+                            <img
+                                class="introduction-sr-img"
+                                src="./assets/drinking.png"
+                                alt="drinking"
+                            />
+                        </div>
+
+                        <p class="introduction-sr-description-after-figure">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SE ESTE GUIA
+                            CHEGOU ATÉ VOCÊ, É PORQUE ESTÁ NA HORA DE REPENSAR a
+                            SUA RELAÇÃO COM O ENVELHECIMENTO.
+                        </p>
+                    </section>
+
+                    <section class="invite-sr">
+                        <div class="invite-sr-text">
+                            <h2 class="invite-sr-title">Este é um convite.</h2>
+
+                            <p class="invite-sr-description">
+                                Um convite sobre viver mais e melhor
+                            </p>
+                            <p class="invite-sr-description">
+                                Sobre aprendizados, comportamentos, construção e
+                                legado para as próximas gerações.
+                            </p>
+                            <p class="invite-sr-description">
+                                Um convite que pode transformar seu olhar para o
+                                envelhecer
+                            </p>
+                        </div>
+
+                        <figure class="invite-sr-figure">
+                            <img
+                                class="invite-sr-gift"
+                                src="./assets/gift.png"
+                                alt="gift"
+                            />
+                            <img
+                                class="invite-sr-fullgift"
+                                src="./assets/full-gift.png"
+                                alt="gift"
+                            />
+                        </figure>
+                    </section>
+
+                    <section class="details-group-sr">
+                        <details class="detail-awakening main-details">
+                            <summary
+                                class="details-summary main-summary main-awakening-summary"
+                            >
+                                <span class="main-summary-title main-summary-awakening-closed">
+                                    <div class="summary-container-btn-align">
+                                        <h2 class="number-title-italic number-title-italic-01">01</h2>
+                                        <img
+                                            class="summary-arrow"
+                                            src="./assets/ellipse-right-arrow.png"
+                                            alt="arrow"
+                                        />
+                                    </div>
+                                    <div class="summary-container-row">
+                                        <h2
+                                            class="number-title-italic number-desktop"
+                                        >
+                                            01
+                                        </h2>
+                                        despertar
+                                    </div>
+                                </span>
+                                <span class="main-summary-awakening-expanded">
+                                    <div>
+                                        <h2 class="number-title-italic">01</h2>
+                                        <h2 class="summary-title-expand">
+                                            DESPERTAR
+                                        </h2>
+                                    </div>
+                                    <img
+                                        src="./assets/ellipse-right-arrow.png"
+                                        alt="right arrow"
+                                    />
+                                </span>
+                            </summary>
+                                <div  id="chapter-01"></div>
+                            <span
+                                class="awake-title-container title"
+                            >
+                                <img
+                                    class="awakening-img"
+                                    src="./assets/awakening.png"
+                                    alt="alongamento"
+                                />
+                                <div>
+                                    <h2 class="awake-title awake-title-pt1">
+                                        Des- <br />
+                                    </h2>
+                                    <h2 class="awake-title awake-title-pt2">
+                                        per- <br />
+                                    </h2>
+                                    <h2 class="awake-title awake-title-pt3">
+                                        tar
+                                    </h2>
+                                </div>
+                            </span>
+
+                            <section class="awake-invite">
+                                <p class="awake-invite-text">
+                                    Este é um <br />
+                                    convite para <br />
+                                    desconstruir <br />
+                                    estereótipos.
+                                </p>
+                                <figure class="awake-invite-figure">
+                                    <img
+                                        class="invite-gift-ellipse"
+                                        src="./assets/gift-ellipse.png"
+                                        alt="Um presente"
+                                    />
+                                    <button
+                                        class="invite-btn-invite"
+                                        type="button"
+                                        onclick="openInviteContainer()"
+                                    >
+                                        Convidar
+                                        <img
+                                            class="share-logo"
+                                            src="./assets/icons/share-plain.png"
+                                            alt="share"
+                                        />
+                                    </button>
+                                </figure>
+                            </section>
+
+                            <section class="context" id="context-1" style="background-color: #d8c490;">
+                                <div class="bg-1" id="bg-1"></div>
+                                <h5 class="context-line-c1" id="context-line">
+                                    <hr class="context-line-hr" />
+                                    Contexto
+                                </h5>
+
+                                <div class="title">
+                                    <h2 class="longevity-intro-title-text">
+                                        <div class="longevity-intro-txt-1" id="context-1-span-1" style="animation-play-state: paused;">
+                                            <span class="longevity-intro-bold">
+                                                Velho,
+                                            </span>
+                                        </div>
+                                        <div class="longevity-intro-txt-2" id="context-1-span-2" style="animation-play-state: paused;">
+                                            <span class="longevity-intro-bold"
+                                                >eu?</span
+                                            >
+                                            Sim <br />
+                                        </div>
+                                        <div class="longevity-intro-txt-3" id="context-1-span-3" style="animation-play-state: paused;">
+                                            estamos<br />
+                                        </div>
+                                        <div class="longevity-intro-txt-4" id="context-1-span-4" style="animation-play-state: paused;">
+                                            todos <br />
+                                        </div>
+                                        <div class="longevity-intro-txt-5" id="context-1-span-5" style="animation-play-state: paused;">
+                                            envelhe-<br />
+                                            cendo
+                                        </div>
+                                    </h2>
+                                    <figure class="longevity-intro-figure" id="longevity-intro-figure-1" style="animation-play-state: paused;">
+                                        <img
+                                            class="longevity-intro-img"
+                                            src="./assets/beauty.png"
+                                            alt="Mulher bonita"
+                                        />
+                                    </figure>
+                                </div>
+
+                                <h2 class="longevity-title" id="longevity-title-1" style="animation-play-state: paused;">
+                                    Longevidade
+                                    <small class="longevity-title-small"
+                                        >(S.F)</small
+                                    >
+                                </h2>
+
+                                <div class="longevity">
+                                    <p class="longevity-text" id="longevity-text-1" style="animation-play-state: paused;">
+                                        Do latim
+                                        <span class="italic">longaevus</span>,
+                                        que significa "aquele que vive muito
+                                        tempo"
+                                    </p>
+                                    <figure class="longevity-figure">
+                                        <img
+                                            class="longevity-img"
+                                            src="./assets/sandclock.png"
+                                            alt="tempo"
+                                        />
+                                    </figure>
+                                </div>
+
+                                <span class="awakening-description-container">
+                                    <p class="awakening-text" id="awakening-text-1" style="animation-play-state: paused;">
+                                        Nosso país está vivendo uma revolução
+                                        demográfica sem precedentes.
+                                    </p>
+
+                                    <ul class="life-expectation-list">
+                                        <li class="life-expectation-item" id="life-expectation-item-1" style="animation-play-state: paused;">
+                                            <span class="life-expectation-bold"
+                                                >Expectativa de vida:
+                                            </span>
+                                            de 43 para 77 anos de idade
+                                        </li>
+                                        <li class="life-expectation-item" id="life-expectation-item-2" style="animation-play-state: paused;">
+                                            <span class="life-expectation-bold"
+                                                >Brasil:
+                                            </span>
+                                            5º país com o maior % de pessoas 60+
+                                            em 2030
+                                        </li>
+                                        <li class="life-expectation-item" id="life-expectation-item-3" style="animation-play-state: paused;">
+                                            <span class="life-expectation-bold"
+                                                >Mundo:
+                                            </span>
+                                            mais de 1 milhão de centenários
+                                        </li>
+                                    </ul>
+
+                                    <p class="awakening-text" id="awakening-text-2" style="animation-play-state: paused;">
+                                        Apesar disso, ainda idealizamos e
+                                        enaltecemos a juventude. Ainda
+                                        retratamos pessoas mais velhas de
+                                        maneira estereotipada. Ainda vivemos em
+                                        uma sociedade com atitudes anti-idade.
+                                    </p>
+                                </span>
+                            </section>
+
+                            <section class="culture-and-society">
+                                <h4 class="cas-line">
+                                    <hr class="cas-line-hr" />
+                                    Cultura e sociedade
+                                </h4>
+
+                                <div class="awake-cas-title">
+                                    <div class="awake-cas-container">
+                                        <h2 class="awake-cas-title-text">
+                                            Atitude <br />Pró- <br />idade
+                                        </h2>
+                                    </div>
+                                    <figure class="awake-cas-title-figure">
+                                        <img
+                                            class="awake-cas-title-img"
+                                            src="./assets/drinking02.png"
+                                            alt="Mulher bebendo leite"
+                                        />
+                                    </figure>
+                                </div>
+
+                                <p class="awake-cas-description">
+                                    Para viver mais e melhor, é preciso
+                                    transformar nosso olhar sobre o envelhecer.
+                                    <br />
+                                    Só assim poderemos contribuir para uma
+                                    verdadeira transformação social. Isso é ser
+                                    Pró-Idade.
+                                </p>
+
+                                <p
+                                    class="awake-cas-description awake-cas-description-desktop"
+                                >
+                                    Para viver mais e melhor, <br />
+                                    é preciso transformar nosso <br />
+                                    olhar sobre o envelhecer.
+                                    <br />
+                                    Só assim poderemos <br />
+                                    contribuir para uma <br/ > verdadeira
+                                    transformação <br />
+                                    social. Isso é ser Pró-Idade.
+                                </p>
+                            </section>
+
+                            <section class="be-pro-age">
+                                <div class="title">
+                                    <div class="be-pro-age-logo-container">
+                                        <figure class="be-pro-age-logo-figure">
+                                            <img
+                                                class="be-pro-age-logo-img"
+                                                src="./assets/nutren_senior.png"
+                                                alt="Nutren Senior"
+                                            />
+                                        </figure>
+
+                                        <h2 class="be-pro-age-logo-text">
+                                            Ser pro-idade <br />
+                                            e saber que<br />
+                                            <span
+                                                >A melhor fase <br />
+                                                da vida é agora</span
+                                            >
+                                        </h2>
+                                    </div>
+                                    <figure
+                                        class="be-pro-age-meditation-figure"
+                                    >
+                                        <img
+                                            class="be-pro-age-meditation-img"
+                                            src="./assets/meditation02.png"
+                                            alt="meditacao"
+                                        />
+                                    </figure>
+                                </div>
+                                <div class="stairway">
+                                    <figure class="stairway-figure">
+                                        <img
+                                            class="stairway-img"
+                                            src="./assets/stairs.png"
+                                            alt="Escadas"
+                                        />
+                                    </figure>
+
+                                    <span class="stairway-text-container">
+                                        <p class="stairway-text">
+                                            Ser Pró-Idade é reconhecer que as
+                                            mudanças <br />
+                                            do organismo são um convite a novos
+                                            hábitos. <br />
+                                            E as mudanças do corpo a novos
+                                            olhares. <br /><br />
+                                            É descobrir que as transformações da <br />
+                                            rotina são oportunidades de aprendizado.
+                                            <br /> E
+                                            perceber <br />
+                                            que nunca é tarde para aprender.
+                                            <br /><br />
+                                            É honrar sua trajetória ao ser
+                                            gentil <br />
+                                            com seu proprio envelhecimento.
+                                            <br />Com empatia do envelhecimento
+                                            do outro, <br /><br />
+                                            É entender que envelhecer só
+                                            acontece <br />
+                                            em uma jornada de vida bem-sucedida.
+                                        </p>
+
+                                    </span>
+                                </div>
+
+                                <button
+                                    class="stairwayButton"
+                                    onclick="openShareContainer()"
+                                >
+                                    Compartilhar
+                                </button>
+                            </section>
+
+                            <section class="meditation">
+                                <div>
+                                    <h2 class="meditation-title-text">
+                                        Como ser Pró-Idade <br> e, assim,
+                                        experimentar a longevidade com
+                                        plenitude?
+                                    </h2>
+                                    <h2 class="meditation-title-text-desktop">
+                                        Como ser Pró-Idade e, assim,
+                                        experimentar a longevidade com
+                                        plenitude?
+                                    </h2>
+                                </div>
+                                <div class="meditation-figure-wrapper">
+                                    <figure class="meditation-figure">
+                                        <img
+                                            class="meditation-img"
+                                            src="./assets/meditate.png"
+                                            alt="Meditacao"
+                                        />
+                                    </figure>
+                                </div>
+                            </section>
+
+                            <section class="live-the-present">
+                                <h3 class="live-the-present-title">
+                                    <hr class="live-the-present-line" />
+                                    CONVITE À MUDANÇA
+                                </h3>
+
+                                <div class="live-the-present-container">
+                                    <h2
+                                        class="live-the-present-container-title"
+                                    >
+                                        Viva o <br />
+                                        presente.<br />
+                                        <span
+                                            >Vislumbre <br />
+                                            o futuro.</span
+                                        >
+                                    </h2>
+                                        <div class="time-div">
+                                        <figure class="time">
+                                            <img
+                                            class="time-img"
+                                            src="./assets/time.png"
+                                            alt="time"
+                                            />
+                                        </div>
+                                    </figure>
+                                </div>
+
+                                <p class="txt-good-choices">
+                                    As boas escolhas de hoje aumentam <br> as chances
+                                    de um futuro longevo e de qualidade
+                                </p>
+
+                                <p
+                                    class="txt-good-choices txt-good-choices-desktop"
+                                >
+                                    As boas escolhas de hoje aumentam as chances
+                                    de um futuro longevo e de qualidade
+                                </p>
+
+                                <section class="awakening-subgroup-details">
+                                    <details class="awakening-details">
+                                        <summary class="awakening-summary">
+                                            Tenha um olhar generoso para sua
+                                            biografia
+                                        </summary>
+                                        <p class="awakening-details-text">
+                                            Sua trajetória é única. E chegar até
+                                            aqui te fez ser exatamente quem você
+                                            é.
+                                            Por isso, sua idade merece ser
+                                            celebrada e sua história,
+                                            honrada.<br />
+                                            E não estamos falando sobre
+                                            nostalgia, mas sobre se orgulhar de
+                                            si e seguir em frente com a mesma
+                                            vontade de viver.
+                                        </p>
+
+                                        <p
+                                            class="awakening-details-text awakening-details-text-desktop"
+                                        >
+                                            Sua trajetória é única. E chegar até
+                                            aqui te fez ser exatamente quem você
+                                            é. <br />
+                                            Por isso, sua idade merece ser
+                                            celebrada e sua história,
+                                            honrada. E não estamos falando sobre
+                                            nostalgia, mas sobre se orgulhar de
+                                            si e seguir em frente com a mesma
+                                            vontade de viver.
+                                        </p>
+                                    </details>
+                                    <details class="awakening-details">
+                                        <summary class="awakening-summary">
+                                            Imagine sua vida <br />
+                                            daqui a 10 anos
+                                        </summary>
+                                        <p class="awakening-details-text">
+                                            Como estará seu corpo físico? Com
+                                            quem você gostaria de estar
+                                            convivendo? <br />Como será a sua
+                                            rotina? Esse exercício é importante
+                                            para que você possa fazer, hoje, as escolhas que vão determinar
+                                            seu amanhã.
+                                        </p>
+
+                                        <p
+                                            class="awakening-details-text awakening-details-text-desktop"
+                                        >
+                                            Como estará seu corpo físico? Com
+                                            quem você gostaria de estar
+                                            convivendo? <br />Como será a sua
+                                            rotina? Esse exercício é importante
+                                            para que você possa fazer, hoje, as
+                                            escolhas que vão determinar seu
+                                            amanhã.
+                                        </p>
+                                    </details>
+                                    <details class="awakening-details">
+                                        <summary class="awakening-summary">
+                                            Respeite as gerações <br />
+                                            para aprender com as diferenças
+                                        </summary>
+                                        <p
+                                            class="awakening-details-text awakening-details-text-desktop"
+                                        >
+                                            Já que a vida é feita de fases,
+                                            todos nós, de alguma forma, estamos
+                                            rodeados de diferentes gerações. E
+                                            não há uma geração “melhor” ou
+                                            “pior” do que a outra: existe
+                                            variedade e, com isso, oportunidades
+                                            de aprendizado.
+                                        </p>
+                                        <p class="awakening-details-text">
+                                            Já que a vida é feita de fases,
+                                            todos nós, de alguma forma, estamos
+                                            rodeados de diferentes gerações. <br /> E não há uma
+                                            geração “melhor” ou “pior” do que a
+                                            outra:
+                                            existe variedade e, com isso,
+                                            oportunidades de aprendizado.
+                                        </p>
+                                    </details>
+                                </section>
+
+                                <div class="crown-wrapper">
+                                    <div class="crown">
+                                        <div class="crown-container">
+                                            <figure class="crown-figure">
+                                                <img
+                                                    class="crown-figure-img"
+                                                    src="./assets/crown.png"
+                                                    alt="crown"
+                                                />
+                                            </figure>
+
+                                            <figure class="nutren-logo">
+                                                <img
+                                                    class="nutren-logo-img"
+                                                    src="./assets/nutren_senior.png"
+                                                    alt="Nutren Senior"
+                                                />
+                                            </figure>
+                                        </div>
+
+                                        <p class="crown-description">
+                                            NINGUÉM MELHOR QUE VOCÊ PARA TOMAR
+                                            AS RÉDEAS DA SUA<br />
+                                            <span class="crown-description-bold"
+                                                >PRÓPRIA JORNADA <br />
+                                                DE ENVELHECIMENTO.</span
+                                            >
+                                        </p>
+
+                                        <button
+                                            class="btnCrown"
+                                            onclick="openShareContainer()"
+                                        >
+                                            Compartilhar
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="life-phases">
+                                    <p class="life-phases-text">
+                                        Cada fase da vida <br />
+                                        traz aprendizados. <br />
+                                        É preciso estar atento <br />
+                                        e aberto para a construção <br />
+                                        de um novo repertório.
+                                    </p>
+                                </div>
+                            </section>
+                            <section class="anchor-to-chapter-02">
+                                <div class="anchor-title-container">
+                                    <h2 class="anchor-title number-title-italic">02</h2>
+                                    <h2 class="anchor-title anchor-title-text">Expandir</h2>
+                                </div>
+
+                                <img class="btn-anchor-to-chapter" src="./assets/ellipse-right-arrow.png" alt="arrow" />
+                            </section>
+                        </details>
+
+                        <details class="detail-expand main-details">
+                            <summary
+                                class="details-summary main-summary main-expand-summary"
+                            >
+                                <span class="main-summary-title main-summary-expand-closed detail-exp">
+                                    <div class="summary-container-btn-align">
+                                        <h2
+                                            class="number-title-italic number-title-italic-02"
+                                        >
+                                            02
+                                        </h2>
+                                        <img
+                                            class="summary-arrow"
+                                            src="./assets/ellipse-right-arrow.png"
+                                            alt="arrow"
+                                        />
+                                    </div>
+                                    <div class="summary-container-row">
+                                        <h2
+                                            class="number-title-italic number-desktop"
+                                        >
+                                            02
+                                        </h2>
+                                        Expandir
+                                    </div>
+                                </span>
+                                <span class="main-summary-expand-expanded">
+                                    <div>
+                                        <h2 class="number-title-italic">02</h2>
+                                        <h2 class="summary-title-expand">
+                                            EXPANDIR
+                                        </h2>
+                                    </div>
+                                    <img
+                                        src="./assets/ellipse-right-arrow.png"
+                                        alt="right arrow"
+                                    />
+                                </span>
+                            </summary>
+                            <div  id="chapter-02"></div>
+                            <div class="introduction">
+                                <figure class="girl-number-two">
+                                    <img
+                                        class="girl-number-two-img"
+                                        src="./assets/number_two.png"
+                                        alt="Garota pensativa numero 02"
+                                    />
+                                </figure>
+                                <h2 class="expand-title">
+                                    <div class="expand-title-01">
+                                        Ex- <br />
+                                    </div>
+                                    <div class="expand-title-02">
+                                        pan- <br />
+                                    </div>
+                                    <div class="expand-title-03">dir</div>
+                                </h2>
+                            </div>
+
+                            <section class="invite">
+                                <h2 class="invite-text">
+                                    <div class="invite-txt-01">
+                                        Este é um <br />
+                                    </div>
+                                    <div class="invite-txt-02">
+                                        convite<br />
+                                    </div>
+                                    <div class="invite-txt-03">
+                                        para você<br />
+                                    </div>
+                                    <div class="invite-txt-04">
+                                        se atualizar.
+                                    </div>
+                                </h2>
+                                <div class="invite-container">
+                                    <img
+                                        class="invite-gift-ellipse"
+                                        src="./assets/gift-ellipse.png"
+                                        alt="Um presente"
+                                    />
+                                    <button
+                                        class="invite-button"
+                                        type="button"
+                                        onclick="openInviteContainer()"
+                                    >
+                                        Convidar
+                                        <img
+                                            class="invite-img"
+                                            src="./assets/icons/share-plain.png"
+                                            alt="share"
+                                        />
+                                    </button>
+                                </div>
+                            </section>
+
+                            <section class="context" id="context-2">
+                                <div class="bg-1" id="bg-2"></div>
+                                <h5 class="expand-context-line" id="context-line-c2">Contexto</h5>
+
+                                <div class="title">
+                                    <h2 class="etaism-title">
+                                        <div class="etaism-title-01" id="etaism-title-01" style="animation-play-state: paused;">
+                                            <span class="etaism-bold"
+                                                >Etarismo: <br />
+                                            </span>
+                                        </div>
+                                        <div class="etaism-title-02" id="etaism-title-02" style="animation-play-state: paused;">
+                                            O que <br />
+                                        </div>
+                                        <div class="etaism-title-03" id="etaism-title-03" style="animation-play-state: paused;">
+                                            isso tem <br />
+                                        </div>
+                                        <div class="etaism-title-03" id="etaism-title-03-1" style="animation-play-state: paused;">
+                                             a ver <br />
+                                        </div>
+                                        <div class="etaism-title-04" id="etaism-title-04" style="animation-play-state: paused;">
+                                            comigo ?
+                                        </div>
+                                    </h2>
+                                    <figure class="etaism-meditation-figure" id="etaism-meditation-figure" style="animation-play-state: paused;">
+                                        <img
+                                            class="etaism-meditation-img"
+                                            src="./assets/meditation_over_time.png"
+                                            alt="Mulher bonita"
+                                        />
+                                    </figure>
+                                </div>
+
+                                <div class="ageism">
+                                    <div class="stair_etarism" id="stair_etarism-1">
+                                        <img
+                                            class="ageism-image"
+                                            src="./assets/stair_etarism.png"
+                                            alt="Escada etarismo"
+                                        />
+                                    </div>
+                                    <h2 class="ageism-title" id="ageism-title" style="animation-play-state: paused;">
+                                        Etarismo
+                                        <span class="ageism-bold">(S.M.)</span>
+                                    </h2>
+                                    <p class="ageism-description" id="ageism-description" style="animation-play-state: paused;">
+                                        Do inglês
+                                        <span class="italic">ageism</span>,
+                                        denomina a discriminação <br />
+                                        e o preconceito baseados na idade;
+                                        idadismo
+                                    </p>
+
+
+                                    <p class="ageism-subdescription" id="ageism-subdescription" style="animation-play-state: paused;">
+                                        <br />
+                                        Estima-se que 1 em cada 2 pessoas no
+                                        mundo tenha atitudes discriminatórias<br />
+                                        que pioram a saúde física e mental de
+                                        adultos 60+ e reduzem sua qualidade de
+                                        vida.
+                                        <br />
+                                        <br />
+                                        No Brasil, um primeiro passo foi dado
+                                        com o Estatuto do Idoso. Mas é preciso
+                                        mais <br />do que isso: para combater o
+                                        etarismo, é necessário transformar nosso
+                                        comportamento <br />
+                                        e nossas atitudes.
+                                        <br />
+                                        <br />
+                                        A mudança pode começar com uma linguagem
+                                        mais inclusiva, que vai fomentar <br />
+                                        a cultura Pró-Idade.
+                                    </p>
+                                </div>
+                            </section>
+
+                            <section class="expand-culture-and-society">
+                                <h3 class="expand-cas-line">
+                                    <hr class="expand-cas-line-hr" />
+                                    Cultura e Sociedade
+                                </h3>
+                                <div class="cas-title-container">
+                                    <h2 class="cas-title">
+                                        Vamos Atualizar nossa linguagem
+                                    </h2>
+
+                                    <figure class="cas-title-figure">
+                                        <img
+                                            class="cas-title-img"
+                                            src="./assets/language.png"
+                                            alt="Mulher bebendo leite"
+                                        />
+                                    </figure>
+                                </div>
+                                <p class="expand-cas-description">
+                                    CRIANÇA e ADOLESCENTE são substantivos
+                                    neutros.
+                                    Já pensou se a palavra VELHO também pudesse
+                                    ser?
+                                </p>
+
+                                <p class="expand-cas-description-desktop first-expand-cas-description-desktop">
+                                    CRIANÇA e ADOLESCENTE são substantivos
+                                    neutros.
+                                    Já pensou se a palavra VELHO também pudesse
+                                    ser?
+                                </p>
+
+                                <span
+                                    class="expand-cas-subdescription-container"
+                                >
+                                    <p class="expand-cas-subdescription">
+                                        Velho, enquanto adjetivo, carrega
+                                        valores que não representam todas <br />
+                                        as pessoas que envelheceram. Há velhos
+                                        divertidos, sábios, teimosos, <br />
+                                        amorosos, ativos, cansados, frios,
+                                        sentimentais. O tipo de velho que
+                                        seremos <br />
+                                        depende única e exclusivamente da nossa
+                                        construção diária.
+                                    </p>
+                                </span>
+
+                                <p class="expand-cas-description">
+                                    A linguagem pode perpetuar preconceitos. Por
+                                    outro lado, ela pode abrir espaço
+                                    e dar visibilidade aos NOVOS VELHOS que
+                                    estão por aí.
+                                </p>
+
+                                <p class="expand-cas-description-desktop">
+                                    A linguagem pode perpetuar preconceitos. Por
+                                    outro lado, ela pode abrir espaço
+                                    e dar visibilidade aos NOVOS VELHOS que
+                                    estão por aí.
+                                </p>
+
+                                <p class="expand-cas-description">
+                                    Pensando nisso, aqui estão alguns termos e
+                                    expressões etaristas que precisamos <br />
+                                    repensar e substituir.
+                                </p>
+
+                                <p class="expand-cas-description-desktop">
+                                    Pensando nisso, aqui estão alguns termos e
+                                    expressões etaristas que precisamos
+                                    repensar e substituir.
+                                </p>
+                            </section>
+
+                            <section class="expand-to-talk-to-other">
+                                <h2 class="to-talk-to-other-title">
+                                    Para
+                                    <br />
+                                    falar
+                                    <br />
+                                    do outro
+                                </h2>
+
+                                <figure class="talk-flower-figure">
+                                    <img
+                                        class="talk-flower-img"
+                                        src="./assets/flower.png"
+                                        alt="Flor de dandelion"
+                                    />
+                                </figure>
+                            </section>
+
+                            <section class="expand-subgroup-details">
+                                <details class="expand-sub-detail ">
+                                    <summary class="expand-sub-summary first-expand-summary">
+                                        "Nossa, você não <br/>
+                                        aparenta a idade <br />
+                                        que tem."
+                                    </summary>
+                                    <p class="expand-sub-description">
+                                        Qual o incômodo de estar com a aparência
+                                        da própria idade? Essa frase carregada
+                                        de estereótipos associa a velhice a algo
+                                        feio ou errado, como se aparentar sua
+                                        idade real fosse motivo de preocupação.
+                                        Experimente trocar por “Como você está
+                                        bonito(a) agora!”
+                                    </p>
+                                </details>
+                                <details class="expand-sub-detail">
+                                    <summary class="expand-sub-summary">
+                                        "Você deve ter sido <br />
+                                        muito bonito(a)."
+                                    </summary>
+                                    <p class="expand-sub-description">
+                                        O que parece um elogio traz velada a
+                                        ideia de que para ser bela, ou belo, é
+                                        necessário ser jovem. E que o
+                                        envelhecimento vem acompanhado de um
+                                        processo de “perda da beleza”.<br />
+                                        A verdade é que a beleza pode existir em
+                                        todas as fases da vida, além de ser
+                                        absolutamente subjetiva e diversa. Não
+                                        há mais espaço para esse tipo de
+                                        expressão. Por que não dizer apenas
+                                        “você é tão bonito”, ou “bonita”?
+                                    </p>
+                                </details>
+                                <details class="expand-sub-detail">
+                                    <summary class="expand-sub-summary">
+                                        "Você não tem mais <br /> idade
+                                        para usar isso."
+                                    </summary>
+                                    <p class="expand-sub-description">
+                                        Infelizmente, essa frase ainda é
+                                        constantemente repetida, espe`cialmente
+                                        quando pensamos em corpos femininos. É
+                                        preciso deixar claro: homens e mulheres
+                                        têm o direito de vestir o que bem
+                                        entenderem. Afinal, qual é a idade
+                                        limite para gostar de vestidos e saias
+                                        curtas fendas e decotes, tênis coloridos
+                                        e camisetas bem-humoradas? Quando
+                                        devemos deixar de adotar certos
+                                        comportamentos ou hábitos que não
+                                        atrapalham nossa saúde e servem apenas
+                                        para nos divertir? A resposta é: não
+                                        devemos. E ninguém tem nada com isso.
+                                        Bom senso mesmo é você se mostrar para o
+                                        mundo da maneira que mais te agrada.
+                                        Aqui vale a máxima atemporal: o silêncio
+                                        é a melhor alternativa se não há nada
+                                        positivo a dizer.
+                                    </p>
+                                </details>
+                                <details class="expand-sub-detail">
+                                    <summary class="expand-sub-summary">
+                                        "Desculpa perguntar,<br /> mas
+                                        quantos anos <br /> você tem?"
+                                    </summary>
+                                    <p class="expand-sub-description">
+                                        Por que pedir desculpas quando fazemos
+                                        essa pergunta? Majoritariamente
+                                        direcionada às mulheres, a expressão
+                                        atribui ao envelhecimento um sentimento
+                                        de culpa. Mas a idade é só um número, e
+                                        envelhecer não é errado.<br /><br />
+                                        Se a idade não é uma ofensa, esse
+                                        questionamento não precisa de um pedido
+                                        de desculpas.
+                                    </p>
+                                </details>
+
+                                <details class="expand-sub-detail">
+                                    <summary class="expand-sub-summary">
+                                        "Ele(a) já está velho(a),<br />
+                                        não entende dessas coisas."
+                                    </summary>
+                                    <p class="expand-sub-description">
+                                        Não existe idade limite para interesses
+                                        ou assuntos, mesmo aqueles considerados
+                                        “jovens”. Pessoas mais velhas usam redes
+                                        sociais, gostam de tecnologia, estudam.
+                                        Da mesma forma, pessoas jovens podem não
+                                        se interessar por nada disso.
+                                        <br /><br />
+                                        Ao invés de julgar, aproveite para
+                                        aprender. Ou ensinar.
+                                    </p>
+                                </details>
+
+                                <details class="expand-sub-detail">
+                                    <summary class="expand-sub-summary">
+                                        "Tá querendo parecer mocinha/garotão."
+                                    </summary>
+                                    <p class="expand-sub-description">
+                                        Quais comportamentos definem a
+                                        juventude? Gostar de sair, dançar,
+                                        namorar, viajar, encontrar amigos?
+                                        Querer mudar de carreira? Cuidar dos
+                                        cabelos ou fazer uma plástica?
+                                        Finalmente comprar o carro que você
+                                        sempre quis? Vamos combinar: todos têm
+                                        direito de escolher a felicidade em
+                                        qualquer etapa da vida.
+                                    </p>
+                                </details>
+
+                                <details class="expand-sub-detail">
+                                    <summary class="expand-sub-summary">
+                                        "Você tem um <br/>
+                                        espírito jovem"
+                                    </summary>
+                                    <p class="expand-sub-description">
+                                        Muitas vezes o adjetivo “jovem” é
+                                        associado a alegria, diversão e
+                                        agilidade quando, na verdade, essas
+                                        características dependem muito mais da
+                                        biografia e da personalidade de cada um.<br/><br />
+                                        Expressões como “com muita energia”,
+                                        “cheio de vitalidade” etc são
+                                        alternativas com a mesma mensagem e sem
+                                        preconceitos.
+                                    </p>
+                                </details>
+
+                                <details class="expand-sub-detail">
+                                    <summary class="expand-sub-summary">
+                                        "Ela poderia ser <br/> mãe dele."
+                                    </summary>
+                                    <p class="expand-sub-description">
+                                        Relacionamentos afetivos dizem respeito
+                                        apenas às partes que compõem o casal. E
+                                        a idade é só uma das muitas camadas que
+                                        permeiam uma relação. Tem mais: essa
+                                        frase, muito mais conjugada no feminino,
+                                        ainda esconde um preconceito de gênero,
+                                        além do etário.<br /><br />
+                                        Exercitar o respeito ao invés do
+                                        julgamento é a escolha mais saudável e,
+                                        nesse caso, pró-idade.
+                                    </p>
+                                </details>
+
+                                <details class="expand-sub-detail">
+                                    <summary class="expand-sub-summary">
+                                        Bônus: DIMINUTIVOS
+                                    </summary>
+                                    <p class="expand-sub-description">
+                                        Uma longa biografia não combina com
+                                        palavras no diminutivo (senhorzinho,
+                                        vovozinha, fofinho, etc...). Pode até
+                                        parecer um tratamento carinhoso, mas
+                                        quem vive muito quer simplesmente ser
+                                        tratado como adulto.
+                                    </p>
+                                </details>
+                            </section>
+
+                            <section class="expand-context">
+                                <div class="expand-context-intro">
+                                    <div class="expand-context-title">
+                                        <h3 class="expand-line-bike">
+                                            Contexto
+                                        </h3>
+                                        <h2 class="expand-context-intro-text">
+                                            Para <br/ > falar <br />
+                                            de si
+                                        </h2>
+                                    </div>
+
+                                    <figure class="expand-context-intro-figure">
+                                        <img
+                                            src="./assets/bike.png"
+                                            alt="Homem andando de bike"
+                                        />
+                                    </figure>
+                                </div>
+
+                                <p class="expand-context-description">
+                                    Uma linguagem mais cuidadosa não vale só
+                                    para o tratamento com o outro. Para impactar
+                                    a nossa forma de pensar, é essencial dar
+                                    atenção à forma com pensamos ou falamos de
+                                    nós mesmos.
+                                </p>
+
+                                <div class="notime-x-everytime">
+                                    <p class="time-text time-text-01">
+                                        NÃO TENHO MAIS <br />
+                                        TEMPO PARA
+                                    </p>
+                                    <p
+                                        class="time-text time-text-02 time-text-cross"
+                                    >
+                                        X
+                                    </p>
+                                    <p class="time-text time-text-03">
+                                        É SEMPRE<br />
+                                        TEMPO DE
+                                    </p>
+                                </div>
+
+                                <div class="expand-change-to">
+                                    <ul class="expand-change-to-list">
+                                        <li class="expand-change-to-list-item">
+                                            <span class="expand-no-say-this">
+                                                <p class="expand-say-text">
+                                                    Não tenho mais idade para
+                                                    isso
+                                                </p>
+                                                <img
+                                                    class="expand-close-icon"
+                                                    src="./assets/icons/close.png"
+                                                    alt="close icon"
+                                                />
+                                            </span>
+                                            <span
+                                                class="expand-say-this-instead"
+                                            >
+                                                <p class="expand-say-text">
+                                                    Minha idade não me limita
+                                                </p>
+                                                <img
+                                                    class="expand-check-icon"
+                                                    src="./assets/icons/check.png"
+                                                    alt="check icon"
+                                                />
+                                            </span>
+                                        </li>
+
+                                        <li class="expand-change-to-list-item">
+                                            <span class="expand-no-say-this">
+                                                <p class="expand-say-text">
+                                                    Lugar de idoso é
+                                                </p>
+                                                <img
+                                                    class="expand-close-icon"
+                                                    src="./assets/icons/close.png"
+                                                    alt="close icon"
+                                                />
+                                            </span>
+                                            <span
+                                                class="expand-say-this-instead"
+                                            >
+                                                <p class="expand-say-text">
+                                                    Idosos pertencem a qualquer
+                                                    lugar onde queiram estar
+                                                </p>
+                                                <img
+                                                    class="expand-check-icon"
+                                                    src="./assets/icons/check.png"
+                                                    alt="check icon"
+                                                />
+                                            </span>
+                                        </li>
+
+                                        <li class="expand-change-to-list-item">
+                                            <span class="expand-no-say-this">
+                                                <p class="expand-say-text">
+                                                    No meu tempo era tudo melhor
+                                                </p>
+                                                <img
+                                                    class="expand-close-icon"
+                                                    src="./assets/icons/close.png"
+                                                    alt="close icon"
+                                                />
+                                            </span>
+                                            <span
+                                                class="expand-say-this-instead"
+                                            >
+                                                <p class="expand-say-text">
+                                                    Meu tempo também é agora
+                                                </p>
+                                                <img
+                                                    class="expand-check-icon"
+                                                    src="./assets/icons/check.png"
+                                                    alt="check icon"
+                                                />
+                                            </span>
+                                        </li>
+
+                                        <li class="expand-change-to-list-item">
+                                            <span class="expand-no-say-this">
+                                                <p class="expand-say-text">
+                                                    Aprender a essa altura pra
+                                                    quê?
+                                                </p>
+                                                <img
+                                                    class="expand-close-icon"
+                                                    src="./assets/icons/close.png"
+                                                    alt="close icon"
+                                                />
+                                            </span>
+                                            <span
+                                                class="expand-say-this-instead"
+                                            >
+                                                <p class="expand-say-text">
+                                                    Aprender coisas novas me
+                                                    traz vida e me mantém ativo
+                                                </p>
+                                                <img
+                                                    class="expand-check-icon"
+                                                    src="./assets/icons/check.png"
+                                                    alt="check icon"
+                                                />
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="expand-glossary-pro-age">
+                                    <h2 class="expand-glossary-title">
+                                        GLOSSÁRIO PRÓ-IDADE
+                                    </h2>
+
+                                    <p class="expand-glossary-description">
+                                        Aqui você encontra mais expressões que
+                                        podem fazer parte do seu vocabulário e
+                                        da construção de uma sociedade sem
+                                        etarismo.
+                                    </p>
+                                </div>
+
+                                <div class="expand-list-health">
+                                    <ol class="expand-list-health-order">
+                                        <li class="expand-list-health-item">
+                                            <span
+                                                class="expand-glossary-container"
+                                            >
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(1)</span
+                                                    >
+                                                    Age Friendly
+                                                </h2>
+
+                                                <figure
+                                                    class="expand-glossary-arrow"
+                                                >
+                                                    <img
+                                                        class="expand-glossary-arrow-img"
+                                                        src="./assets/icons/arrow-brown.png"
+                                                        alt="flecha"
+                                                    />
+                                                </figure>
+                                            </span>
+                                            <p class="expand-list-health-text">
+                                                amigável para qualquer idade.
+                                            </p>
+                                        </li>
+                                        <span class="expand-glossary-expansive">
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(2)</span
+                                                    >
+
+                                                    Amizades <br />
+                                                    intergeracionais
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    amizades entre gerações
+                                                    diferentes.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(3)</span
+                                                    >
+
+                                                    Estatuto do idoso
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    é a Lei Federal 10.741/2003,
+                                                    destinada a regular os
+                                                    interesses e garantias das
+                                                    pessoas idosas. Essa lei
+                                                    está vigente desde o ano de
+                                                    2004 e é um importante
+                                                    instrumento de cidadania
+                                                    <br />
+                                                    e proteção às pessoas com
+                                                    idade igual ou superior a 60
+                                                    anos que já contribuíram
+                                                    muito <br />
+                                                    para com a sociedade.
+                                                </p>
+                                            </li>
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(4)</span
+                                                    >
+
+                                                    Etarismo
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    nome que se dá ao
+                                                    preconceito contra pessoas
+                                                    com base na sua idade.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(5)</span
+                                                    >
+
+                                                    Geriatria
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    especialização da medicina
+                                                    que cuida dos idosos e
+                                                    ajuda<br />
+                                                    a promover um envelhecimento
+                                                    saudável desde cedo.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(6)</span
+                                                    >
+
+                                                    Gerontologia
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    campo de estudos que
+                                                    investiga as experiências do
+                                                    envelhecimento em diferentes
+                                                    <br />
+                                                    contextos socioculturais e
+                                                    históricos, abrangendo
+                                                    aspectos do envelhecimento
+                                                    normal (senescência) e
+                                                    patológico (senilidade).
+                                                    Investiga o potencial de
+                                                    desenvolvimento humano
+                                                    <br />
+                                                    associado ao curso de vida e
+                                                    ao processo de
+                                                    envelhecimento.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(7)</span
+                                                    >
+
+                                                    Imunidade
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    capacidade do corpo de
+                                                    resistir às toxinas,
+                                                    infecções e outras
+                                                    substâncias nocivas <br />
+                                                    ou micro-organismos.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(8)</span
+                                                    >
+
+                                                    Lifelong Learning
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    mentalidade de manter-se em
+                                                    aprendizado ao longo da vida
+                                                    de forma contínua.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(9)</span
+                                                    >
+
+                                                    Massa magra
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    se refere a tudo que não é
+                                                    gordura em nosso corpo, como
+                                                    os músculos <br />
+                                                    e nossos diferentes órgãos
+                                                    internos.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(10)</span
+                                                    >
+
+                                                    Metabolismo
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    o conjunto de reações que
+                                                    envolve trocas energéticas
+                                                    no organismo.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(11)</span
+                                                    >
+                                                    Movimento Agefull
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    movimento que representa as
+                                                    pessoas que têm orgulho da
+                                                    própria idade <br />
+                                                    e de cada ano vivido - em
+                                                    tradução livre “repleto,
+                                                    cheio de idade”.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(12)</span
+                                                    >
+                                                    Movimento Ageless
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    movimento que busca mostrar
+                                                    que as pessoas não devem ser
+                                                    classificadas <br />
+                                                    ou estereotipadas pela idade
+                                                    - em tradução livre, “sem
+                                                    idade”.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(13)</span
+                                                    >
+                                                    Saúde Cognitiva
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    é o estado de equilíbrio dos
+                                                    aspectos que garantem nossa
+                                                    capacidade de adquirir
+                                                    conhecimento como atenção,
+                                                    concentração, raciocínio,
+                                                    memória e linguagem.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(14)</span
+                                                    >
+                                                    Segunda Adolescência
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    Segundo Barbara Waxman,
+                                                    gerontóloga norte americana,
+                                                    entre os 45 e 65 anos há um
+                                                    período de incertezas e
+                                                    transições (física, social e
+                                                    emocional) que se assemelha,
+                                                    em muitos aspectos,<br />
+                                                    à adolescência. É a
+                                                    adolescência do meio da vida
+                                                    - ou Middlescence, como ela
+                                                    denomina.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(15)</span
+                                                    >
+                                                    Senescência
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    alterações que ocorrem no
+                                                    organismo humano no decorrer
+                                                    do tempo
+                                                    e que não configuram
+                                                    doenças.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(16)</span
+                                                    >
+                                                    Senilidade
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    processo de envelhecimento
+                                                    associado a diversas
+                                                    alterações decorrentes de
+                                                    doenças crônicas, como
+                                                    hipertensão arterial,
+                                                    diabetes, doenças cardíacas,
+                                                    pulmonares, renais e
+                                                    neurológicas, bem como
+                                                    hábitos inadequados
+                                                    adquiridos ao longo da vida.
+                                                </p>
+                                            </li>
+
+                                            <li class="expand-list-health-item">
+                                                <h2
+                                                    class="expand-list-health-title"
+                                                >
+                                                    <span class="counter"
+                                                        >(17)</span
+                                                    >
+                                                    Vitalidade
+                                                </h2>
+                                                <p
+                                                    class="expand-list-health-text"
+                                                >
+                                                    qualidade de possuir vigor
+                                                    ou força vital, demonstrando
+                                                    capacidade de viver <br />
+                                                    e de se desenvolver.
+                                                </p>
+                                            </li>
+                                        </span>
+                                    </ol>
+                                </div>
+
+                                <div class="expand-motivacional-phrase">
+                                    <p class="expand-motivacional-phrase-text">
+                                        Ao avaliar as expressões que usa, você
+                                        acaba repensando seus conceitos.
+                                    </p>
+                                </div>
+
+                                <div class="crown-expand">
+                                    <div class="crown-expand-container">
+                                        <div class="crown-expand-flex">
+
+                                            <p class="crown-description">
+                                                QUE TAL APROVEITAR<br />
+                                                PARA TAMBÉM <br/> REPENSAR <br />SEU
+                                                ENVELHE- <br/>CIMENTO?
+                                            </p>
+                                            <figure
+                                                class="crown-expand-nutren-logo"
+                                            >
+                                                <img
+                                                    src="./assets/nutren_senior.png"
+                                                    alt=""
+                                                />
+                                            </figure>
+
+                                            <figure class="crown-expand-figure">
+                                                <img
+                                                    class="crown-expand-img"
+                                                    src="./assets/crown_02.png"
+                                                    alt="crown"
+                                                />
+                                            </figure>
+                                        </div>
+
+
+
+                                        <button
+                                            class="expand-crown-button-share"
+                                            type="button"
+                                            onclick="openShareContainer()"
+                                        >
+                                            Compartilhar
+                                        </button>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="anchor-to-chapter-03">
+                                <div class="anchor-title-container">
+                                    <h2 class="anchor-title number-title-italic">03</h2>
+                                    <h2 class="anchor-title anchor-title-text">Planejar</h2>
+                                </div>
+
+                                <img class="btn-anchor-to-chapter" src="./assets/ellipse-right-arrow.png" alt="arrow" />
+                            </section>
+                        </details>
+                        <details class="detail-planning main-details">
+                            <summary
+                                class="details-summary main-summary main-planning-summary"
+                            >
+                                <span
+                                    class="main-summary-title main-summary-planning-closed"
+
+                                >
+                                    <div class="summary-container-btn-align">
+                                        <h2
+                                            class="number-title-italic number-title-italic-03"
+                                            id="scroll-03"
+                                        >
+                                            03
+                                        </h2>
+                                        <img
+                                            class="summary-arrow"
+                                            src="./assets/ellipse-right-arrow.png"
+                                            alt="arrow"
+                                        />
+                                    </div>
+                                    <div class="summary-container-row">
+                                        <h2
+                                            class="number-title-italic number-desktop"
+                                        >
+                                            03
+                                        </h2>
+                                        Planejar
+                                    </div>
+                                </span>
+                                <span class="main-summary-planning-expanded">
+                                    <div>
+                                        <h2 class="number-title-italic">03</h2>
+                                        <h2 class="summary-title-expand">
+                                            PLANEJAR
+                                        </h2>
+                                    </div>
+                                    <img
+                                        src="./assets/ellipse-right-arrow.png"
+                                        alt="right arrow"
+                                    />
+                                </span>
+                            </summary>
+                            <div id="chapter-03"></div>
+                            <div class="planning-title">
+                                <figure class="planning-title-figure">
+                                    <img
+                                        class="planning-title-img"
+                                        src="./assets/03@2x.png"
+                                        alt="number Three"
+                                    />
+                                </figure>
+
+                                <h2 class="planning-title-text">
+                                    <div class="planning-title-txt-01">
+                                        Pla- <br />
+                                    </div>
+                                    <div class="planning-title-txt-02">
+                                        ne- <br />
+                                    </div>
+                                    <div class="planning-title-txt-03">jar</div>
+                                </h2>
+                            </div>
+
+                            <section class="invite" >
+                                <h2 class="invite-text">
+                                    <div class="invite-txt-01">
+                                        Este é um convite <br />
+                                    </div>
+                                    <div class="invite-txt-02">
+                                        para você viver<br />
+                                    </div>
+                                    <div class="invite-txt-03">
+                                        a sua idade<br />
+                                    </div>
+                                    <div class="invite-txt-04">
+                                        <span class="invite-text-bold"
+                                            >do seu jeito.</span
+                                        >
+                                    </div>
+                                </h2>
+                                <div class="invite-container">
+                                    <img
+                                        src="./assets/gift-ellipse.png"
+                                        alt="Um presente"
+                                    />
+                                    <button
+                                        class="invite-button"
+                                        type="button"
+                                        onclick="openInviteContainer()"
+                                    >
+                                        Convidar
+                                        <img
+                                            class="invite-img"
+                                            src="./assets/icons/share-plain.png"
+                                            alt="share"
+                                        />
+                                    </button>
+                                </div>
+                            </section>
+
+                            <section class="introduction-to-planning-container" id="context-3">
+                                <div class="bg-1" id="bg-3"></div>
+                                <h2 class="introduction-to-planning-line" id="introduction-to-planning-line">
+                                    Introducao ao planejamento
+                                    <hr
+                                        class="introduction-to-planning-line-hr"
+                                    />
+                                </h2>
+
+                                <div class="introduction-to-planning">
+                                    <h2 class="introduction-to-planning-text">
+                                        <div
+                                            class="introduction-to-planning-txt-01"
+                                            id="introduction-to-planning-txt-01"
+                                            style="animation-play-state: paused;"
+                                        >
+                                            Quanto<br />
+                                        </div>
+                                        <div
+                                            class="introduction-to-planning-txt-02"
+                                            id="introduction-to-planning-txt-02"
+                                            style="animation-play-state: paused;"
+                                        >
+                                            mais cedo,<br />
+                                        </div>
+                                        <div
+                                            class="introduction-to-planning-txt-03"
+                                            id="introduction-to-planning-txt-03"
+                                            style="animation-play-state: paused;"
+                                        >
+                                            melhor,<br />
+                                        </div>
+                                        <div
+                                            class="introduction-to-planning-txt-04"
+                                            id="introduction-to-planning-txt-04"
+                                            style="animation-play-state: paused;"
+                                        >
+                                            mas nunca <br /> é tarde
+                                        </div>
+                                        <!-- <div
+                                            class="introduction-to-planning-txt-05"
+                                            id="introduction-to-planning-txt-05"
+                                            style="animation-play-state: paused;"
+                                        >
+                                            é tarde<br />
+                                        </div> -->
+                                        <div
+                                            class="introduction-to-planning-txt-06"
+                                            id="introduction-to-planning-txt-06"
+                                            style="animation-play-state: paused;"
+                                        >
+                                            demais
+                                        </div>
+                                    </h2>
+
+                                    <figure
+                                        class="introduction-to-planning-figure"
+                                        id="introduction-to-planning-figure"
+                                    >
+                                        <img
+                                            class="introduction-to-planning-img"
+                                            src="./assets/gout@2x.png"
+                                            alt="gota"
+                                        />
+                                    </figure>
+                                </div>
+
+                                <p class="planning-introduction-description" id="planning-introduction-description" style="animation-play-state: paused;">
+                                    Este guia prático vai te ajudar a planejar
+                                    seus próximos anos, para você viver a sua
+                                    idade do seu jeito, de maneira leve e
+                                    consciente.
+                                </p>
+
+                                <p class="planning-introduction-subdescription" id="planning-introduction-subdescription" style="animation-play-state: paused;">
+                                    Vale dizer que começar é um verbo que se
+                                    conjuga em qualquer idade. Tenha você <br />
+                                    8 ou 80 anos, bons hábitos sempre favorecem
+                                    o tempo que ainda está por vir.
+                                </p>
+                            </section>
+
+                            <section class="planning-culture-and-society">
+                                <h2 class="planning-culture-and-society-line">
+                                    Cultura e sociedade
+                                    <hr
+                                        class="planning-culture-and-society-line-hr"
+                                    />
+                                </h2>
+
+                                <div class="planning-cas-title-container">
+                                    <h2 class="planning-cas-title">
+                                        Comuni-<br />
+                                        dade,<br />
+                                        relações<br />
+                                        e amizades
+                                    </h2>
+
+                                    <figure class="planning-cas-figure">
+                                        <img
+                                            class="planning-cas-img"
+                                            src="./assets/art@2x.png"
+                                            alt="Obra de arte"
+                                        />
+                                    </figure>
+                                </div>
+
+                                <p class="planning-cas-description">
+                                    Nas regiões do planeta onde se concentram os
+                                    centenários, se observa que a vida <br />
+                                    em comunidade é um dos principais fatores de
+                                    bem-estar e felicidade.
+                                </p>
+
+                                <p class="planning-cas-subdescription">
+                                    Isso porque ter amigos para enfrentar tanto
+                                    os momentos felizes quanto os desafiadores
+                                    aumenta a qualidade de vida de forma
+                                    perceptível.
+                                </p>
+
+                                <div class="planning-container-science-says">
+                                    <h3 class="subtitle">
+                                        O que a ciência diz
+                                        <hr
+                                            class="planning-container-science-says-hr"
+                                        />
+                                    </h3>
+                                </div>
+
+                                <details
+                                    class="planning-details first-planning-details"
+                                >
+                                    <summary class="planning-summary">
+                                        1. Interações e conversas frequentes
+                                        via internet podem reduzir o
+                                        declínio cognitivo
+                                    </summary>
+                                    <span
+                                        class="planning-details-text-container"
+                                    >
+                                        <p class="planning-details-text">
+                                            Um estudo publicado no The
+                                            Gerontological Society of America,
+                                            realizado em 2023 com idosos acima
+                                            de 75 anos, comprovou que estimular
+                                            interações através de conversas via
+                                            internet pode ser uma ferramenta
+                                            efetiva para reduzir o isolamento e,
+                                            por consequência, o declínio
+                                            cognitivo. O experimento provocou
+                                            aumento de performance em testes
+                                            cognitivos e de fluência semântica,
+                                            linguagem, memória e atenção.
+                                        </p>
+                                    </span>
+                                </details>
+                                    <details class="planning-details">
+                                        <summary class="planning-summary">
+                                            2. Pessoas que têm relacionamentos mais
+                                            calorosos permanecem fisicamente mais
+                                            saudáveis à medida que envelhecem.
+                                        </summary>
+                                        <span
+                                            class="planning-details-text-container"
+                                        >
+                                            <p class="planning-details-text">
+                                                Há 85 anos, a Universidade de
+                                                Harvard, nos Estados Unidos, conduz
+                                                o mais longo estudo científico sobre
+                                                felicidade da história, o "Estudo
+                                                sobre o Desenvolvimento Adulto”, que
+                                                aponta para a qualidade dos
+                                                relacionamentos como o principal
+                                                indicador de felicidade e saúde<br />
+                                                ao longo do envelhecimento.
+                                            </p>
+                                        </span>
+                                    </details>
+                            </section>
+
+                            <section class="planning-in-practice">
+                                <h2 class="practice-title">
+                                    Como colocar em prática
+                                    <hr class="practice-title-hr" />
+                                </h2>
+
+                                <div class="planning-slide-numbers">
+                                    <ul class="planning-slide-numbers-list planning-slide-numbers-six">
+                                        <li
+                                            class="planning-slide-numbers-item planning-slide-numbers-item-six number-pip-index selected-slide-number"
+                                            onclick="changePipIndex(0)"
+                                        >
+                                            1
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-item planning-slide-numbers-item-six number-pip-index"
+                                            onclick="changePipIndex(1)"
+                                        >
+                                            2
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-item planning-slide-numbers-item-six number-pip-index"
+                                            onclick="changePipIndex(2)"
+                                        >
+                                            3
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-item planning-slide-numbers-item-six number-pip-index"
+                                            onclick="changePipIndex(3)"
+                                        >
+                                            4
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-item planning-slide-numbers-item-six number-pip-index"
+                                            onclick="changePipIndex(4)"
+                                        >
+                                            5
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-item planning-slide-numbers-item-six number-pip-index"
+                                            onclick="changePipIndex(5)"
+                                        >
+                                            6
+                                        </li>
+                                    </ul>
+
+                                    <ol class="planning-slide-message-list">
+                                        <img
+                                            class="planning-slide-arrow planning-in-practice-left-arrow"
+                                            src="./assets/icons/left-arrow.png"
+                                            alt="Arrow Left"
+                                        />
+                                        <span class="planning-slide-message">
+                                            <li
+                                                class="planning-slide-message-item"
+                                            >
+                                                Faça uma lista dos seus amigos
+                                                atuais.
+                                            </li>
+                                        </span>
+                                        <img class="planning-slide-arrow
+                                        planning-in-practice-right-arrow""
+                                        src="./assets/icons/right-arrow.png"
+                                        alt="Arrow Left" />
+                                    </ol>
+                                </div>
+
+                                <div class="planning-container-blue">
+                                    <h3 class="subtitle">Para ir além</h3>
+
+                                    <p class="description">
+                                        Busque fazer novos amigos todos os anos.
+                                        Cada amigo traz consigo uma curadoria de
+                                        temas inerentes à sua própria
+                                        trajetória. Portanto, quanto mais
+                                        diversa sua rede de afetos,
+                                        mais ampla sua possibilidade de suporte,
+                                        aprendizados e diversão.
+                                    </p>
+                                </div>
+                            </section>
+
+                            <section class="planning-health-and-welfare">
+                                <div class="planning-health-introduction">
+                                    <h2 class="planning-health-title">
+                                        SAÚDE
+                                        <br />
+                                        E BEM- <br />
+                                        ESTAR
+                                    </h2>
+
+                                    <figure class="planning-health-figure">
+                                        <img
+                                            src="./assets/str_cats@2x.png"
+                                            alt="Forca dos gatos"
+                                        />
+                                    </figure>
+                                </div>
+
+                                <p class="planning-health-description">
+                                    Você já deve saber que o tripé
+                                    “alimentação-sono-exercícios físicos” é
+                                    fundamental para o bem envelhecer. Mas o que
+                                    você também precisa saber é que a
+                                    consistência é o que vai contar mais no
+                                    final.
+                                </p>
+
+                                <div class="planning-container-blue">
+                                    <h3 class="subtitle">
+                                        O que diz a ciência
+                                    </h3>
+
+                                    <div class="division">
+                                        <h2 class="title">
+                                            <span class="italic">1.</span> A duração e os padrões de sono
+                                            podem influenciar a expectativa de
+                                            vida.
+                                        </h2>
+
+                                        <p class="description">
+                                            De acordo com a Associação Americana
+                                            do Coração, padrões irregulares de
+                                            sono aumentam os riscos de doenças
+                                            cardiovasculares e diabetes, além de
+                                            reduzir a capacidade de memória,
+                                            dificultar a concentração e afetar a
+                                            saúde mental com questões como
+                                            ansiedade e depressão. Por outro
+                                            lado, dormir bem promove a redução
+                                            do estresse, auxilia no controle
+                                            emocional, melhora o funcionamento
+                                            do sistema imunológico, da memória e
+                                            do raciocínio.
+                                        </p>
+                                    </div>
+
+                                    <div class="division">
+                                        <h2 class="title">
+                                            <span class="italic">2.</span> Uma perspectiva positiva sobre o
+                                            envelhecimento pode aumentar a
+                                            expectativa de vida em até 7,5 anos.
+                                        </h2>
+
+                                        <p class="description">
+                                            É o que mostra o estudo feito pela
+                                            Ohio Longitudinal Study of Aging and
+                                            Retirement, <br />
+                                            com base em uma amostra de 660
+                                            indivíduos.
+                                        </p>
+                                    </div>
+
+                                    <div class="division">
+                                        <h2 class="title">
+                                            <span class="italic">3.</span> Ter músculos fortes é essencial
+                                            para manter a força e a autonomia.
+                                        </h2>
+
+                                        <p class="description">
+                                            brasileiras concluiu que a
+                                            diminuição da força muscular é mais
+                                            evidente a partir da sexta década de
+                                            vida. A pesquisa fez uma comparação
+                                            entre 4 grupos de faixas etárias,
+                                            <br />
+                                            a partir dos 18 até os 82 anos.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="second-practice">
+                            <h3 class="second-practice-subtitle">
+                                Como colocar em pratica
+                            </h3>
+
+                            <hr class="second-practice-subtitle-hr" />
+
+                            <p class="second-practice-description">
+                                Sua saude e seu bem-estar estao nas suas maos.
+                                Para isso, de atencao a esses marcadores: eles
+                                ajudam a identificar alteracoes importantes e
+                                evitar riscos.
+                            </p>
+
+                            <ul class="practice-hint-list">
+                                <li class="practice-hint-item">
+                                    Monitore sua pressao arterial regularmente;
+                                </li>
+                                <li class="practice-hint-item">
+                                    Perceba se suas horas de sono estao sendo
+                                    suficientemente reparadoras;
+                                </li>
+                                <li class="practice-hint-item">
+                                    Garanta sua mobilidade, ganhando ou pelo
+                                    menos mantendo os musculos;
+                                </li>
+                                <li class="practice-hint-item">
+                                    Aprenda com o seu corpo, apos cada refeicao,
+                                    se os alimentos escolhidos te trouxeram
+                                    energia e vitalidade ou provocam apatia e
+                                    desanimo;
+                                </li>
+
+                                <li class="practice-hint-item">
+                                    Sempre que possivel, visite um profissional
+                                    da saude que possa realizar um
+                                    acaompanhamento proximo e recomendar as
+                                    melhores alternativas para o seu cuidado
+                                    fisico e mental
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="to-go-further">
+                            <h3 class="to-go-further-subtitle">Para ir além</h3>
+
+                            <hr class="to-go-further-subtitle-hr" />
+
+                            <div class="to-go-further-content">
+                                <h2 class="to-go-further-title">
+                                    (1) Mantenha uma alimentacao equilibrada
+                                </h2>
+                                <p class="to-go-further-description">
+                                    Alimentacao equilibrada nao precisa ser
+                                    dificil nem ter um preparo complexo.
+                                    Componha seu prato com fibras, proteinas e
+                                    bons carboidratos. Se estiver colorido,
+                                    melhor ainda
+                                </p>
+                            </div>
+
+                            <div class="to-go-further-content">
+                                <h2 class="to-go-further-title">
+                                    (2) Aproveite os complementos e suplementos
+                                    alimentares disponives
+                                </h2>
+                                <p class="to-go-further-description">
+                                    Sabemos que nem sempre e possivel, com a
+                                    rotina dos dias de hoje, garantir a ingestao
+                                    adequada de proteinas, vitaminas e minerais
+                                    essenciais para o organismo apos os 50 anos.
+                                    Complementos e suplementos alimentares sao
+                                    otimos aliados nesse cuidado com a saude,
+                                    proporcionando mais vitalidade e melhora na
+                                    imunidade do organismo
+                                </p>
+                            </div>
+
+                            <div class="to-go-further-content">
+                                <h2 class="to-go-further-title">
+                                    (3) Pratique exercicios fisico adequados e
+                                    sob orientacao regularmente
+                                </h2>
+                                <p class="to-go-further-description">
+                                    A organizacao mundial da saude (OMS)
+                                    recomenda 150 minutos de atividade fisica
+                                    semanal - ou seja, atividaeds que tirem o
+                                    organismo do estado de repouso. E importante
+                                    ressaltar, no entanto que cada pessao deve
+                                    adequar a atividade fisica a sua realidade.
+                                    Tente se exercitar todos os dias. Vale
+                                    caminhar, subir escadas, andar de bicicleta
+                                    ou dancar. O importante e manter o corpo em
+                                    movimento, garantindo flexibilidade, forca e
+                                    disposicao
+                                </p>
+                            </div>
+
+                            <div class="to-go-further-content">
+                                <h2 class="to-go-further-title">
+                                    (4) Preze por uma boa noite de sono
+                                </h2>
+                                <p class="to-go-further-description">
+                                    Procure durmir o suficiente para despertar
+                                    sentindo-se revigorado. E nao ignore a
+                                    qualidaed de seu sono, muitos nao sabem, mas
+                                    esse e um fator fundamental para a
+                                    manutencao da boa saude. Uma noite de sono
+                                    satisfatoria garante disposicao para manter
+                                    a consistencia em sua rotina e manutencao
+                                    dos seus bons habitos
+                                </p>
+                            </div>
+                        </div>
+                    </section> -->
+                            </section>
+                            <section class="planning-in-practice">
+                                <h2 class="practice-title">
+                                    Como colocar em prática
+                                    <hr class="practice-title-hr" />
+                                </h2>
+
+                                <div class="planning-slide-numbers">
+                                    <ul class="planning-slide-numbers-list planning-slide-numbers-list-eight-items">
+                                        <li
+                                            class="planning-slide-numbers-job-item planning-slide-numbers-job-item-eight selected-slide-number"
+                                            onclick="changePij2Index(0)"
+                                        >
+                                            1
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-job-item planning-slide-numbers-job-item-eight"
+                                            onclick="changePij2Index(1)"
+                                        >
+                                            2
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-job-item planning-slide-numbers-job-item-eight"
+                                            onclick="changePij2Index(2)"
+                                        >
+                                            3
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-job-item planning-slide-numbers-job-item-eight"
+                                            onclick="changePij2Index(3)"
+                                        >
+                                            4
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-job-item planning-slide-numbers-job-item-eight"
+                                            onclick="changePij2Index(4)"
+                                        >
+                                            5
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-job-item planning-slide-numbers-job-item-eight"
+                                            onclick="changePij2Index(5)"
+                                        >
+                                            6
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-job-item planning-slide-numbers-job-item-eight"
+                                            onclick="changePij2Index(6)"
+                                        >
+                                            7
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-job-item planning-slide-numbers-job-item-eight"
+                                            onclick="changePij2Index(7)"
+                                        >
+                                            8
+                                        </li>
+                                    </ul>
+
+                                    <ol
+                                        class="planning-slide-message-list planning-in-practice-list"
+                                    >
+                                        <img
+                                            class="planning-slide-arrow planning-arrow-left-planning-job-2"
+                                            src="./assets/icons/left-arrow.png"
+                                            alt="Arrow Left"
+                                        />
+                                        <span class="planning-job-2-list-span">
+                                            <li
+                                                class="planning-slide-message-item"
+                                            >
+                                                Mapeie seus talentos e hobbies
+                                            </li>
+                                        </span>
+                                        <img
+                                            class="planning-slide-arrow planning-arrow-right-planning-job-2"
+                                            src="./assets/icons/right-arrow.png"
+                                            alt="Arrow Right"
+                                        />
+                                    </ol>
+                                </div>
+                            </section>
+
+                            <section class="planning-job">
+                                <div class="planning-job-title-container">
+                                    <h2 class="planning-job-title">
+                                        Emprega-<br />
+                                        bilidade e <br />
+                                        empreende-<br />
+                                        dorismo
+                                    </h2>
+
+                                    <figure class="planning-job-figure">
+                                        <img
+                                            class="planning-job-img"
+                                            src="./assets/things@2x.png"
+                                            alt="Objetos"
+                                        />
+                                    </figure>
+                                </div>
+
+                                <h3 class="planning-job-intro-text">Intro</h3>
+                                <hr class="planning-job-intro-text-hr" />
+
+                                <p class="planning-job-description">
+                                    Para viver de forma longeva, é preciso
+                                    fomentar uma vida ativa sob a ótica
+                                    cognitiva, social e também financeira. Para
+                                    isso, mais que conhecer suas competências, é
+                                    importante saber combinar essas habilidades
+                                    de maneira autêntica e autoral.
+                                </p>
+
+                                <div class="planning-job-science">
+                                    <h3 class="planning-job-science-subtitle">
+                                        O que diz a CIÊNCIA
+                                    </h3>
+
+                                    <hr
+                                        class="planning-job-science-subtitle-hr-line"
+                                    />
+
+                                    <details
+                                        class="planning-job-details first-planning-job-details"
+                                    >
+                                        <summary class="planning-job-summary">
+                                            <span
+                                                class="planning-job-summary-title"
+                                            >
+                                                1. Ter um sentido de propósito
+                                                pode adicionar anos a mais de
+                                                vida</span
+                                            >
+                                        </summary>
+                                        <p
+                                            class="planning-job-summary-description"
+                                        >
+                                            Isso é o que aponta o estudo
+                                            liderado por Patrick Hill, da
+                                            Carleton University, no Canadá. A
+                                            pesquisa mostra resultados
+                                            satisfatórios na promoção do
+                                            envelhecimento positivo e no
+                                            desenvolvimento adulto quando
+                                            objetivos são estabelecidos de forma
+                                            clara, apontando para uma direção de
+                                            trabalho e execução.
+                                        </p>
+                                    </details>
+
+                                    <details class="planning-job-details">
+                                        <summary class="planning-job-summary">
+                                            <span
+                                                class="planning-job-summary-title"
+                                            >
+                                                2. Com o aumento da expectativa
+                                                de vida no país, postergar a
+                                                aposentadoria será quase
+                                                inevitável
+                                            </span>
+                                        </summary>
+                                        <p
+                                            class="planning-job-summary-description"
+                                        >
+                                            A pesquisa feita pela Ernest & Young
+                                            em parceria com a Maturi mostra que
+                                            a postergação da aposentadoria será
+                                            quase inevitável com o aumento da
+                                            expectativa de vida no país. Mas
+                                            aponta também que os maturis
+                                            permanecem ativos, em busca de novas
+                                            oportunidades e de qualificação para
+                                            se manter ou reingressar o mercado.
+                                        </p>
+                                    </details>
+
+                                    <details class="planning-job-details">
+                                        <summary class="planning-job-summary">
+                                            <span
+                                                class="planning-job-summary-title"
+                                            >
+                                                3. A pessoa madura e mais
+                                                experiente pode contribuir
+                                                positivamente em qualquer
+                                                organização</span
+                                            >
+                                        </summary>
+                                        <p
+                                            class="planning-job-summary-description"
+                                        >
+                                            Segundo o estudo “O Empreendedorismo
+                                            Sênior no Brasil: uma análise do
+                                            Perfil do Empreendedor”, de 2023, há
+                                            indícios de que a pessoa madura, por
+                                            possuir mais experiência pode
+                                            contribuir positivamente em qualquer
+                                            organização. Isso porque, dentre
+                                            todas as faixas etárias de
+                                            empreendedores, é a que possui maior
+                                            percentual de empregadores.
+                                        </p>
+                                    </details>
+                                </div>
+                            </section>
+
+                            <section class="planning-in-practice">
+                                <h2 class="practice-title">
+                                    Como colocar em prática
+                                    <hr class="practice-title-hr" />
+                                </h2>
+
+                                <div class="planning-slide-numbers">
+                                    <ul class="planning-slide-numbers-list">
+                                        <li
+                                            class="planning-slide-numbers-item number-pij-index selected-slide-number"
+                                            onclick="changePijIndex(0)"
+                                        >
+                                            1
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-item number-pij-index"
+                                            onclick="changePijIndex(1)"
+                                        >
+                                            2
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-item number-pij-index"
+                                            onclick="changePijIndex(2)"
+                                        >
+                                            3
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-item number-pij-index"
+                                            onclick="changePijIndex(3)"
+                                        >
+                                            4
+                                        </li>
+                                        <li
+                                            class="planning-slide-numbers-item number-pij-index"
+                                            onclick="changePijIndex(4)"
+                                        >
+                                            5
+                                        </li>
+                                    </ul>
+
+                                    <ol
+                                        class="planning-slide-message-list planning-in-practice-list"
+                                    >
+                                        <img
+                                            class="planning-slide-arrow planning-arrow-left-planning-job"
+                                            src="./assets/icons/left-arrow.png"
+                                            alt="Arrow Left"
+                                        />
+                                        <span class="planning-job-list-span">
+                                            <li
+                                                class="planning-slide-message-item"
+                                            >
+                                                Mapeie seus talentos e hobbies
+                                            </li>
+                                        </span>
+                                        <img
+                                            class="planning-slide-arrow planning-arrow-right-planning-job"
+                                            src="./assets/icons/right-arrow.png"
+                                            alt="Arrow Right"
+                                        />
+                                    </ol>
+                                </div>
+
+                                <div class="planning-container-blue">
+                                    <h3 class="subtitle">Para ir além</h3>
+
+                                    <p class="description">
+                                        Se você está empregado, aproveite para
+                                        expandir seus horizontes.
+                                    </p>
+
+                                    <div class="box">
+                                        <p class="box-text">
+                                            Busque novas atividades que irão
+                                            expandir suas experiências para além
+                                            do seu cargo.
+                                        </p>
+                                    </div>
+
+                                    <div class="box">
+                                        <p class="box-text">
+                                            Aproveite para conhecer pessoas de
+                                            outras áreas e busque aprender todos
+                                            os dias.
+                                        </p>
+                                    </div>
+
+                                    <p class="description box-desc">
+                                        Se busca recolocação ou está em
+                                        transição de carreira, cuide de suas
+                                        conexões.
+                                    </p>
+
+                                    <div class="box">
+                                        <p class="box-text">
+                                            Busque expandir sua rede de
+                                            conexões.
+                                        </p>
+                                    </div>
+
+                                    <div class="box">
+                                        <p class="box-text">
+                                            Esteja atento a oportunidades para
+                                            colocar suas habilidades em ação.
+                                        </p>
+                                    </div>
+
+                                    <div class="box">
+                                        <p class="box-text">
+                                            Saiba que suas chances de monetizar
+                                            não se restringem a uma única<br />
+                                            forma de trabalho.
+                                        </p>
+                                    </div>
+
+                                    <div class="box">
+                                        <p class="box-text">
+                                            Lembre-se: conforto e crescimento
+                                            não andam juntos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="invite">
+                                <p class="invite-text-upper">
+                                    FOMOS ENSINADOS <br />
+                                    A NOS PREPARAR <br />
+                                    PARA AS DIFERENTES<br />
+                                    ETAPAS DA VIDA.<br />
+                                    ISSO TAMBÉM VALE <br />
+                                    PARA O ENVELHECIMENTO.
+                                </p>
+                                <div class="invite-container">
+                                    <img
+                                        src="./assets/gift-ellipse.png"
+                                        alt="Um presente"
+                                    />
+                                    <button
+                                        class="invite-button"
+                                        type="button"
+                                        onclick="openInviteContainer()"
+                                    >
+                                        Convidar
+                                        <img
+                                            class="invite-img"
+                                            src="./assets/icons/share-plain.png"
+                                            alt="share"
+                                        />
+                                    </button>
+                                </div>
+                            </section>
+
+                            <section class="pdf-section">
+                                <h2 class="pdf-section-title">
+                                    Tem muito <br />
+                                    mais → <span class="pdf-section-title-italic">aqui</span>
+                                </h2>
+                                <button
+                                    class="download-pdf-button"
+                                    type="button"
+                                    onclick="downloadPDF()"
+                                >
+                                    Baixar PDF
+                                </button>
+                            </section>
+
+                            <section class="continue">
+                                <figure class="continue-figure">
+                                    <img
+                                        class="continue-img"
+                                        src="./assets/eye@2x.png"
+                                        alt="Objetos"
+                                    />
+                                </figure>
+
+                                <div class="continue-container-title">
+                                    <h2 class="continue-title">
+                                        Essa <br />
+                                        conversa <br />
+                                        continua
+                                        <img
+                                            onclick="downloadPDF()"
+                                            class="btn-continue"
+                                            src="./assets/ellipse-right-arrow-white.png"
+                                            alt="seta para direita branca"
+                                        />
+                                    </h2>
+                                </div>
+                            </section>
+                        </details>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="./script.js"></script>
+        <script
+            type="text/javascript"
+            src="./observers/introduction.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="./observers/maindetails.js"
+        ></script>
+        <script type="text/javascript" src="./observers/expand.js"></script>
+        <script type="text/javascript" src="./observers/awakening.js"></script>
+        <script type="text/javascript" src="./observers/planning.js"></script>
+        <script type="text/javascript" src="./observers/animation.js"></script>
+    </body>
+</html>

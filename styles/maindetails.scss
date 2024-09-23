@@ -1,0 +1,34 @@
+@keyframes mainDetailsAnimate {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.detail-awakening-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: mainDetailsAnimate 1.3s ease-in-out forwards;
+}
+
+.detail-expand-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: mainDetailsAnimate 1.4s ease-in-out forwards;
+}
+
+.detail-planning-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: mainDetailsAnimate 1.5s ease-in-out forwards;
+}

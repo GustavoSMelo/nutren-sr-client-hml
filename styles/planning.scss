@@ -1,0 +1,89 @@
+.planning-title-img-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: leftToRightAnimation 1.6s;
+}
+
+.planning-title-txt-01-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: rightToLeftAnimation 1s;
+}
+
+.planning-title-txt-02-animate,
+.introduction-to-planning-img-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: rightToLeftAnimation 1.4s;
+}
+
+.planning-title-txt-03-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: rightToLeftAnimation 1.4s;
+}
+
+.introduction-to-planning-txt-01-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: leftToRightAnimation 1s;
+}
+
+.introduction-to-planning-txt-02-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: leftToRightAnimation 1.4s;
+}
+
+.introduction-to-planning-txt-03-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: leftToRightAnimation 1.6s;
+}
+
+.introduction-to-planning-txt-04-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: leftToRightAnimation 1.7s;
+}
+
+.introduction-to-planning-txt-05-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: leftToRightAnimation 1.7s;
+}
+
+.introduction-to-planning-txt-06-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: leftToRightAnimation 1.7s;
+}
+
+.planning-introduction-description-animate,
+.planning-introduction-subdescription-animate {
+    opacity: 1;
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+    animation: topToDownAnimation 1.7s;
+}
