@@ -273,7 +273,7 @@ $titleWhite: #f5f5f5;
         .share-container {
             background-color: #00000080;
             padding: 30px;
-            width: 100vw;
+            width: 100%;
             height: 100vh;
             z-index: 3;
             cursor: auto;
@@ -531,7 +531,7 @@ $titleWhite: #f5f5f5;
                 figure.time
                 img.time-img {
                 position: relative;
-                left: 160px;
+                left: 179px;
                 width: 100%;
                 top: 6px;
                 object-fit: contain;
@@ -1117,9 +1117,9 @@ $titleWhite: #f5f5f5;
 
                     .awake-cas-description {
                         padding: 0 30px 0px 30px;
+                        width: 55%;
                         color: $brown;
                         word-break: normal;
-                        width: 53%;
                         margin-left: 10px;
                         padding-right: 0;
                         font-family: "Open Sans", sans-serif;
@@ -1219,7 +1219,6 @@ $titleWhite: #f5f5f5;
                                 min-width: 235px;
                                 font-family: "Source Serif 4", serif;
                                 font-variation-settings: "opsz" 20;
-                                font-style: italic;
                                 line-height: 14px;
                                 letter-spacing: -0.8px;
                                 padding-right: 4px;
@@ -1342,7 +1341,7 @@ $titleWhite: #f5f5f5;
                                 width: 100%;
                                 top: 6px;
                                 object-fit: contain;
-                                left: 175px;
+                                left: 203px;
                             }
                         }
                     }
@@ -1384,8 +1383,6 @@ $titleWhite: #f5f5f5;
                                 &::-webkit-details-marker {
                                     display: none;
                                 }
-
-                                .class::webkit
 
                                 &::before {
                                     display: none;
@@ -1845,7 +1842,7 @@ $titleWhite: #f5f5f5;
                         justify-content: center;
 
                         .expand-cas-subdescription {
-                            margin: 10px 60px;
+                            margin: 10px 40px;
                             margin-top: 0px;
                             border-left: solid 2px $blue;
                             color: $blue;
@@ -2361,7 +2358,6 @@ $titleWhite: #f5f5f5;
                     @include flexCenter();
                     background-color: $white;
                     padding: 30px 0px;
-                    margin-block: 110px;
                     figure.planning-title-figure {
                         width: 200px;
                         height: 192px;
@@ -2611,12 +2607,56 @@ $titleWhite: #f5f5f5;
 
                     .division {
                         border-bottom: solid 2px #fff;
+                        .title {
+                            display: flex;
+                            align-items: center;
+                            &::-webkit-details-marker {
+                                display: none;
+                                content: "";
+                            }
+
+                            &::marker {
+                                display: none;
+                                content: '';
+                            }
+
+                            &::before {
+                                display: none;
+                                content: "";
+                            }
+
+                            &::after {
+                                content: '';
+                                display: flex;
+                                background-image: url('./assets/icons/arrow-white.png');
+                                background-size: contain;
+                                width: 40px;
+                                height: 60px;
+                                background-repeat: no-repeat;
+                                transition: 0.4s;
+                                align-items: flex-end;
+                            }
+
+                            .division-container-box {
+                                width: 97%;
+                                margin: 10px;
+                            }
+                        }
 
                         .division-arrow-btn {
                             width: 80px;
                             cursor: pointer;
                             margin-left: 20px;
                             margin-bottom: 40px;
+                        }
+                    }
+
+                    .division[open] {
+                        .title {
+                            &::after {
+                                transform: rotate(180deg);
+                                transition: 0.4s;
+                            }
                         }
                     }
 
@@ -3146,7 +3186,7 @@ $titleWhite: #f5f5f5;
                                 justify-content: space-between;
 
                                 .planning-job-summary-title {
-                                    padding-right: 12px;
+                                    // padding-right: 12px;
                                     font-size: 24px;
                                     font-weight: 500;
                                     letter-spacing: -0.96px;
@@ -3485,13 +3525,13 @@ $titleWhite: #f5f5f5;
             }
 
             .planning-slide-message-list {
+                height: 120px;
                 list-style: none;
                 padding: 20px;
                 color: #fff;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                height: 160px;
 
                 .planning-slide-arrow {
                     height: 15px;
@@ -3504,7 +3544,7 @@ $titleWhite: #f5f5f5;
                     font-family: "Open Sans", serif;
                     font-size: 17px;
                     font-weight: 300;
-                    padding: 20px;
+                    padding: 0 20px;
                     line-height: 17.41px;
                 }
             }
@@ -4524,7 +4564,7 @@ $titleWhite: #f5f5f5;
                 width: 200px;
                 position: relative;
                 left: -24px;
-                top: -6px;
+                top: -81px;
             }
 
             .details-group-sr .detail-awakening .be-pro-age .title .be-pro-age-meditation-figure {
@@ -5351,7 +5391,7 @@ $titleWhite: #f5f5f5;
             .details-group-sr .detail-awakening .be-pro-age .stairwayButton {
                 font-size: 24px;
                 padding: 40px 120px;
-                top: -20px;
+                top: -80px;
             }
 
             div.sr-content
@@ -6074,7 +6114,9 @@ top: 300px;
                 left: -150px;
                 padding-left: 180px;
             }
-
+            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate div.planning-title{
+                margin-block: 110px;
+            }
             .details-group-sr .detail-expand .expand-context .expand-line-bike-hr {
                 top: 60px;
                 left: -92%;
@@ -6199,6 +6241,10 @@ top: 300px;
                 width: 740px;
                 justify-content: flex-start !important;
 
+            }
+
+            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.planning-health-and-welfare div.planning-container-blue details.division summary.title div.division-container-box{
+                padding-block-end: 15px;
             }
 
             div.sr-content

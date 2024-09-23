@@ -7,31 +7,32 @@ let isExpandedGlossary = false;
 let isAwakeningDetailsOpen = false;
 let isExpandDetailsOpen = false;
 let isPlanningDetailsOpen = false;
+let downloadImagePage = '1';
 
 const planningJobPracticeListItems = [
     '<li class="planning-slide-message-item">Mapeie seus talentos e hobbies</li>',
-    '<li class="planning-slide-message-item">Faça uma lista por ordem cronológica de todos os seus aprendizados formais (cursos, graduações, certificações) e outra de seus aprendizados informais (culinaria, botânica, costura, cuidado de pessoas, cuidado de animais, <br />consertos em geral, habilidade social)</li>',
-    '<li class="planning-slide-message-item">Conecte os principais aprendizados as pessoas que te orientam <br /> e te ensinaram ao longo de sua jornada.</li>',
+    '<li class="planning-slide-message-item">Faça uma lista por ordem cronológica de todos os seus aprendizados formais (cursos, graduações, certificações) e outra de seus aprendizados informais (culinaria, botânica, costura, cuidado de pessoas, cuidado de animais, consertos em geral, habilidade social)</li>',
+    '<li class="planning-slide-message-item">Conecte os principais aprendizados as pessoas que te orientam  e te ensinaram ao longo de sua jornada.</li>',
     '<li class="planning-slide-message-item">Analise cuidadosamente os talentos que você construiu até aqui</li>',
-    '<li class="planning-slide-message-item">Atente-se para possíveis combinações que podem te render <br /> novas profissões - ou novas formas de monetização</li>',
+    '<li class="planning-slide-message-item">Atente-se para possíveis combinações que podem te render  novas profissões - ou novas formas de monetização</li>',
 ];
 const planningInPracticeListItems = [
     '<li class="planning-slide-message-item">Faça uma lista dos seus amigos atuais.</li>',
-    '<li class="planning-slide-message-item">Separe esses amigos em três grupos: os que você convidaria <br /> para um café ou para um bate papo leve e informal;<br /> Os que você contaria uma conquista ou realização, e os que você poderia <br /> chamar em caso de uma emergência. </li>',
+    '<li class="planning-slide-message-item">Separe esses amigos em três grupos: os que você convidaria  para um café ou para um bate papo leve e informal; Os que você contaria uma conquista ou realização, e os que você poderia chamar em caso de uma emergência. </li>',
     '<li class="planning-slide-message-item">Veja com quem você tem mais proximidade</li>',
-    '<li class="planning-slide-message-item">Mapeie com quais deles você gostaria de estreitar laços <br /> e viver novas experiências.</li>',
+    '<li class="planning-slide-message-item">Mapeie com quais deles você gostaria de estreitar laços  e viver novas experiências.</li>',
     '<li class="planning-slide-message-item">Seja intencional e ativo nessas relações </li>',
     '<li class="planning-slide-message-item">Aproveite para refletir sobre o seu papel na vida desses amigos.</li>',
 ];
 const planningJob2PracticeListItems = [
     '<li class="planning-slide-message-item">Monitore sua pressão arterial regularmente.</li>',
-    '<li class="planning-slide-message-item">Mantenha uma alimentação equilibrada com fibras, proteínas <br /> e bons carboidratos. Se o prato estiver colorido, melhor ainda.</li>',
-    '<li class="planning-slide-message-item">Dê atenção ao consumo adequado de proteínas para garantir a integridade <br /> dos músculos, ossos e articulações.</li>',
-    '<li class="planning-slide-message-item">Aprenda com o seu corpo, após cada refeição, se os alimentos escolhidos <br /> te trouxeram energia e vitalidade ou provocaram apatia e desânimo.</li>',
-    '<li class="planning-slide-message-item">Aproveite os complementos e suplementos alimentares disponíveis <br /> para ter mais vitalidade e imunidade.</li>',
-    '<li class="planning-slide-message-item">Pratique exercícios físicos adequados e sob orientação regularmente, <br /> para garantir mobilidade e força.</li>',
-    '<li class="planning-slide-message-item">Preze por uma boa noite de sono: esse é um fator fundamental <br /> para a manutenção da boa saúde.</li>',
-    '<li class="planning-slide-message-item">Sempre que possível, visite um profissional de saúde que possa acompanhar <br /> seu cuidado físico e mental.</li>',
+    '<li class="planning-slide-message-item">Mantenha uma alimentação equilibrada com fibras, proteínas  e bons carboidratos. Se o prato estiver colorido, melhor ainda.</li>',
+    '<li class="planning-slide-message-item">Dê atenção ao consumo adequado de proteínas para garantir a integridade  dos músculos, ossos e articulações.</li>',
+    '<li class="planning-slide-message-item">Aprenda com o seu corpo, após cada refeição, se os alimentos escolhidos  te trouxeram energia e vitalidade ou provocaram apatia e desânimo.</li>',
+    '<li class="planning-slide-message-item">Aproveite os complementos e suplementos alimentares disponíveis  para ter mais vitalidade e imunidade.</li>',
+    '<li class="planning-slide-message-item">Pratique exercícios físicos adequados e sob orientação regularmente,  para garantir mobilidade e força.</li>',
+    '<li class="planning-slide-message-item">Preze por uma boa noite de sono: esse é um fator fundamental  para a manutenção da boa saúde.</li>',
+    '<li class="planning-slide-message-item">Sempre que possível, visite um profissional de saúde que possa acompanhar  seu cuidado físico e mental.</li>',
 ];
 
 const planningInPracticeList = window.document.querySelector(
@@ -324,7 +325,11 @@ const closeInviteContainer = () => {
     window.document.body.style.overflowX = "";
 };
 
-const openShareContainer = () => {
+/**
+ * @param {'1' | '2' | '3'} imgNumber
+ */
+const openShareContainer = (imgNumber = '1') => {
+    downloadImagePage = imgNumber;
     const shareContainer = window.document.querySelector(".share-container");
     shareContainer.style.top = `${window.scrollY}`;
     shareContainer.style.display = "flex";
@@ -339,8 +344,8 @@ const closeShareContainer = () => {
 
 const downloadPDF = () => {
     const pdfLoader = document.createElement("a");
-    pdfLoader.href = "./assets/conviteshare.png";
-    pdfLoader.download = "CONVITE_NUTREN_SR.pdf";
+    pdfLoader.href = `./assets/nutren_sharepage${downloadImagePage}.png`;
+    pdfLoader.download = "CONVITE_NUTREN_SR.png";
 
     window.document.body.appendChild(pdfLoader);
     pdfLoader.click();
@@ -363,6 +368,7 @@ const rotateSandClock = () => {
 
 /**
  * @param {'01' | '02' | '03'} chapterNumber
+ * @param {number} topPixel
  */
 const goToChapter = (chapterNumber, topPixel = 60) => {
     setTimeout(() => {
