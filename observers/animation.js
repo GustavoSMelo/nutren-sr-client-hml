@@ -5,7 +5,7 @@ var els = [
         "id": "#bg-1",
         "parent": "#context-1",
         "duration": 1600,
-        "time": 2,
+        "time": 4,
         "delay": 0
     },
     {

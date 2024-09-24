@@ -1051,7 +1051,7 @@ $titleWhite: #f5f5f5;
                     }
 
                     .awakening-text {
-                        width: 60%;
+                        width: 75%;
                         margin-top: 20px;
                         color: #fff;
                         font-size: 14px;
@@ -2304,13 +2304,17 @@ $titleWhite: #f5f5f5;
                     background: $blue;
                     background: linear-gradient(180deg, $blue 0%, rgba(30, 23, 163, 1) 68%, $blue 68%, $white 68%);
                     padding: 20px 30px;
-
+                    min-height: 400px;
+                    .expand-crown-button-share-container{
+                        height: 30px;
+                        position: relative;
+                        top: -33px;
+                        text-align: center;
+                    }
                     .crown-expand-container {
-                        background-color: $lightBrown;
-                        border: solid 5px $brown;
-                        padding: 10px;
-                        width: 307px;
-                        height: 236px;
+                            min-width: 296px;
+                            max-height: 260px;
+
 
                         .crown-expand-flex {
                             @include flexCenter();
@@ -3336,8 +3340,6 @@ $titleWhite: #f5f5f5;
                             position: relative;
                             font-size: 65px;
                             z-index: 2;
-                            margin-left: 10px;
-                            // left: 40px;
                             color: #ece9e2;
                             font-family: "Open Sans", serif;
                             text-transform: uppercase;
@@ -3362,8 +3364,6 @@ $titleWhite: #f5f5f5;
                                 background-color: #1e17a3;
                                 color: #fff;
                                 border: none;
-                                width: 110px;
-                                height: 32px;
                                 border-radius: 120px;
                                 cursor: pointer;
                                 text-transform: uppercase;
@@ -3378,6 +3378,55 @@ $titleWhite: #f5f5f5;
                                 left: 20%;
                                 position: relative;
                             }
+                        }
+                    }
+                }
+                .recomendations {
+                    background-color: $white;
+
+                    .recomendation-details {
+                        border-bottom: 1px solid #fff;
+
+                        .recomendations-summary {
+                            &::marker, &::before {
+                                content: "";
+                                display: none;
+                            }
+
+                            &::after {
+                                content: "";
+                                background-image: url('./assets/icons/arrow-brown.png');
+                                width: 40px;
+                                height: 40px;
+                                background-size: cover;
+                                display: block;
+                                background-repeat: no-repeat;
+                                transition: 0.4s;
+                            }
+
+                            display: flex;
+                            align-items: center;
+                            font-size: 24px;
+                            color: $brown;
+                            padding: 30px;
+                            justify-content: space-between;
+                            transition: 0.4s;
+                        }
+                    }
+
+                    .recomendation-details[open] > .recomendations-summary {
+                        &::after {
+                            transition: 0.4s;
+                            transform: rotateX(180deg);
+                        }
+                    }
+
+                    ul {
+                        padding-left: 40px;
+                        li {
+                            color: $brown;
+                            padding-bottom: 5px;
+                            padding-right: 20px;
                         }
                     }
                 }
@@ -3606,6 +3655,10 @@ $titleWhite: #f5f5f5;
                     padding: 10px 20px;
                     line-height: 17.41px;
                 }
+            }
+
+            .third-planning-slide-arrow {
+                height: 155px;
             }
         }
 
@@ -5349,7 +5402,8 @@ $titleWhite: #f5f5f5;
                 line-height: 55px;
                 font-weight: 400;
                 padding-block-end: 70px;
-                margin-top: 20px;
+                padding-top: 75px;
+
             }
 
             div.sr-content
@@ -5808,6 +5862,7 @@ $titleWhite: #f5f5f5;
                 width: 620px;
                 position: relative;
                 top: 30px;
+                // margin-top
             }
 
             div.sr-content section.details-group-sr details.detail-expand.main-details.detail-expand-animate section#context-2.context div.ageism div#stair_etarism-1.stair_etarism {
@@ -5961,14 +6016,17 @@ top: 300px;
             }
 
             .details-group-sr .detail-expand .crown-expand {
-                height: 800px;
+                height: 930px;
+
             }
             .details-group-sr .detail-expand .crown-expand .crown-expand-container .expand-crown-button-share {
                 width: 210px;
                 height: 55px;
                 font-size: 36px;
                 padding: 45px 220px;
-                top: 186px;
+                    position: relative;
+                top: 8px;
+
             }
 
             div.sr-content
@@ -6119,7 +6177,7 @@ top: 300px;
                 height: 640px;
                 position: relative;
                 top: 60px;
-                border: solid 10px $brown;
+                // border: solid 10px $brown;
             }
 
             div.sr-content
@@ -6282,6 +6340,11 @@ top: 300px;
                 left: -380px;
             }
 
+            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.recomendations details.recomendation-details ul{
+                padding-left: 120px;
+                font-size: 21px;
+            }
+
             .introduction-sr .line-introduction-description {
                 left: -30%;
                 top: 453px;
@@ -6390,6 +6453,20 @@ top: 300px;
             padding-top: 45px;
             padding-bottom: 45px;
         }
+
+        div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.recomendations details.recomendation-details summary.recomendations-summary {
+            font-size: 36px;
+            padding: 40px;
+
+            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.recomendations details.recomendation-details ul li {
+                padding-bottom: 10px;
+                font-size: 24px;
+            }
+        }
+
+
+        // div.sr-content section.details-group-sr details.detail-expand.main-details.detail-expand-animate section.expand-context div.crown-expand div.crown-expand-container div.expand-crown-button-share-container button.expand-crown-button-share{
+        // }
         }
     }
 }
