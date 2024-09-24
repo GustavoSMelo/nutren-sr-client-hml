@@ -1872,6 +1872,10 @@ $titleWhite: #f5f5f5;
                         line-height: 19px;
                     }
 
+                    .expand-cas-description-no-margin-bottom {
+                        padding-bottom: 0;
+                    }
+
                     .expand-cas-subdescription-container {
                         display: flex;
                         align-items: center;
@@ -1886,6 +1890,8 @@ $titleWhite: #f5f5f5;
                             font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
                             line-height: 25.21px;
                             padding-left: 10px;
+                            margin-bottom: 0;
+                            padding-bottom: 0
                         }
                     }
                 }
@@ -3395,7 +3401,7 @@ $titleWhite: #f5f5f5;
 
                             &::after {
                                 content: "";
-                                background-image: url('./assets/icons/arrow-brown.png');
+                                background-image: url('./assets/icons/arrow-brown-dark.png');
                                 width: 40px;
                                 height: 40px;
                                 background-size: cover;
@@ -3411,6 +3417,19 @@ $titleWhite: #f5f5f5;
                             padding: 30px;
                             justify-content: space-between;
                             transition: 0.4s;
+                        }
+
+                        .recomendations-hyperlink-text {
+                            color: $brown;
+                        }
+
+                        .recomendation-text {
+                            color: $brown;
+                            padding-left: 30px;
+
+                            .recomendations-text-bold {
+                                font-weight: bold;
+                            }
                         }
                     }
 
