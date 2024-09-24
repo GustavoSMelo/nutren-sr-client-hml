@@ -3330,7 +3330,7 @@ $titleWhite: #f5f5f5;
                     }
 
                     .continue-container-title {
-                        height: 140px;
+                        height: 160px;
 
                         .continue-title {
                             position: relative;
@@ -3354,6 +3354,29 @@ $titleWhite: #f5f5f5;
                                 padding-top: 20px;
                                 cursor: pointer;
                                 margin-left: 30px;
+                            }
+
+                            .cta-continue {
+                                display: flex;
+                                margin-top: 30px;
+                                background-color: #1e17a3;
+                                color: #fff;
+                                border: none;
+                                width: 110px;
+                                height: 32px;
+                                border-radius: 120px;
+                                cursor: pointer;
+                                text-transform: uppercase;
+                                font-size: 14px;
+                                padding: 15px;
+                                font-weight: 400;
+                                align-items: center;
+                                justify-content: center;
+                                top: -10px;
+                                width: 130px;
+                                height: 42px;
+                                left: 20%;
+                                position: relative;
                             }
                         }
                     }
@@ -4090,7 +4113,7 @@ $titleWhite: #f5f5f5;
         // desktop responsivity: (1024px ~ 1260px)
 
         @media screen and (min-width: 1024px) {
-            zoom: 70%;
+            // zoom: 70%;
 
             .invite-sr {
                 display: flex;
@@ -4820,6 +4843,8 @@ $titleWhite: #f5f5f5;
                 img.planning-slide-arrow.planning-arrow-left-planning-job-2 {
                 width: 40px;
                 height: 40px;
+                position: relative;
+                top: 61px;
             }
 
             .page-guiaproidade .container .details-group-sr .detail-expand .crown-expand .crown-expand-container {
@@ -5117,7 +5142,6 @@ $titleWhite: #f5f5f5;
                 p.planning-introduction-description.planning-introduction-description-animate {
                 line-height: 70px;
                 position: relative;
-                top: -100px;
             }
 
             div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.planning-in-practice div.planning-slide-numbers ol.planning-slide-message-list span.planning-slide-message li.planning-slide-message-item {
@@ -5125,7 +5149,8 @@ $titleWhite: #f5f5f5;
             }
 
             div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.planning-in-practice div.planning-container-blue {
-                margin-top: 100px;
+                margin-top: 125px;
+
             }
 
             .details-group-sr .detail-awakening .meditation .meditation-title-text,
@@ -5324,6 +5349,7 @@ $titleWhite: #f5f5f5;
                 line-height: 55px;
                 font-weight: 400;
                 padding-block-end: 70px;
+                margin-top: 20px;
             }
 
             div.sr-content
@@ -5357,6 +5383,7 @@ $titleWhite: #f5f5f5;
                 span.planning-slide-message
                 li.planning-slide-message-item {
                 line-height: 38px;
+                margin-block-start: 135px;
             }
 
             .details-group-sr .detail-planning .planning-container-blue .planning-container-blue-hr,
@@ -5584,9 +5611,9 @@ $titleWhite: #f5f5f5;
             .details-group-sr .detail-planning .planning-container-blue .description {
                 padding-left: 100px;
                 padding-right: 100px;
-                padding-bottom: 30px;
                 line-height: 40px;
                 padding-top: 30px;
+                padding-bottom: 60px;
             }
 
             div.sr-content
@@ -5612,6 +5639,8 @@ $titleWhite: #f5f5f5;
                 ol.planning-slide-message-list
                 img.planning-slide-arrow.planning-in-practice-left-arrow {
                 height: 50px;
+                top: 75px;
+                position: relative;
             }
 
             .planning-slide-numbers .planning-slide-numbers-list {
@@ -5666,7 +5695,7 @@ $titleWhite: #f5f5f5;
                 span.planning-job-2-list-span
                 li.planning-slide-message-item {
                 line-height: 52px;
-                margin-block-start: 80px;
+                margin-block-start: 120px;
 
             }
 
@@ -5754,8 +5783,8 @@ $titleWhite: #f5f5f5;
                 text-transform: uppercase;
                 font-weight: 400;
                 letter-spacing: -5.6px;
-                top: -470px;
-                left: 170px;
+                top: -368px;
+                left: 120px;
                 line-height: 140px;
             }
 
@@ -5827,7 +5856,7 @@ top: 300px;
             }
 
             div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.planning-in-practice div.planning-slide-numbers ol.planning-slide-message-list.planning-in-practice-list span.planning-job-list-span li.planning-slide-message-item {
-                margin-top: 100px;
+                margin-top: 130px;
             }
 
             .details-group-sr .detail-planning .planning-container-blue .title {
@@ -5876,6 +5905,8 @@ top: 300px;
                 div.invite-container.invite-container-animate
                 button.invite-button {
                 padding: 45px 180px;
+
+
             }
 
             div.sr-content
@@ -5894,6 +5925,8 @@ top: 300px;
                 img.planning-slide-arrow.planning-arrow-left-planning-job {
                 width: 60px;
                 height: 60px;
+                position: relative;
+                top: 62px;
             }
 
             .details-group-sr
@@ -6342,6 +6375,21 @@ top: 300px;
                 max-height: 598px;
 
             }
+
+            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.planning-in-practice{
+                min-height: 525px;
+            }
+
+
+        div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.continue div.continue-container-title h2.continue-title button.cta-continue{
+            left: 328px;
+            top: -18px;
+            width: 360px;
+            font-size: 28px;
+            height: 60px;
+            padding-top: 45px;
+            padding-bottom: 45px;
+        }
         }
     }
 }

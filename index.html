@@ -11,7 +11,7 @@
         <meta property="og:image" content="./assets/conviteshare.png" />
         <meta
             name="viewport"
-            content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, target-densitydpi=device-dpi"
+            content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0"
         />
         <title>Nestle</title>
         <link
@@ -844,7 +844,7 @@
                                     </figure>
                                 </div>
 
-                                <div class="ageism">
+                                <div class="ageism" id="ageism-1">
                                     <div class="stair_etarism" id="stair_etarism-1">
                                         <img
                                             class="ageism-image"
@@ -866,7 +866,6 @@
 
 
                                     <p class="ageism-subdescription" id="ageism-subdescription" style="animation-play-state: paused;">
-                                        <br />
                                         Estima-se que 1 em cada 2 pessoas no
                                         mundo tenha atitudes discriminatórias
                                         que pioram a saúde física e mental de
@@ -876,14 +875,14 @@
                                         <br />
                                         No Brasil, um primeiro passo foi dado
                                         com o Estatuto do Idoso. Mas é preciso
-                                        mais <br />do que isso: para combater o
+                                        mais do que isso: para combater o
                                         etarismo, é necessário transformar nosso
-                                        comportamento <br />
+                                        comportamento
                                         e nossas atitudes.
                                         <br />
                                         <br />
                                         A mudança pode começar com uma linguagem
-                                        mais inclusiva, que vai fomentar <br />
+                                        mais inclusiva, que vai fomentar
                                         a cultura Pró-Idade.
                                     </p>
                                 </div>
@@ -1474,7 +1473,7 @@
                                                     capacidade do corpo de
                                                     resistir às toxinas,
                                                     infecções e outras
-                                                    substâncias nocivas <br />
+                                                    substâncias nocivas
                                                     ou micro-organismos.
                                                 </p>
                                             </li>
@@ -1513,7 +1512,7 @@
                                                 >
                                                     se refere a tudo que não é
                                                     gordura em nosso corpo, como
-                                                    os músculos <br />
+                                                    os músculos
                                                     e nossos diferentes órgãos
                                                     internos.
                                                 </p>
@@ -1685,7 +1684,7 @@
                                                 >
                                                     qualidade de possuir vigor
                                                     ou força vital, demonstrando
-                                                    capacidade de viver <br />
+                                                    capacidade de viver
                                                     e de se desenvolver.
                                                 </p>
                                             </li>
@@ -1923,7 +1922,7 @@
 
                                 <p class="planning-introduction-subdescription" id="planning-introduction-subdescription" style="animation-play-state: paused;">
                                     Vale dizer que começar é um verbo que se
-                                    conjuga em qualquer idade. Tenha você <br />
+                                    conjuga em qualquer idade. Tenha você
                                     8 ou 80 anos, bons hábitos sempre favorecem
                                     o tempo que ainda está por vir.
                                 </p>
@@ -2683,7 +2682,7 @@
                                 <button
                                     class="download-pdf-button"
                                     type="button"
-                                    onclick="downloadPDF()"
+                                    onclick="downloadPDF('pdf1')"
                                 >
                                     Baixar PDF
                                 </button>
@@ -2703,12 +2702,8 @@
                                         Essa <br />
                                         conversa <br />
                                         continua
-                                        <img
-                                            onclick="downloadPDF()"
-                                            class="btn-continue"
-                                            src="./assets/ellipse-right-arrow-white.png"
-                                            alt="seta para direita branca"
-                                        />
+
+                                        <button class="cta-continue" type="button" onclick="downloadPDF('pdf2')">BAIXAR PDF</button>
                                     </h2>
                                 </div>
                             </section>

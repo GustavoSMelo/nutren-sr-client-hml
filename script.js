@@ -344,9 +344,12 @@ const closeShareContainer = () => {
 
 const downloadPDF = (download = '') => {
     const pdfLoader = document.createElement("a");
-    if (download === 'pdf') {
-        pdfLoader.href = `./assets/loremipsum.pdf`;
-        pdfLoader.download = `CONVITE.pdf`;
+    if (download === 'pdf1') {
+        pdfLoader.href = `./assets/GuiaProIdade.pdf`;
+        pdfLoader.download = `GuiaProIdade.pdf`;
+    } else if (download === 'pdf2') {
+        pdfLoader.href = `./assets/conteudoExtra.pdf`;
+        pdfLoader.download = `conteudoExtra.pdf`;
     } else {
         pdfLoader.href = `./assets/nutren_sharepage${downloadImagePage}.png`;
         pdfLoader.download = `CONVITE-${downloadImagePage}.png`;

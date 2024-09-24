@@ -172,24 +172,24 @@ var els = [
     },
     {
         "id": "#ageism-title",
-        "parent": "#ageism-title",
+        "parent": "#ageism-1",
         "duration": 1600,
         "time": 4,
         "delay": 0
     },
     {
         "id": "#ageism-description",
-        "parent": "#ageism-description",
+        "parent": "#ageism-1",
         "duration": 1600,
         "time": 2.5,
         "delay": -100
     },
     {
         "id": "#ageism-subdescription",
-        "parent": "#ageism-subdescription",
+        "parent": "#ageism-1",
         "duration": 1600,
         "time": 1.5,
-        "delay": -400
+        "delay": 0
     },
     //CAP3
     {
@@ -286,3 +286,47 @@ function calcularDistanciaAteTopo() {
 }
 
 window.addEventListener('scroll', calcularDistanciaAteTopo);
+
+
+function getBrowserAndDeviceInfo() {
+    const userAgent = navigator.userAgent;
+
+    let browser = "Desconhecido";
+    if (userAgent.indexOf("Firefox") > -1) {
+        browser = "Mozilla Firefox";
+    } else if (userAgent.indexOf("Chrome") > -1 && userAgent.indexOf("Safari") > -1 && userAgent.indexOf("Edg") === -1) {
+        browser = "Google Chrome";
+    } else if (userAgent.indexOf("Safari") > -1 && userAgent.indexOf("Chrome") === -1) {
+        browser = "Safari";
+    } else if (userAgent.indexOf("Edg") > -1) {
+        browser = "Microsoft Edge";
+    } else if (userAgent.indexOf("Opera") > -1 || userAgent.indexOf("OPR") > -1) {
+        browser = "Opera";
+    } else if (userAgent.indexOf("MSIE") > -1 || userAgent.indexOf("Trident") > -1) {
+        browser = "Internet Explorer";
+    }
+
+    let isMobile = /Mobi|Android/i.test(userAgent) ? "Sim" : "Não";
+
+    return {
+        navegador: browser,
+        mobile: isMobile
+    };
+}
+
+function applyZoom() {
+    const browser = getBrowserAndDeviceInfo();
+    if (browser.navegador !== 'Safari' || browser.mobile === "Sim") {
+        if (window.matchMedia("(min-width: 1024px)").matches) {
+            const container = window.document.querySelector('.container');
+            container.style.zoom = "70%";
+        } else {
+            const container = window.document.querySelector('.container');
+            container.style.zoom = "";
+        }
+    }
+}
+
+applyZoom();
+
+window.addEventListener('resize', applyZoom);
