@@ -342,10 +342,15 @@ const closeShareContainer = () => {
     window.document.body.style.overflowX = "";
 };
 
-const downloadPDF = () => {
+const downloadPDF = (download = '') => {
     const pdfLoader = document.createElement("a");
-    pdfLoader.href = `./assets/nutren_sharepage${downloadImagePage}.png`;
-    pdfLoader.download = "CONVITE_NUTREN_SR.png";
+    if (download === 'pdf') {
+        pdfLoader.href = `./assets/loremipsum.pdf`;
+        pdfLoader.download = `CONVITE.pdf`;
+    } else {
+        pdfLoader.href = `./assets/nutren_sharepage${downloadImagePage}.png`;
+        pdfLoader.download = `CONVITE-${downloadImagePage}.png`;
+    }
 
     window.document.body.appendChild(pdfLoader);
     pdfLoader.click();
