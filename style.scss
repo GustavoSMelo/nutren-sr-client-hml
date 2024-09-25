@@ -522,49 +522,133 @@ $titleWhite: #f5f5f5;
         }
 
         @media screen and (max-width: 356px) {
-            div.sr-content section.details-group-sr details.detail-awakening.main-details.detail-awakening-animate summary.details-summary.main-summary.main-awakening-summary span.main-summary-title.main-summary-awakening-closed div.summary-container-btn-align h2.number-title-italic.number-title-italic-01 {
+            div.sr-content
+                section.details-group-sr
+                details.detail-awakening.main-details.detail-awakening-animate
+                summary.details-summary.main-summary.main-awakening-summary
+                span.main-summary-title.main-summary-awakening-closed
+                div.summary-container-btn-align
+                h2.number-title-italic.number-title-italic-01 {
                 font-size: 58px;
             }
 
-            div.sr-content section.details-group-sr details.detail-awakening.main-details.detail-awakening-animate summary.details-summary.main-summary.main-awakening-summary span.main-summary-title.main-summary-awakening-closed div.summary-container-row {
+            div.sr-content
+                section.details-group-sr
+                details.detail-awakening.main-details.detail-awakening-animate
+                summary.details-summary.main-summary.main-awakening-summary
+                span.main-summary-title.main-summary-awakening-closed
+                div.summary-container-row {
                 font-size: 52px;
             }
 
-            div.sr-content section.details-group-sr details.detail-awakening.main-details.detail-awakening-animate summary.details-summary.main-summary.main-awakening-summary span.main-summary-awakening-expanded div h2.number-title-italic {
+            div.sr-content
+                section.details-group-sr
+                details.detail-awakening.main-details.detail-awakening-animate
+                summary.details-summary.main-summary.main-awakening-summary
+                span.main-summary-awakening-expanded
+                div
+                h2.number-title-italic {
                 font-size: 24px;
             }
 
-            div.sr-content section.details-group-sr details.detail-awakening.main-details.detail-awakening-animate summary.details-summary.main-summary.main-awakening-summary span.main-summary-awakening-expanded div h2.summary-title-expand {
+            div.sr-content
+                section.details-group-sr
+                details.detail-awakening.main-details.detail-awakening-animate
+                summary.details-summary.main-summary.main-awakening-summary
+                span.main-summary-awakening-expanded
+                div
+                h2.summary-title-expand {
                 font-size: 34px;
             }
 
-            div.sr-content section.details-group-sr details.detail-awakening.main-details.detail-awakening-animate section.be-pro-age {
+            div.sr-content
+                section.details-group-sr
+                details.detail-awakening.main-details.detail-awakening-animate
+                section.be-pro-age {
                 transform: scale(0.95);
             }
 
-            div.sr-content section.details-group-sr details.detail-awakening.main-details.detail-awakening-animate section.live-the-present div.live-the-present-container div.time-div figure.time img.time-img {
-                transform: scale(0.8)
+            div.sr-content
+                section.details-group-sr
+                details.detail-awakening.main-details.detail-awakening-animate
+                section.live-the-present
+                div.live-the-present-container
+                div.time-div
+                figure.time
+                img.time-img {
+                transform: scale(0.8);
             }
 
-            div.sr-content section.details-group-sr details.detail-expand.main-details.detail-expand-animate section.expand-context div.crown-expand div.crown-expand-container div.crown-expand-flex figure.crown-expand-figure {
+            div.sr-content
+                section.details-group-sr
+                details.detail-expand.main-details.detail-expand-animate
+                section.expand-context
+                div.crown-expand
+                div.crown-expand-container
+                div.crown-expand-flex
+                figure.crown-expand-figure {
                 transform: scale(0.7);
                 top: 20px;
                 position: relative;
                 left: 30px;
             }
 
-            div.sr-content section.details-group-sr details.detail-awakening.main-details.detail-awakening-animate section.anchor-to-chapter-02 div.anchor-title-container h2.anchor-title.number-title-italic {
+            div.sr-content
+                section.details-group-sr
+                details.detail-awakening.main-details.detail-awakening-animate
+                section.anchor-to-chapter-02
+                div.anchor-title-container
+                h2.anchor-title.number-title-italic {
                 font-size: 28px;
             }
 
-            div.sr-content section.details-group-sr details.detail-awakening.main-details.detail-awakening-animate section.anchor-to-chapter-02 div.anchor-title-container h2.anchor-title.number-title-italic,
-            div.sr-content section.details-group-sr details.detail-awakening.main-details.detail-awakening-animate section.anchor-to-chapter-02 div.anchor-title-container,
-            div.sr-content section.details-group-sr details.detail-expand.main-details.detail-expand-animate summary.details-summary.main-summary.main-expand-summary,
-            div.sr-content section.details-group-sr details.detail-expand.main-details.detail-expand-animate summary.details-summary.main-summary.main-expand-summary span.main-summary-expand-expanded div h2.number-title-italic,
-            div.sr-content section.details-group-sr details.detail-expand.main-details.detail-expand-animate summary.details-summary.main-summary.main-expand-summary span.main-summary-expand-expanded div h2.summary-title-expand,
-            div.sr-content section.details-group-sr details.detail-awakening.main-details.detail-awakening-animate section.anchor-to-chapter-02 div.anchor-title-container h2.anchor-title.anchor-title-text,
-            div.sr-content section.details-group-sr details.detail-expand.main-details.detail-expand-animate section.anchor-to-chapter-03 div.anchor-title-container h2.anchor-title.number-title-italic,
-            div.sr-content section.details-group-sr details.detail-expand.main-details.detail-expand-animate section.anchor-to-chapter-03 div.anchor-title-container h2.anchor-title.anchor-title-text {
+            div.sr-content
+                section.details-group-sr
+                details.detail-awakening.main-details.detail-awakening-animate
+                section.anchor-to-chapter-02
+                div.anchor-title-container
+                h2.anchor-title.number-title-italic,
+            div.sr-content
+                section.details-group-sr
+                details.detail-awakening.main-details.detail-awakening-animate
+                section.anchor-to-chapter-02
+                div.anchor-title-container,
+            div.sr-content
+                section.details-group-sr
+                details.detail-expand.main-details.detail-expand-animate
+                summary.details-summary.main-summary.main-expand-summary,
+            div.sr-content
+                section.details-group-sr
+                details.detail-expand.main-details.detail-expand-animate
+                summary.details-summary.main-summary.main-expand-summary
+                span.main-summary-expand-expanded
+                div
+                h2.number-title-italic,
+            div.sr-content
+                section.details-group-sr
+                details.detail-expand.main-details.detail-expand-animate
+                summary.details-summary.main-summary.main-expand-summary
+                span.main-summary-expand-expanded
+                div
+                h2.summary-title-expand,
+            div.sr-content
+                section.details-group-sr
+                details.detail-awakening.main-details.detail-awakening-animate
+                section.anchor-to-chapter-02
+                div.anchor-title-container
+                h2.anchor-title.anchor-title-text,
+            div.sr-content
+                section.details-group-sr
+                details.detail-expand.main-details.detail-expand-animate
+                section.anchor-to-chapter-03
+                div.anchor-title-container
+                h2.anchor-title.number-title-italic,
+            div.sr-content
+                section.details-group-sr
+                details.detail-expand.main-details.detail-expand-animate
+                section.anchor-to-chapter-03
+                div.anchor-title-container
+                h2.anchor-title.anchor-title-text {
                 font-size: 26px;
             }
         }
@@ -760,7 +844,8 @@ $titleWhite: #f5f5f5;
                     cursor: pointer;
                     padding: 20px;
                     text-transform: uppercase;
-                    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                    font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                        sans-serif;
                     color: $brown;
                     font-weight: normal;
                     font-size: 26pt;
@@ -911,7 +996,8 @@ $titleWhite: #f5f5f5;
                     background-color: #d8c490;
                     text-transform: uppercase;
                     padding: 30px;
-                    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                    font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                        sans-serif;
                     padding-top: 1px;
                     position: relative;
                     padding-block-end: 40px;
@@ -1322,7 +1408,8 @@ $titleWhite: #f5f5f5;
 
                     h3.live-the-present-title {
                         color: #fff;
-                        font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                        font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                            sans-serif;
                         padding-left: 30px;
                         text-transform: uppercase;
                         font-size: 12px;
@@ -1385,7 +1472,8 @@ $titleWhite: #f5f5f5;
                     .txt-good-choices {
                         color: #fff;
                         padding: 30px;
-                        font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                        font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                            sans-serif;
                         margin-top: 29px;
                         margin-left: 11px;
                         font-size: 14px;
@@ -1455,7 +1543,8 @@ $titleWhite: #f5f5f5;
                             .awakening-details-text {
                                 margin-top: 0;
                                 color: #fff;
-                                font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                                font-family: "Open Sans", Verdana, Geneva,
+                                    Tahoma, sans-serif;
                                 padding: 30px;
                                 padding-top: 0px;
                                 letter-spacing: -0.28px;
@@ -1476,7 +1565,13 @@ $titleWhite: #f5f5f5;
                         justify-content: center;
                         border-top: 1px solid $lightBrown;
                         background: $blue;
-                        background: linear-gradient(180deg, $blue 0%, rgba(30, 23, 163, 1) 80%, $blue 80%, $white 80%);
+                        background: linear-gradient(
+                            180deg,
+                            $blue 0%,
+                            rgba(30, 23, 163, 1) 80%,
+                            $blue 80%,
+                            $white 80%
+                        );
                         padding: 30px;
                     }
 
@@ -1649,7 +1744,8 @@ $titleWhite: #f5f5f5;
                     overflow: hidden;
                     // background-color: #9b7820;
                     text-transform: uppercase;
-                    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                    font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                        sans-serif;
                     will-change: transform, opacity;
 
                     .bg-1 {
@@ -1865,7 +1961,8 @@ $titleWhite: #f5f5f5;
                     .expand-cas-description-desktop {
                         padding-top: 10px;
                         padding: 20px;
-                        font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                        font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                            sans-serif;
                         color: $blue;
                         font-size: 14px;
                         margin-top: 0px;
@@ -1887,11 +1984,12 @@ $titleWhite: #f5f5f5;
                             border-left: solid 2px $blue;
                             color: $blue;
                             font-size: 19.27px;
-                            font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                            font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                                sans-serif;
                             line-height: 25.21px;
                             padding-left: 10px;
                             margin-bottom: 0;
-                            padding-bottom: 0
+                            padding-bottom: 0;
                         }
                     }
                 }
@@ -1997,7 +2095,8 @@ $titleWhite: #f5f5f5;
                         }
                         p.expand-sub-description {
                             color: #fff;
-                            font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                            font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                                sans-serif;
                             padding: 15px 30px;
                             font-size: 14px;
                             margin-top: 0;
@@ -2085,7 +2184,8 @@ $titleWhite: #f5f5f5;
                         border-left: solid 1px #fff;
                         width: 80%;
                         font-size: 19.27px;
-                        font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                        font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                            sans-serif;
                         font-weight: 300;
                         margin-top: 20px;
                         line-height: 25.21px;
@@ -2140,7 +2240,8 @@ $titleWhite: #f5f5f5;
                             padding: 0;
                             padding-bottom: 30px;
                             .expand-change-to-list-item {
-                                font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                                font-family: "Open Sans", Verdana, Geneva,
+                                    Tahoma, sans-serif;
                                 list-style: none;
                                 margin: 15px 30px 0 30px;
                                 border: solid 1px #fff;
@@ -2212,13 +2313,15 @@ $titleWhite: #f5f5f5;
                         padding-left: 10px;
                         font-weight: 300;
                         border-left: solid 3px $blue;
-                        font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                        font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                            sans-serif;
                         line-height: 20px;
                     }
                 }
 
                 .expand-list-health {
-                    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                    font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                        sans-serif;
 
                     .expand-list-health-order {
                         padding: 0;
@@ -2308,19 +2411,24 @@ $titleWhite: #f5f5f5;
                     display: flex;
                     justify-content: center;
                     background: $blue;
-                    background: linear-gradient(180deg, $blue 0%, rgba(30, 23, 163, 1) 68%, $blue 68%, $white 68%);
+                    background: linear-gradient(
+                        180deg,
+                        $blue 0%,
+                        rgba(30, 23, 163, 1) 68%,
+                        $blue 68%,
+                        $white 68%
+                    );
                     padding: 20px 30px;
                     min-height: 400px;
-                    .expand-crown-button-share-container{
+                    .expand-crown-button-share-container {
                         height: 30px;
                         position: relative;
                         top: -33px;
                         text-align: center;
                     }
                     .crown-expand-container {
-                            min-width: 296px;
-                            max-height: 260px;
-
+                        min-width: 296px;
+                        max-height: 260px;
 
                         .crown-expand-flex {
                             @include flexCenter();
@@ -2527,13 +2635,15 @@ $titleWhite: #f5f5f5;
                     border-left: solid 1px #fff;
                     width: 80%;
                     font-size: 19.27px;
-                    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                    font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                        sans-serif;
                     font-weight: 300;
                     line-height: 25px;
                 }
 
                 .planning-introduction-subdescription {
-                    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                    font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                        sans-serif;
                     padding-bottom: 30px !important;
                     padding: 0 30px;
                     line-height: 19px;
@@ -2578,7 +2688,8 @@ $titleWhite: #f5f5f5;
                         color: #fff;
                         font-size: 14pt;
                         padding: 40px 30px;
-                        font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                        font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                            sans-serif;
                     }
 
                     .planning-container-blue-hr,
@@ -2663,7 +2774,7 @@ $titleWhite: #f5f5f5;
 
                             &::marker {
                                 display: none;
-                                content: '';
+                                content: "";
                             }
 
                             &::before {
@@ -2672,9 +2783,9 @@ $titleWhite: #f5f5f5;
                             }
 
                             &::after {
-                                content: '';
+                                content: "";
                                 display: flex;
-                                background-image: url('./assets/icons/arrow-white.png');
+                                background-image: url("./assets/icons/arrow-white.png");
                                 background-size: contain;
                                 width: 40px;
                                 height: 60px;
@@ -2788,7 +2899,8 @@ $titleWhite: #f5f5f5;
                     }
 
                     .planning-cas-description {
-                        font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                        font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                            sans-serif;
                         padding: 0 30px;
                         color: $blue;
                         font-weight: 400;
@@ -2802,7 +2914,8 @@ $titleWhite: #f5f5f5;
                         border-left: solid 2px $blue;
                         color: $blue;
                         font-size: 19.27px;
-                        font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                        font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                            sans-serif;
                         font-weight: 300;
                     }
 
@@ -2872,7 +2985,8 @@ $titleWhite: #f5f5f5;
 
                             .planning-details-text {
                                 margin-top: 20px;
-                                font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                                font-family: "Open Sans", Verdana, Geneva,
+                                    Tahoma, sans-serif;
                                 width: 90%;
                                 font-size: 14px;
                                 padding-left: 0px;
@@ -2947,7 +3061,8 @@ $titleWhite: #f5f5f5;
                         font-weight: 400;
                         color: #fff;
                         text-transform: uppercase;
-                        font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                        font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                            sans-serif;
                         font-size: 15px;
                         padding-top: 20px;
                         padding-left: 30px;
@@ -3007,7 +3122,8 @@ $titleWhite: #f5f5f5;
                         color: $brown;
                         font-size: 15.35px;
                         padding-left: 15px !important;
-                        font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                        font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                            sans-serif;
                         margin-bottom: 35px;
                         line-height: 20px;
                     }
@@ -3087,7 +3203,8 @@ $titleWhite: #f5f5f5;
                             font-weight: bold;
                             padding: 0px 50px;
                             padding-top: 10px;
-                            font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                            font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                                sans-serif;
                         }
 
                         .to-go-further-subtitle-hr {
@@ -3111,7 +3228,8 @@ $titleWhite: #f5f5f5;
 
                             .to-go-further-description {
                                 margin-top: 10px;
-                                font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                                font-family: "Open Sans", Verdana, Geneva,
+                                    Tahoma, sans-serif;
                             }
 
                             border-bottom: solid 2px $blue;
@@ -3165,7 +3283,8 @@ $titleWhite: #f5f5f5;
                     .planning-job-intro-text,
                     .planning-job-description {
                         color: $blue;
-                        font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                        font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                            sans-serif;
                         padding-bottom: 20px;
                         width: 80%;
                         margin-left: 30px;
@@ -3201,7 +3320,8 @@ $titleWhite: #f5f5f5;
 
                         .planning-job-science-subtitle {
                             text-transform: uppercase;
-                            font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                            font-family: "Open Sans", Verdana, Geneva, Tahoma,
+                                sans-serif;
                             padding: 40px 50px;
                             padding-bottom: 0;
                             font-size: 15px;
@@ -3275,7 +3395,8 @@ $titleWhite: #f5f5f5;
                             }
                             .planning-job-summary-description {
                                 color: $blue;
-                                font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+                                font-family: "Open Sans", Verdana, Geneva,
+                                    Tahoma, sans-serif;
                                 padding: 10px 0;
                                 font-size: 14px;
                                 line-height: 19px;
@@ -3394,14 +3515,15 @@ $titleWhite: #f5f5f5;
                         border-bottom: 1px solid #fff;
 
                         .recomendations-summary {
-                            &::marker, &::before {
+                            &::marker,
+                            &::before {
                                 content: "";
                                 display: none;
                             }
 
                             &::after {
                                 content: "";
-                                background-image: url('./assets/icons/arrow-brown-dark.png');
+                                background-image: url("./assets/icons/arrow-brown-dark.png");
                                 width: 40px;
                                 height: 40px;
                                 background-size: cover;
@@ -3702,32 +3824,60 @@ $titleWhite: #f5f5f5;
         // lines responsivity:
 
         @media screen and (min-width: 390px) and (max-width: 415px) {
-            .details-group-sr .detail-expand .expand-context .expand-line-bike-hr {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-line-bike-hr {
                 top: 26px;
             }
         }
 
         @media screen and (min-width: 415px) and (max-width: 430px) {
-            .details-group-sr .detail-expand .expand-context .expand-line-bike-hr {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-line-bike-hr {
                 top: 68px;
             }
         }
 
         @media screen and (min-width: 430px) and (max-width: 450px) {
-            .details-group-sr .detail-expand .expand-context .expand-line-bike-hr {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-line-bike-hr {
                 top: 77px;
             }
         }
 
         @media screen and (min-width: 451px) and (max-width: 550px) {
-            .details-group-sr .detail-expand .expand-context .expand-line-bike-hr {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-line-bike-hr {
                 top: 108px;
             }
 
-            .details-group-sr .detail-awakening .context .context-line .context-line-hr,
-            .details-group-sr .detail-awakening .culture-and-society .cas-line .cas-line-hr,
-            .details-group-sr .detail-awakening .live-the-present h3.live-the-present-title .live-the-present-line,
-            .details-group-sr .detail-expand .expand-culture-and-society .expand-cas-line .expand-cas-line-hr {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .context-line
+                .context-line-hr,
+            .details-group-sr
+                .detail-awakening
+                .culture-and-society
+                .cas-line
+                .cas-line-hr,
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                h3.live-the-present-title
+                .live-the-present-line,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .expand-cas-line
+                .expand-cas-line-hr {
                 top: 30px;
             }
 
@@ -3761,10 +3911,25 @@ $titleWhite: #f5f5f5;
                 .planning-container-science-says
                 .subtitle
                 .planning-container-science-says-hr,
-            .details-group-sr .detail-planning .planning-in-practice .practice-title .practice-title-hr,
-            .details-group-sr .detail-planning .planning-container-blue .subtitle .planning-container-blue-line-hr,
-            .details-group-sr .detail-planning .planning-in-practice .practice-title .practice-title-hr,
-            .details-group-sr .detail-planning .planning-job .planning-job-intro-text-hr,
+            .details-group-sr
+                .detail-planning
+                .planning-in-practice
+                .practice-title
+                .practice-title-hr,
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .subtitle
+                .planning-container-blue-line-hr,
+            .details-group-sr
+                .detail-planning
+                .planning-in-practice
+                .practice-title
+                .practice-title-hr,
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-intro-text-hr,
             .details-group-sr
                 .detail-planning
                 .planning-job
@@ -3793,18 +3958,28 @@ $titleWhite: #f5f5f5;
         }
 
         @media screen and (min-width: 480px) and (max-width: 500px) {
-            .details-group-sr .detail-expand .expand-context .expand-line-bike-hr {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-line-bike-hr {
                 top: 121px;
             }
 
-            .details-group-sr .detail-expand .context .expand-context-line .expand-context-line-hr {
+            .details-group-sr
+                .detail-expand
+                .context
+                .expand-context-line
+                .expand-context-line-hr {
                 top: 13px;
                 left: -72%;
             }
         }
 
         @media screen and (min-width: 500px) and (max-width: 600px) {
-            .details-group-sr .detail-expand .expand-context .expand-line-bike-hr {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-line-bike-hr {
                 opacity: 0;
             }
 
@@ -3814,10 +3989,26 @@ $titleWhite: #f5f5f5;
         }
 
         @media screen and (min-width: 550px) and (max-width: 600px) {
-            .details-group-sr .detail-awakening .context .context-line .context-line-hr,
-            .details-group-sr .detail-awakening .culture-and-society .cas-line .cas-line-hr,
-            .details-group-sr .detail-awakening .live-the-present h3.live-the-present-title .live-the-present-line,
-            .details-group-sr .detail-expand .expand-culture-and-society .expand-cas-line .expand-cas-line-hr {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .context-line
+                .context-line-hr,
+            .details-group-sr
+                .detail-awakening
+                .culture-and-society
+                .cas-line
+                .cas-line-hr,
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                h3.live-the-present-title
+                .live-the-present-line,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .expand-cas-line
+                .expand-cas-line-hr {
                 top: 35px;
             }
 
@@ -3836,10 +4027,25 @@ $titleWhite: #f5f5f5;
                 .planning-container-science-says
                 .subtitle
                 .planning-container-science-says-hr,
-            .details-group-sr .detail-planning .planning-in-practice .practice-title .practice-title-hr,
-            .details-group-sr .detail-planning .planning-container-blue .subtitle .planning-container-blue-line-hr,
-            .details-group-sr .detail-planning .planning-in-practice .practice-title .practice-title-hr,
-            .details-group-sr .detail-planning .planning-job .planning-job-intro-text-hr,
+            .details-group-sr
+                .detail-planning
+                .planning-in-practice
+                .practice-title
+                .practice-title-hr,
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .subtitle
+                .planning-container-blue-line-hr,
+            .details-group-sr
+                .detail-planning
+                .planning-in-practice
+                .practice-title
+                .practice-title-hr,
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-intro-text-hr,
             .details-group-sr
                 .detail-planning
                 .planning-job
@@ -3886,21 +4092,33 @@ $titleWhite: #f5f5f5;
         }
 
         @media screen and (min-width: 425px) and (max-width: 485px) {
-            .details-group-sr .detail-expand .context .expand-context-line .expand-context-line-hr {
+            .details-group-sr
+                .detail-expand
+                .context
+                .expand-context-line
+                .expand-context-line-hr {
                 top: 10px;
                 left: -75%;
             }
         }
 
         @media screen and (min-width: 486px) and (max-width: 570px) {
-            .details-group-sr .detail-expand .context .expand-context-line .expand-context-line-hr {
+            .details-group-sr
+                .detail-expand
+                .context
+                .expand-context-line
+                .expand-context-line-hr {
                 top: 14px;
                 left: -69%;
             }
         }
 
         @media screen and (min-width: 571px) and (max-width: 600px) {
-            .details-group-sr .detail-expand .context .expand-context-line .expand-context-line-hr {
+            .details-group-sr
+                .detail-expand
+                .context
+                .expand-context-line
+                .expand-context-line-hr {
                 top: 16px;
                 left: -68%;
             }
@@ -3908,20 +4126,31 @@ $titleWhite: #f5f5f5;
         // mobile responsivity: (375px ~ 600px)
 
         @media screen and (min-width: 425px) and (max-width: 600px) {
-            .details-group-sr .detail-awakening .culture-and-society .awake-cas-description {
+            .details-group-sr
+                .detail-awakening
+                .culture-and-society
+                .awake-cas-description {
                 margin-top: 51px;
                 font-family: "Open Sans", sans-serif;
             }
         }
 
         @media screen and (min-width: 400px) and (max-width: 440px) {
-            .details-group-sr .detail-expand .expand-culture-and-society .cas-title-container figure.cas-title-figure {
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .cas-title-container
+                figure.cas-title-figure {
                 width: 300px;
             }
         }
 
         @media screen and (min-width: 441px) and (max-width: 480px) {
-            .details-group-sr .detail-expand .expand-culture-and-society .cas-title-container figure.cas-title-figure {
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .cas-title-container
+                figure.cas-title-figure {
                 width: 315px;
             }
             .details-group-sr
@@ -3988,7 +4217,11 @@ $titleWhite: #f5f5f5;
                 width: 100%;
             }
 
-            .details-group-sr .detail-awakening .context .title .longevity-intro-figure {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .title
+                .longevity-intro-figure {
                 left: 65px;
             }
 
@@ -3997,7 +4230,11 @@ $titleWhite: #f5f5f5;
                 top: 890px;
             }
 
-            .details-group-sr .detail-awakening .context .title .longevity-intro-title-text,
+            .details-group-sr
+                .detail-awakening
+                .context
+                .title
+                .longevity-intro-title-text,
             .details-group-sr .detail-awakening .context .longevity-title,
             .details-group-sr
                 .detail-awakening
@@ -4011,9 +4248,20 @@ $titleWhite: #f5f5f5;
                 div.live-the-present-container
                 h2.live-the-present-container-title,
             .details-group-sr .detail-expand .context .title h2.etaism-title,
-            .details-group-sr .detail-expand .expand-culture-and-society .cas-title-container .cas-title,
-            .details-group-sr .detail-expand .expand-to-talk-to-other h2.to-talk-to-other-title,
-            .details-group-sr .detail-expand .expand-context .expand-context-intro .expand-context-intro-text,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .cas-title-container
+                .cas-title,
+            .details-group-sr
+                .detail-expand
+                .expand-to-talk-to-other
+                h2.to-talk-to-other-title,
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-context-intro
+                .expand-context-intro-text,
             .details-group-sr
                 .detail-planning
                 .introduction-to-planning-container
@@ -4029,50 +4277,102 @@ $titleWhite: #f5f5f5;
                 .planning-health-and-welfare
                 .planning-health-introduction
                 .planning-health-title,
-            .details-group-sr .detail-planning .planning-job .planning-job-title-container .planning-job-title {
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-title-container
+                .planning-job-title {
                 font-size: 56px;
             }
 
             .invite-sr .invite-sr-description,
             .details-group-sr .detail-awakening .context .awakening-text,
-            .details-group-sr .detail-awakening .context .life-expectation-list .life-expectation-item,
-            .details-group-sr .detail-awakening .culture-and-society .awake-cas-description,
-            .details-group-sr .detail-awakening .be-pro-age .stairway .stairway-text-container .stairway-text,
-            .details-group-sr .detail-awakening .live-the-present .txt-good-choices,
+            .details-group-sr
+                .detail-awakening
+                .context
+                .life-expectation-list
+                .life-expectation-item,
+            .details-group-sr
+                .detail-awakening
+                .culture-and-society
+                .awake-cas-description,
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .stairway
+                .stairway-text-container
+                .stairway-text,
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                .txt-good-choices,
             .details-group-sr
                 .detail-awakening
                 .live-the-present
                 .awakening-subgroup-details
                 .awakening-details
                 .awakening-details-text,
-            .details-group-sr .detail-expand .context .ageism .ageism-subdescription,
-            .details-group-sr .detail-expand .expand-culture-and-society .expand-cas-description,
-            .details-group-sr .detail-expand .expand-culture-and-society .expand-cas-description-desktop,
+            .details-group-sr
+                .detail-expand
+                .context
+                .ageism
+                .ageism-subdescription,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .expand-cas-description,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .expand-cas-description-desktop,
             .details-group-sr
                 .detail-expand
                 .expand-subgroup-details
                 details.expand-sub-detail
                 p.expand-sub-description,
-            .details-group-sr .detail-expand .expand-glossary-pro-age .expand-glossary-description,
+            .details-group-sr
+                .detail-expand
+                .expand-glossary-pro-age
+                .expand-glossary-description,
             .details-group-sr
                 .detail-expand
                 .expand-list-health
                 .expand-list-health-order
                 .expand-list-health-item
                 .expand-list-health-text,
-            .details-group-sr .detail-planning .planning-introduction-subdescription,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-cas-description,
+            .details-group-sr
+                .detail-planning
+                .planning-introduction-subdescription,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-cas-description,
             .details-group-sr
                 .detail-planning
                 .planning-culture-and-society
                 .planning-details
                 .planning-details-text-container
                 .planning-details-text,
-            .details-group-sr .detail-planning .planning-container-blue .description,
-            .details-group-sr .detail-planning .planning-health-and-welfare .planning-health-description,
-            .details-group-sr .detail-planning .planning-container-blue .description,
-            .details-group-sr .detail-planning .planning-job .planning-job-intro-text,
-            .details-group-sr .detail-planning .planning-job .planning-job-description,
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .description,
+            .details-group-sr
+                .detail-planning
+                .planning-health-and-welfare
+                .planning-health-description,
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .description,
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-intro-text,
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-description,
             .details-group-sr
                 .detail-planning
                 .planning-job
@@ -4092,7 +4392,11 @@ $titleWhite: #f5f5f5;
             }
 
             .details-group-sr .detail-awakening .awake-invite,
-            .details-group-sr .detail-awakening .context .title .longevity-intro-title-text,
+            .details-group-sr
+                .detail-awakening
+                .context
+                .title
+                .longevity-intro-title-text,
             .details-group-sr .detail-awakening .context .context-line,
             .details-group-sr .detail-awakening .context {
                 padding-left: 48px;
@@ -4103,7 +4407,11 @@ $titleWhite: #f5f5f5;
                 justify-content: end;
             }
 
-            .details-group-sr .detail-awakening .context .title .longevity-intro-figure {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .title
+                .longevity-intro-figure {
                 left: 50px;
             }
 
@@ -4148,11 +4456,18 @@ $titleWhite: #f5f5f5;
                 font-size: 84px;
             }
 
-            .details-group-sr .detail-awakening .culture-and-society .awake-cas-description {
+            .details-group-sr
+                .detail-awakening
+                .culture-and-society
+                .awake-cas-description {
                 margin-top: 80px;
             }
 
-            .details-group-sr .detail-awakening .culture-and-society .awake-cas-title .awake-cas-title-figure {
+            .details-group-sr
+                .detail-awakening
+                .culture-and-society
+                .awake-cas-title
+                .awake-cas-title-figure {
                 width: auto;
                 position: relative;
                 top: -70px;
@@ -4165,19 +4480,30 @@ $titleWhite: #f5f5f5;
         }
 
         @media screen and (min-width: 680px) and (max-width: 780px) {
-            .details-group-sr .detail-awakening .culture-and-society .awake-cas-description {
+            .details-group-sr
+                .detail-awakening
+                .culture-and-society
+                .awake-cas-description {
                 margin-top: 170px;
             }
         }
 
         @media screen and (min-width: 830px) and (max-width: 1023px) {
-            .details-group-sr .detail-awakening .context .title .longevity-intro-title-text {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .title
+                .longevity-intro-title-text {
                 margin-right: 400px;
             }
         }
 
         @media screen and (min-width: 601px) and (max-width: 653px) {
-            .details-group-sr .detail-awakening .context .title .longevity-intro-title-text {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .title
+                .longevity-intro-title-text {
                 margin-right: 75px;
             }
         }
@@ -4205,7 +4531,9 @@ $titleWhite: #f5f5f5;
                 padding-bottom: 40px;
             }
 
-            div.sr-content section.introduction-sr div.introduction-sr-title-container.introduction-sr-title-container {
+            div.sr-content
+                section.introduction-sr
+                div.introduction-sr-title-container.introduction-sr-title-container {
                 flex-direction: row;
             }
 
@@ -4218,7 +4546,6 @@ $titleWhite: #f5f5f5;
                 font-size: 28px;
                 line-height: 32px;
                 letter-spacing: -0.56px;
-
             }
 
             .invite-sr .invite-sr-description {
@@ -4227,7 +4554,10 @@ $titleWhite: #f5f5f5;
                 font-weight: lighter;
             }
 
-            div.sr-content section.invite-sr div.invite-sr-text p.invite-sr-description.invite-sr-description-animate {
+            div.sr-content
+                section.invite-sr
+                div.invite-sr-text
+                p.invite-sr-description.invite-sr-description-animate {
                 line-height: 30px;
             }
 
@@ -4266,7 +4596,10 @@ $titleWhite: #f5f5f5;
 
             .details-group-sr .detail-awakening .title .awake-title,
             .details-group-sr .detail-expand .introduction h2.expand-title,
-            .details-group-sr .detail-planning .planning-title h2.planning-title-text {
+            .details-group-sr
+                .detail-planning
+                .planning-title
+                h2.planning-title-text {
                 font-size: 170px;
                 top: 0px;
                 position: relative;
@@ -4298,7 +4631,10 @@ $titleWhite: #f5f5f5;
             }
 
             .invite div.invite-container,
-            .details-group-sr .detail-awakening .awake-invite .awake-invite-figure {
+            .details-group-sr
+                .detail-awakening
+                .awake-invite
+                .awake-invite-figure {
                 width: 215px;
                 display: flex;
                 flex-direction: column;
@@ -4314,7 +4650,11 @@ $titleWhite: #f5f5f5;
             }
 
             .invite div.invite-container button.invite-button,
-            .details-group-sr .detail-awakening .awake-invite .awake-invite-figure .invite-btn-invite {
+            .details-group-sr
+                .detail-awakening
+                .awake-invite
+                .awake-invite-figure
+                .invite-btn-invite {
                 padding: 45px 160px;
                 font-size: 41px;
             }
@@ -4328,16 +4668,28 @@ $titleWhite: #f5f5f5;
             }
 
             .invite div.invite-container button.invite-button img.invite-img,
-            .details-group-sr .detail-awakening .awake-invite .awake-invite-figure .invite-btn-invite .share-logo {
+            .details-group-sr
+                .detail-awakening
+                .awake-invite
+                .awake-invite-figure
+                .invite-btn-invite
+                .share-logo {
                 width: 40px;
                 height: 40px;
             }
 
-            .details-group-sr .detail-planning .planning-job .planning-job-title-container .planning-job-figure {
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-title-container
+                .planning-job-figure {
                 width: 640px;
             }
 
-            .details-group-sr .detail-awakening .awake-invite .invite-gift-ellipse,
+            .details-group-sr
+                .detail-awakening
+                .awake-invite
+                .invite-gift-ellipse,
             .details-group-sr
                 .detail-planning
                 .planning-job
@@ -4358,29 +4710,50 @@ $titleWhite: #f5f5f5;
                 height: 62px;
             }
 
-            .details-group-sr .detail-awakening .be-pro-age .title .be-pro-age-meditation-figure {
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .title
+                .be-pro-age-meditation-figure {
                 width: 300px;
             }
 
-            .details-group-sr .detail-awakening .be-pro-age .stairway .stairway-figure {
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .stairway
+                .stairway-figure {
                 left: -1%;
                 top: 45px;
             }
 
-            .details-group-sr .detail-awakening .live-the-present div.crown .crown-container figure.crown-figure {
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                div.crown
+                .crown-container
+                figure.crown-figure {
                 width: 60%;
                 padding: 5%;
                 margin-left: -9%;
             }
 
-            .details-group-sr .detail-awakening .meditation .meditation-figure-wrapper .meditation-figure {
+            .details-group-sr
+                .detail-awakening
+                .meditation
+                .meditation-figure-wrapper
+                .meditation-figure {
                 position: static;
                 width: 285px;
                 right: -7px;
                 top: 0;
             }
 
-            .details-group-sr .detail-awakening .context .title .longevity-intro-figure {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .title
+                .longevity-intro-figure {
                 width: 70%;
                 left: 120px;
                 top: -50px;
@@ -4390,8 +4763,14 @@ $titleWhite: #f5f5f5;
                 padding: 0;
             }
 
-            .details-group-sr .detail-awakening .live-the-present .txt-good-choices,
-            .details-group-sr .detail-awakening .live-the-present .crown-wrapper,
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                .txt-good-choices,
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                .crown-wrapper,
             .details-group-sr
                 .detail-awakening
                 .live-the-present
@@ -4404,8 +4783,14 @@ $titleWhite: #f5f5f5;
                 .awakening-subgroup-details
                 .awakening-details
                 .awakening-details-text,
-            .details-group-sr .detail-expand .expand-culture-and-society .expand-cas-description,
-            .details-group-sr .detail-expand .expand-culture-and-society .expand-cas-description-desktop,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .expand-cas-description,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .expand-cas-description-desktop,
             .expand-cas-subdescription-container,
             .details-group-sr
                 .detail-expand
@@ -4417,21 +4802,38 @@ $titleWhite: #f5f5f5;
                 .expand-subgroup-details
                 details.expand-sub-detail
                 summary.expand-sub-summary,
-            .details-group-sr .detail-expand .expand-list-health .expand-list-health-order .expand-list-health-item,
+            .details-group-sr
+                .detail-expand
+                .expand-list-health
+                .expand-list-health-order
+                .expand-list-health-item,
             .details-group-sr .detail-expand .crown-expand,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-details,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-cas-description,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-details,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-cas-description,
             .details-group-sr .detail-planning .planning-container-blue .title {
                 padding-left: 100px;
                 padding-right: 100px;
             }
 
-            .details-group-sr .detail-planning .planning-health-and-welfare .planning-health-description {
+            .details-group-sr
+                .detail-planning
+                .planning-health-and-welfare
+                .planning-health-description {
                 margin-left: 110px;
                 margin-right: 110px;
             }
 
-            .details-group-sr .detail-awakening .context .title .longevity-intro-title-text {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .title
+                .longevity-intro-title-text {
                 left: 60px;
             }
 
@@ -4440,19 +4842,31 @@ $titleWhite: #f5f5f5;
                 margin-top: 20px;
             }
 
-            .details-group-sr .detail-awakening .context .longevity .longevity-text {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .longevity
+                .longevity-text {
                 font-size: 60px;
                 margin-left: 90px;
                 margin-top: 30px;
                 margin-bottom: 170px;
             }
 
-            .details-group-sr .detail-awakening .context .longevity .longevity-figure {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .longevity
+                .longevity-figure {
                 width: 580px;
             }
 
             .details-group-sr .detail-awakening .context .awakening-text,
-            .details-group-sr .detail-awakening .context .life-expectation-list .life-expectation-item {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .life-expectation-list
+                .life-expectation-item {
                 line-height: normal;
             }
 
@@ -4464,7 +4878,10 @@ $titleWhite: #f5f5f5;
                 overflow-x: hidden;
             }
 
-            .details-group-sr .detail-awakening .culture-and-society .awake-cas-description {
+            .details-group-sr
+                .detail-awakening
+                .culture-and-society
+                .awake-cas-description {
                 padding-left: 75px;
             }
 
@@ -4486,16 +4903,28 @@ $titleWhite: #f5f5f5;
                 margin-left: 0;
             }
 
-            .details-group-sr .detail-awakening .live-the-present div.live-the-present-container figure.time {
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                div.live-the-present-container
+                figure.time {
                 width: 530px;
             }
 
-            .details-group-sr .detail-awakening .live-the-present div.live-the-present-container figure.time {
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                div.live-the-present-container
+                figure.time {
                 left: 475px;
                 top: -100px;
             }
 
-            .details-group-sr .detail-expand .expand-culture-and-society .cas-title-container .cas-title {
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .cas-title-container
+                .cas-title {
                 margin-top: 120px;
                 line-height: 68px;
             }
@@ -4605,21 +5034,39 @@ $titleWhite: #f5f5f5;
                 top: 180px;
             }
 
-            .details-group-sr .detail-expand .expand-context .expand-context-intro .expand-context-intro-figure img {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-context-intro
+                .expand-context-intro-figure
+                img {
                 width: 520px;
                 height: 520px;
             }
 
-            .details-group-sr .detail-expand .expand-to-talk-to-other h2.to-talk-to-other-title {
+            .details-group-sr
+                .detail-expand
+                .expand-to-talk-to-other
+                h2.to-talk-to-other-title {
                 line-height: 65px;
             }
 
-            .details-group-sr .detail-awakening .live-the-present div.crown .crown-description {
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                div.crown
+                .crown-description {
                 width: 720px;
             }
 
-            .details-group-sr .detail-expand .introduction figure.girl-number-two,
-            .details-group-sr .detail-planning .planning-title figure.planning-title-figure {
+            .details-group-sr
+                .detail-expand
+                .introduction
+                figure.girl-number-two,
+            .details-group-sr
+                .detail-planning
+                .planning-title
+                figure.planning-title-figure {
                 width: 380px;
             }
 
@@ -4637,9 +5084,24 @@ $titleWhite: #f5f5f5;
                 line-height: 110px;
                 left: 10px;
             }
-            .details-group-sr .detail-awakening .live-the-present div.crown .crown-container figure.nutren-logo,
-            .details-group-sr .detail-awakening .be-pro-age .title .be-pro-age-logo-container .be-pro-age-logo-figure,
-            .details-group-sr .detail-awakening .be-pro-age .title .be-pro-age-logo-container .be-pro-age-logo-img {
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                div.crown
+                .crown-container
+                figure.nutren-logo,
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .title
+                .be-pro-age-logo-container
+                .be-pro-age-logo-figure,
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .title
+                .be-pro-age-logo-container
+                .be-pro-age-logo-img {
                 width: 160px;
             }
 
@@ -4650,18 +5112,37 @@ $titleWhite: #f5f5f5;
                 margin-top: 40px;
             }
 
-            .details-group-sr .detail-awakening .live-the-present div.crown .crown-container figure.nutren-logo {
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                div.crown
+                .crown-container
+                figure.nutren-logo {
                 margin-right: 61px;
                 margin-top: 90px;
             }
 
-            .details-group-sr .detail-awakening .be-pro-age .title .be-pro-age-logo-container .be-pro-age-logo-figure,
-            .details-group-sr .detail-awakening .be-pro-age .title .be-pro-age-logo-container .be-pro-age-logo-img {
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .title
+                .be-pro-age-logo-container
+                .be-pro-age-logo-figure,
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .title
+                .be-pro-age-logo-container
+                .be-pro-age-logo-img {
                 display: flex;
                 align-self: flex-start;
             }
 
-            .details-group-sr .detail-awakening .context .life-expectation-list .life-expectation-item,
+            .details-group-sr
+                .detail-awakening
+                .context
+                .life-expectation-list
+                .life-expectation-item,
             .details-group-sr .detail-awakening .context .awakening-text,
             .invite-sr .invite-sr-figure {
                 width: 80%;
@@ -4678,12 +5159,19 @@ $titleWhite: #f5f5f5;
                 left: 60px;
             }
 
-
-            div.sr-content section.details-group-sr details.detail-awakening.main-details.detail-awakening-animate section#context-1.context h5#context-line.context-line-c1 hr.context-line-hr{
+            div.sr-content
+                section.details-group-sr
+                details.detail-awakening.main-details.detail-awakening-animate
+                section#context-1.context
+                h5#context-line.context-line-c1
+                hr.context-line-hr {
                 top: 35px;
                 left: -51%;
             }
-            .details-group-sr .detail-awakening .awake-invite .awake-invite-text {
+            .details-group-sr
+                .detail-awakening
+                .awake-invite
+                .awake-invite-text {
                 line-height: 62px;
             }
 
@@ -4691,14 +5179,23 @@ $titleWhite: #f5f5f5;
                 padding-bottom: 110px;
             }
 
-            .details-group-sr .detail-awakening .be-pro-age .stairway .stairway-figure .stairway-img {
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .stairway
+                .stairway-figure
+                .stairway-img {
                 width: 200px;
                 position: relative;
                 left: -24px;
                 top: -81px;
             }
 
-            .details-group-sr .detail-awakening .be-pro-age .title .be-pro-age-meditation-figure {
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .title
+                .be-pro-age-meditation-figure {
                 position: relative;
                 left: -40px;
                 top: 70px;
@@ -4715,30 +5212,55 @@ $titleWhite: #f5f5f5;
                 margin-bottom: 0;
             }
 
-            .details-group-sr .detail-awakening .be-pro-age .title .be-pro-age-logo-container {
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .title
+                .be-pro-age-logo-container {
                 padding-left: 60px;
                 padding-top: 30px;
             }
 
-            .details-group-sr .detail-awakening .be-pro-age .title .be-pro-age-logo-container .be-pro-age-logo-figure,
-            .details-group-sr .detail-awakening .be-pro-age .title .be-pro-age-logo-container .be-pro-age-logo-img {
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .title
+                .be-pro-age-logo-container
+                .be-pro-age-logo-figure,
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .title
+                .be-pro-age-logo-container
+                .be-pro-age-logo-img {
                 padding-bottom: 70px;
                 display: flex;
                 padding-top: 15px;
             }
 
-            .details-group-sr .detail-planning .planning-introduction-subdescription {
+            .details-group-sr
+                .detail-planning
+                .planning-introduction-subdescription {
                 padding-left: 120px;
                 padding-right: 120px;
                 padding-bottom: 40px;
             }
 
-            .details-group-sr .detail-awakening .be-pro-age .title .be-pro-age-logo-container .be-pro-age-logo-text {
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .title
+                .be-pro-age-logo-container
+                .be-pro-age-logo-text {
                 position: relative;
                 top: -120px;
             }
 
-            .details-group-sr .detail-expand .expand-culture-and-society .cas-title-container figure.cas-title-figure {
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .cas-title-container
+                figure.cas-title-figure {
                 position: relative;
                 left: 200px;
                 top: -50px;
@@ -4746,22 +5268,35 @@ $titleWhite: #f5f5f5;
                 width: 640px !important;
             }
 
-            .details-group-sr .detail-expand .expand-to-talk-to-other h2.to-talk-to-other-title {
+            .details-group-sr
+                .detail-expand
+                .expand-to-talk-to-other
+                h2.to-talk-to-other-title {
                 padding-left: 200px;
             }
 
-            .details-group-sr .detail-expand .context .title .etaism-meditation-figure {
+            .details-group-sr
+                .detail-expand
+                .context
+                .title
+                .etaism-meditation-figure {
                 width: 560px;
             }
 
-            .details-group-sr .detail-expand .expand-context .expand-context-description,
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-context-description,
             .details-group-sr
                 .detail-expand
                 .expand-context
                 .expand-change-to
                 .expand-change-to-list
                 .expand-change-to-list-item,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-cas-subdescription,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-cas-subdescription,
             .details-group-sr .detail-planning .planning-container-blue .box {
                 margin-left: 90px;
             }
@@ -4772,21 +5307,35 @@ $titleWhite: #f5f5f5;
                 .expand-change-to
                 .expand-change-to-list
                 .expand-change-to-list-item,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-cas-subdescription,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-cas-subdescription,
             .details-group-sr .detail-planning .planning-container-blue .box {
                 margin-right: 90px;
                 margin-bottom: 20px;
             }
 
-            .details-group-sr .detail-expand .context .title .etaism-meditation-figure .etaism-meditation-img {
+            .details-group-sr
+                .detail-expand
+                .context
+                .title
+                .etaism-meditation-figure
+                .etaism-meditation-img {
                 left: 80px;
                 top: 25px;
                 width: 100%;
                 max-width: 100%;
             }
 
-            .details-group-sr .detail-planning .planning-job .planning-job-intro-text,
-            .details-group-sr .detail-planning .planning-job .planning-job-description {
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-intro-text,
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-description {
                 margin-bottom: 40px;
                 margin-left: 0;
                 padding-left: 105px;
@@ -4796,11 +5345,17 @@ $titleWhite: #f5f5f5;
                 padding-bottom: 60px;
             }
 
-            .details-group-sr .detail-planning .planning-container-blue .division {
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .division {
                 padding-top: 30px;
             }
 
-            .details-group-sr .detail-planning .planning-job .planning-job-intro-text {
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-intro-text {
                 padding-left: 110px;
             }
 
@@ -4834,7 +5389,10 @@ $titleWhite: #f5f5f5;
                 position: relative;
             }
 
-            .details-group-sr .detail-planning .planning-health-and-welfare .planning-health-description {
+            .details-group-sr
+                .detail-planning
+                .planning-health-and-welfare
+                .planning-health-description {
                 line-height: 60px;
                 font-size: 48px;
             }
@@ -4919,19 +5477,34 @@ $titleWhite: #f5f5f5;
                 top: 61px;
             }
 
-            .page-guiaproidade .container .details-group-sr .detail-expand .crown-expand .crown-expand-container {
+            .page-guiaproidade
+                .container
+                .details-group-sr
+                .detail-expand
+                .crown-expand
+                .crown-expand-container {
                 border: solid 10px $brown;
             }
 
-            .details-group-sr .detail-expand .expand-context .notime-x-everytime .time-text {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .notime-x-everytime
+                .time-text {
                 padding-left: 55px;
                 padding-right: 55px;
             }
-            .details-group-sr .detail-expand .crown-expand .crown-expand-container .crown-description {
+            .details-group-sr
+                .detail-expand
+                .crown-expand
+                .crown-expand-container
+                .crown-description {
                 font-size: 58px;
             }
 
-            .planning-slide-numbers .planning-slide-numbers-list .planning-slide-numbers-job-item {
+            .planning-slide-numbers
+                .planning-slide-numbers-list
+                .planning-slide-numbers-job-item {
                 font-size: 42px !important;
                 margin-right: 30px;
                 padding: 10px 30px !important;
@@ -4943,16 +5516,30 @@ $titleWhite: #f5f5f5;
             }
 
             .details-group-sr .detail-expand .context .ageism .ageism-title,
-            .details-group-sr .detail-expand .context .ageism .ageism-description,
-            .details-group-sr .detail-expand .expand-glossary-pro-age .expand-glossary-description {
+            .details-group-sr
+                .detail-expand
+                .context
+                .ageism
+                .ageism-description,
+            .details-group-sr
+                .detail-expand
+                .expand-glossary-pro-age
+                .expand-glossary-description {
                 margin-left: 70px;
             }
 
-            .details-group-sr .detail-expand .expand-glossary-pro-age .expand-glossary-description {
+            .details-group-sr
+                .detail-expand
+                .expand-glossary-pro-age
+                .expand-glossary-description {
                 margin-left: 70px;
             }
 
-            .details-group-sr .detail-expand .context .ageism .ageism-subdescription {
+            .details-group-sr
+                .detail-expand
+                .context
+                .ageism
+                .ageism-subdescription {
                 margin-right: 70px;
                 padding-left: 70px;
             }
@@ -4965,26 +5552,65 @@ $titleWhite: #f5f5f5;
                 padding-left: 70px;
             }
 
-            .details-group-sr .detail-expand .expand-culture-and-society .cas-title-container .cas-title {
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .cas-title-container
+                .cas-title {
                 left: 90px;
             }
 
             .details-group-sr .detail-awakening .context .context-line,
             .details-group-sr .detail-awakening .culture-and-society .cas-line,
-            .details-group-sr .detail-awakening .live-the-present h3.live-the-present-title,
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                h3.live-the-present-title,
             .details-group-sr .detail-expand .context .expand-context-line,
             .details-group-sr .detail-expand .context .expand-context-line,
             .details-group-sr .detail-expand .expand-context .expand-line-bike,
-            .details-group-sr .detail-planning .introduction-to-planning-container .introduction-to-planning-line,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-culture-and-society-line,
-            .details-group-sr .detail-planning .planning-container-science-says .subtitle,
-            .details-group-sr .detail-planning .planning-in-practice .practice-title,
-            .details-group-sr .detail-planning .planning-health-and-welfare .planning-container-blue .subtitle,
-            .details-group-sr .detail-planning .planning-in-practice .practice-title,
-            .details-group-sr .detail-planning .planning-job .planning-job-science .planning-job-science-subtitle,
-            .details-group-sr .detail-planning .planning-in-practice .practice-title,
-            .details-group-sr .detail-planning .planning-container-blue .subtitle,
-            .details-group-sr .detail-expand .expand-culture-and-society .expand-cas-line {
+            .details-group-sr
+                .detail-planning
+                .introduction-to-planning-container
+                .introduction-to-planning-line,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-culture-and-society-line,
+            .details-group-sr
+                .detail-planning
+                .planning-container-science-says
+                .subtitle,
+            .details-group-sr
+                .detail-planning
+                .planning-in-practice
+                .practice-title,
+            .details-group-sr
+                .detail-planning
+                .planning-health-and-welfare
+                .planning-container-blue
+                .subtitle,
+            .details-group-sr
+                .detail-planning
+                .planning-in-practice
+                .practice-title,
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-science
+                .planning-job-science-subtitle,
+            .details-group-sr
+                .detail-planning
+                .planning-in-practice
+                .practice-title,
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .subtitle,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .expand-cas-line {
                 font-size: 29.76px !important;
                 padding-left: 90px;
                 padding-top: 30px;
@@ -4992,14 +5618,24 @@ $titleWhite: #f5f5f5;
                 top: -15px;
             }
 
-            .details-group-sr .detail-awakening .context .life-expectation-list .life-expectation-item,
-            .details-group-sr .detail-awakening .culture-and-society .awake-cas-description,
+            .details-group-sr
+                .detail-awakening
+                .context
+                .life-expectation-list
+                .life-expectation-item,
+            .details-group-sr
+                .detail-awakening
+                .culture-and-society
+                .awake-cas-description,
             .details-group-sr
                 .detail-awakening
                 .live-the-present
                 div.live-the-present-container
                 h2.live-the-present-container-title,
-            .details-group-sr .detail-awakening .live-the-present .txt-good-choices,
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                .txt-good-choices,
             .details-group-sr
                 .detail-awakening
                 .live-the-present
@@ -5014,10 +5650,19 @@ $titleWhite: #f5f5f5;
                 .awakening-subgroup-details
                 .awakening-details
                 .awakening-details-text,
-            .details-group-sr .detail-awakening .live-the-present .crown-wrapper,
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                .crown-wrapper,
             .details-group-sr .detail-awakening .life-phases .life-phases-text,
-            .details-group-sr .detail-expand .expand-culture-and-society .expand-cas-description,
-            .details-group-sr .detail-expand .expand-culture-and-society .expand-cas-description-desktop,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .expand-cas-description,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .expand-cas-description-desktop,
             .expand-cas-subdescription-container,
             .details-group-sr
                 .detail-expand
@@ -5029,20 +5674,40 @@ $titleWhite: #f5f5f5;
                 .expand-subgroup-details
                 details.expand-sub-detail
                 p.expand-sub-description,
-            .details-group-sr .detail-expand .expand-list-health .expand-list-health-order .expand-list-health-item,
+            .details-group-sr
+                .detail-expand
+                .expand-list-health
+                .expand-list-health-order
+                .expand-list-health-item,
             .details-group-sr .detail-expand .crown-expand,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-details,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-cas-description,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-details,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-cas-description,
             .details-group-sr .detail-planning .planning-container-blue .title,
             .planning-slide-numbers .planning-slide-message-list,
-            .details-group-sr .detail-planning .planning-job .planning-job-science .planning-job-details {
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-science
+                .planning-job-details {
                 padding-left: 75px;
                 padding-top: 0;
                 top: 180px;
             }
 
-            .details-group-sr .detail-awakening .live-the-present .txt-good-choices,
-            .details-group-sr .detail-awakening .live-the-present .crown-wrapper,
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                .txt-good-choices,
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                .crown-wrapper,
             .details-group-sr
                 .detail-awakening
                 .live-the-present
@@ -5055,8 +5720,14 @@ $titleWhite: #f5f5f5;
                 .awakening-subgroup-details
                 .awakening-details
                 .awakening-details-text,
-            .details-group-sr .detail-expand .expand-culture-and-society .expand-cas-description,
-            .details-group-sr .detail-expand .expand-culture-and-society .expand-cas-description-desktop,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .expand-cas-description,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .expand-cas-description-desktop,
             .expand-cas-subdescription-container,
             .details-group-sr
                 .detail-expand
@@ -5068,17 +5739,35 @@ $titleWhite: #f5f5f5;
                 .expand-subgroup-details
                 details.expand-sub-detail
                 summary.expand-sub-summary,
-            .details-group-sr .detail-expand .expand-list-health .expand-list-health-order .expand-list-health-item,
+            .details-group-sr
+                .detail-expand
+                .expand-list-health
+                .expand-list-health-order
+                .expand-list-health-item,
             .details-group-sr .detail-expand .crown-expand,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-details,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-cas-description,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-details,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-cas-description,
             .details-group-sr .detail-planning .planning-container-blue .title,
             .planning-slide-numbers .planning-slide-message-list,
-            .details-group-sr .detail-planning .planning-job .planning-job-science .planning-job-details {
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-science
+                .planning-job-details {
                 padding-right: 90px;
             }
 
-            .details-group-sr .detail-awakening .context .title .longevity-intro-title-text,
+            .details-group-sr
+                .detail-awakening
+                .context
+                .title
+                .longevity-intro-title-text,
             .details-group-sr .detail-awakening .context .longevity-title,
             .details-group-sr
                 .detail-awakening
@@ -5086,9 +5775,20 @@ $titleWhite: #f5f5f5;
                 div.live-the-present-container
                 h2.live-the-present-container-title,
             .details-group-sr .detail-expand .context .title h2.etaism-title,
-            .details-group-sr .detail-expand .expand-culture-and-society .cas-title-container .cas-title,
-            .details-group-sr .detail-expand .expand-to-talk-to-other h2.to-talk-to-other-title,
-            .details-group-sr .detail-expand .expand-context .expand-context-intro .expand-context-intro-text,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .cas-title-container
+                .cas-title,
+            .details-group-sr
+                .detail-expand
+                .expand-to-talk-to-other
+                h2.to-talk-to-other-title,
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-context-intro
+                .expand-context-intro-text,
             .details-group-sr
                 .detail-planning
                 .introduction-to-planning-container
@@ -5104,7 +5804,11 @@ $titleWhite: #f5f5f5;
                 .planning-health-and-welfare
                 .planning-health-introduction
                 .planning-health-title,
-            .details-group-sr .detail-planning .planning-job .planning-job-title-container .planning-job-title,
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-title-container
+                .planning-job-title,
             .details-group-sr
                 .detail-awakening
                 .live-the-present
@@ -5115,11 +5819,26 @@ $titleWhite: #f5f5f5;
                 line-height: 100px;
             }
 
-            .details-group-sr .detail-awakening .culture-and-society .awake-cas-description,
+            .details-group-sr
+                .detail-awakening
+                .culture-and-society
+                .awake-cas-description,
             .details-group-sr .detail-awakening .context .awakening-text,
-            .details-group-sr .detail-awakening .context .life-expectation-list .life-expectation-item,
-            .details-group-sr .detail-awakening .be-pro-age .stairway .stairway-text-container .stairway-text,
-            .details-group-sr .detail-awakening .live-the-present .txt-good-choices,
+            .details-group-sr
+                .detail-awakening
+                .context
+                .life-expectation-list
+                .life-expectation-item,
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .stairway
+                .stairway-text-container
+                .stairway-text,
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                .txt-good-choices,
             .details-group-sr
                 .detail-awakening
                 .live-the-present
@@ -5131,14 +5850,23 @@ $titleWhite: #f5f5f5;
                 .context
                 .ageism
                 .ageism-subdescription,
-            .details-group-sr .detail-expand .expand-culture-and-society .expand-cas-description,
-            .details-group-sr .detail-expand .expand-culture-and-society .expand-cas-description-desktop,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .expand-cas-description,
+            .details-group-sr
+                .detail-expand
+                .expand-culture-and-society
+                .expand-cas-description-desktop,
             .details-group-sr
                 .detail-expand
                 .expand-subgroup-details
                 details.expand-sub-detail
                 p.expand-sub-description,
-            .details-group-sr .detail-expand .expand-context .expand-context-description,
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-context-description,
             .details-group-sr
                 .detail-expand
                 .expand-context
@@ -5149,7 +5877,10 @@ $titleWhite: #f5f5f5;
                 .expand-context
                 .notime-x-everytime
                 .time-text,
-            .details-group-sr .detail-expand .expand-glossary-pro-age .expand-glossary-description,
+            .details-group-sr
+                .detail-expand
+                .expand-glossary-pro-age
+                .expand-glossary-description,
             .details-group-sr
                 .detail-expand
                 .expand-context
@@ -5178,32 +5909,60 @@ $titleWhite: #f5f5f5;
                 .awakening-subgroup-details
                 .awakening-details
                 .awakening-details-text,
-            .details-group-sr .detail-expand .context .ageism .ageism-subdescription,
+            .details-group-sr
+                .detail-expand
+                .context
+                .ageism
+                .ageism-subdescription,
             .details-group-sr
                 .detail-expand
                 .expand-culture-and-society
                 .expand-cas-subdescription-container
                 .expand-cas-subdescription,
-            .details-group-sr .detail-planning .planning-introduction-subdescription,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-cas-description,
+            .details-group-sr
+                .detail-planning
+                .planning-introduction-subdescription,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-cas-description,
             .details-group-sr
                 .detail-planning
                 .planning-culture-and-society
                 .planning-details
                 .planning-details-text-container
                 .planning-details-text,
-            .planning-slide-numbers .planning-slide-message-list .planning-slide-message-item,
-            .details-group-sr .detail-planning .planning-container-blue .description,
-            .details-group-sr .detail-planning .planning-job .planning-job-intro-text,
-            .details-group-sr .detail-planning .planning-job .planning-job-description,
+            .planning-slide-numbers
+                .planning-slide-message-list
+                .planning-slide-message-item,
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .description,
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-intro-text,
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-description,
             .details-group-sr
                 .detail-planning
                 .planning-job
                 .planning-job-science
                 .planning-job-details
                 .planning-job-summary-description,
-            .details-group-sr .detail-planning .planning-container-blue .box .box-text,
-            .details-group-sr .detail-awakening .live-the-present div.crown .btnCrown {
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .box
+                .box-text,
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                div.crown
+                .btnCrown {
                 font-size: 36px !important;
             }
 
@@ -5216,17 +5975,33 @@ $titleWhite: #f5f5f5;
                 position: relative;
             }
 
-            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.planning-in-practice div.planning-slide-numbers ol.planning-slide-message-list span.planning-slide-message li.planning-slide-message-item {
+            div.sr-content
+                section.details-group-sr
+                details.detail-planning.main-details.detail-planning-animate
+                section.planning-in-practice
+                div.planning-slide-numbers
+                ol.planning-slide-message-list
+                span.planning-slide-message
+                li.planning-slide-message-item {
                 margin-top: 120px;
             }
 
-            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.planning-in-practice div.planning-container-blue {
+            div.sr-content
+                section.details-group-sr
+                details.detail-planning.main-details.detail-planning-animate
+                section.planning-in-practice
+                div.planning-container-blue {
                 margin-top: 125px;
-
             }
 
-            .details-group-sr .detail-awakening .meditation .meditation-title-text,
-            .details-group-sr .detail-awakening .meditation .meditation-title-text-desktop,
+            .details-group-sr
+                .detail-awakening
+                .meditation
+                .meditation-title-text,
+            .details-group-sr
+                .detail-awakening
+                .meditation
+                .meditation-title-text-desktop,
             .details-group-sr .detail-awakening .life-phases .life-phases-text,
             .details-group-sr
                 .detail-awakening
@@ -5235,7 +6010,11 @@ $titleWhite: #f5f5f5;
                 .awakening-details
                 .awakening-summary,
             .invite .invite-text,
-            .details-group-sr .detail-expand .context .ageism .ageism-description,
+            .details-group-sr
+                .detail-expand
+                .context
+                .ageism
+                .ageism-description,
             .details-group-sr
                 .detail-expand
                 .expand-culture-and-society
@@ -5252,25 +6031,63 @@ $titleWhite: #f5f5f5;
                 .expand-list-health-order
                 .expand-list-health-item
                 h2.expand-list-health-title,
-            .details-group-sr .detail-expand .expand-motivacional-phrase .expand-motivacional-phrase-text,
-            .details-group-sr .detail-awakening .live-the-present div.crown .crown-description,
-            .details-group-sr .detail-planning .planning-introduction-description,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-cas-subdescription,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-details .planning-summary,
+            .details-group-sr
+                .detail-expand
+                .expand-motivacional-phrase
+                .expand-motivacional-phrase-text,
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                div.crown
+                .crown-description,
+            .details-group-sr
+                .detail-planning
+                .planning-introduction-description,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-cas-subdescription,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-details
+                .planning-summary,
             .details-group-sr .detail-planning .planning-container-blue .title,
-            .details-group-sr .detail-planning .planning-job .planning-job-science .planning-job-details,
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-science
+                .planning-job-details,
             .invite .invite-text-upper,
             .planning-job-summary .planning-job-summary-title {
                 font-size: 56px;
             }
 
             .details-group-sr .detail-expand .context .ageism .ageism-title,
-            .details-group-sr .detail-expand .expand-context .notime-x-everytime .time-text,
-            .details-group-sr .detail-expand .expand-glossary-pro-age .expand-glossary-title,
-            .details-group-sr .detail-awakening .awake-invite .awake-invite-text,
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .notime-x-everytime
+                .time-text,
+            .details-group-sr
+                .detail-expand
+                .expand-glossary-pro-age
+                .expand-glossary-title,
+            .details-group-sr
+                .detail-awakening
+                .awake-invite
+                .awake-invite-text,
             .invite .invite-text,
-            .details-group-sr .detail-awakening .be-pro-age .title .be-pro-age-logo-container .be-pro-age-logo-text,
-            .details-group-sr .detail-expand .expand-motivacional-phrase .expand-motivacional-phrase-text {
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .title
+                .be-pro-age-logo-container
+                .be-pro-age-logo-text,
+            .details-group-sr
+                .detail-expand
+                .expand-motivacional-phrase
+                .expand-motivacional-phrase-text {
                 font-size: 80px !important;
                 line-height: 80px;
             }
@@ -5280,47 +6097,81 @@ $titleWhite: #f5f5f5;
                 padding-right: 125px;
             }
 
-            .details-group-sr .detail-expand .expand-context .notime-x-everytime .time-text-01 {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .notime-x-everytime
+                .time-text-01 {
                 position: relative;
                 left: 50px;
                 top: 50px;
             }
 
-            .details-group-sr .detail-expand .expand-context .notime-x-everytime .time-text-03 {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .notime-x-everytime
+                .time-text-03 {
                 position: relative;
                 right: 260px;
                 top: -50px;
             }
 
-            .details-group-sr .detail-expand .expand-glossary-pro-age .expand-glossary-description {
+            .details-group-sr
+                .detail-expand
+                .expand-glossary-pro-age
+                .expand-glossary-description {
                 font-size: 28px;
                 font-weight: 300;
                 line-height: 60px;
             }
 
-            .introduction-sr .introduction-sr-title-container .introduction-sr-description {
+            .introduction-sr
+                .introduction-sr-title-container
+                .introduction-sr-description {
                 margin-left: 0px;
                 padding-left: 30px;
                 line-height: 30px;
-
             }
 
-            .introduction-sr .introduction-sr-title-container .introduction-sr-title {
+            .introduction-sr
+                .introduction-sr-title-container
+                .introduction-sr-title {
                 font-size: 136px;
                 letter-spacing: -5.45px;
                 line-height: 121.07px;
             }
 
-            .details-group-sr .detail-planning .introduction-to-planning-container .introduction-to-planning-line,
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-culture-and-society-line,
-            .details-group-sr .detail-planning .planning-in-practice .practice-title,
-            .details-group-sr .detail-planning .planning-container-blue .subtitle,
-            .details-group-sr .detail-planning .planning-job .planning-job-science .planning-job-science-subtitle {
+            .details-group-sr
+                .detail-planning
+                .introduction-to-planning-container
+                .introduction-to-planning-line,
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-culture-and-society-line,
+            .details-group-sr
+                .detail-planning
+                .planning-in-practice
+                .practice-title,
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .subtitle,
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-science
+                .planning-job-science-subtitle {
                 position: relative;
                 top: 50px;
             }
 
-            .details-group-sr .detail-planning .planning-job .planning-job-science .planning-job-details {
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-science
+                .planning-job-details {
                 padding-top: 40px;
             }
 
@@ -5422,7 +6273,6 @@ $titleWhite: #f5f5f5;
                 font-weight: 400;
                 padding-block-end: 70px;
                 padding-top: 75px;
-
             }
 
             div.sr-content
@@ -5436,11 +6286,18 @@ $titleWhite: #f5f5f5;
             }
 
             .details-group-sr .detail-awakening .be-pro-age,
-            .page-guiaproidade .container .details-group-sr .detail-expand .crown-expand .crown-expand-container {
+            .page-guiaproidade
+                .container
+                .details-group-sr
+                .detail-expand
+                .crown-expand
+                .crown-expand-container {
                 border: solid 10px #9b7820;
             }
 
-            .planning-slide-numbers .planning-slide-numbers-list .planning-slide-numbers-item {
+            .planning-slide-numbers
+                .planning-slide-numbers-list
+                .planning-slide-numbers-item {
                 font-size: 57px;
                 padding: 8px 34px;
                 margin-left: 15px;
@@ -5459,7 +6316,10 @@ $titleWhite: #f5f5f5;
                 margin-block-start: 135px;
             }
 
-            .details-group-sr .detail-planning .planning-container-blue .planning-container-blue-hr,
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .planning-container-blue-hr,
             .page-guiaproidade
                 .container
                 .details-group-sr
@@ -5479,7 +6339,11 @@ $titleWhite: #f5f5f5;
                 padding-top: 35px;
                 width: 180px;
             }
-            .details-group-sr .detail-awakening .culture-and-society .awake-cas-title .awake-cas-title-figure {
+            .details-group-sr
+                .detail-awakening
+                .culture-and-society
+                .awake-cas-title
+                .awake-cas-title-figure {
                 z-index: 1;
                 width: 50%;
                 height: 233px;
@@ -5498,16 +6362,24 @@ $titleWhite: #f5f5f5;
                 width: 100%;
             }
 
-            .details-group-sr .detail-expand .expand-to-talk-to-other figure.talk-flower-figure {
+            .details-group-sr
+                .detail-expand
+                .expand-to-talk-to-other
+                figure.talk-flower-figure {
                 width: 460px;
             }
 
-            .details-group-sr .detail-awakening .be-pro-age .stairway .stairway-text-container .stairway-text {
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .stairway
+                .stairway-text-container
+                .stairway-text {
                 font-size: 40px !important;
                 line-height: 38px;
                 position: relative;
                 margin-left: 75px;
-                top: -60px;
+                top: -110px;
             }
 
             .details-group-sr .detail-awakening .be-pro-age {
@@ -5515,11 +6387,17 @@ $titleWhite: #f5f5f5;
                 width: 80%;
             }
 
-            .details-group-sr .detail-awakening .meditation .meditation-title-text {
+            .details-group-sr
+                .detail-awakening
+                .meditation
+                .meditation-title-text {
                 display: none;
             }
 
-            .details-group-sr .detail-awakening .meditation .meditation-title-text-desktop {
+            .details-group-sr
+                .detail-awakening
+                .meditation
+                .meditation-title-text-desktop {
                 display: block;
                 width: 70%;
             }
@@ -5527,7 +6405,7 @@ $titleWhite: #f5f5f5;
             .details-group-sr .detail-awakening .be-pro-age .stairwayButton {
                 font-size: 24px;
                 padding: 40px 120px;
-                top: -80px;
+                top: -100px;
             }
 
             div.sr-content
@@ -5556,20 +6434,36 @@ $titleWhite: #f5f5f5;
                 font-size: 29.76px !important;
             }
 
-            .details-group-sr .detail-awakening .be-pro-age .title .be-pro-age-logo-container .be-pro-age-logo-text {
+            .details-group-sr
+                .detail-awakening
+                .be-pro-age
+                .title
+                .be-pro-age-logo-container
+                .be-pro-age-logo-text {
                 line-height: 78px;
             }
 
-            .details-group-sr .detail-awakening .context .life-expectation-list {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .life-expectation-list {
                 top: -160px;
                 position: relative;
             }
 
-            .details-group-sr .detail-awakening .context .life-expectation-list .life-expectation-item {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .life-expectation-list
+                .life-expectation-item {
                 padding-bottom: 0;
             }
 
-            .details-group-sr .detail-awakening .live-the-present div.crown .btnCrown {
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                div.crown
+                .btnCrown {
                 padding: 40px 180px;
                 position: relative;
                 top: 17px;
@@ -5590,7 +6484,11 @@ $titleWhite: #f5f5f5;
                 }
             }
 
-            .details-group-sr .detail-expand .context .ageism .ageism-description {
+            .details-group-sr
+                .detail-expand
+                .context
+                .ageism
+                .ageism-description {
                 line-height: 64.5px;
             }
 
@@ -5598,12 +6496,18 @@ $titleWhite: #f5f5f5;
                 margin-top: 300px;
             }
 
-            .details-group-sr .detail-expand .expand-glossary-pro-age .expand-glossary-title {
+            .details-group-sr
+                .detail-expand
+                .expand-glossary-pro-age
+                .expand-glossary-title {
                 text-align: left;
                 padding-left: 60px;
             }
 
-            .details-group-sr .detail-awakening .live-the-present .txt-good-choices {
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                .txt-good-choices {
                 margin-top: 40px;
                 height: 270px;
                 top: 70px;
@@ -5615,7 +6519,10 @@ $titleWhite: #f5f5f5;
                 width: 35%;
             }
 
-            .details-group-sr .detail-planning .planning-container-science-says .subtitle {
+            .details-group-sr
+                .detail-planning
+                .planning-container-science-says
+                .subtitle {
                 padding-left: 50px;
             }
 
@@ -5635,7 +6542,6 @@ $titleWhite: #f5f5f5;
                 font-size: 98px;
                 margin-bottom: 20px;
                 line-height: 103px;
-
             }
 
             div.sr-content
@@ -5666,22 +6572,34 @@ $titleWhite: #f5f5f5;
                 padding-block-start: 30px;
             }
 
-            .planning-slide-numbers .planning-slide-message-list .planning-slide-message-item {
+            .planning-slide-numbers
+                .planning-slide-message-list
+                .planning-slide-message-item {
                 padding-left: 35px;
                 padding-right: 35px;
             }
 
-            .details-group-sr .detail-expand .expand-list-health .expand-list-health-order .expand-list-health-item {
+            .details-group-sr
+                .detail-expand
+                .expand-list-health
+                .expand-list-health-order
+                .expand-list-health-item {
                 padding-top: 30px;
                 padding-bottom: 30px;
             }
 
-            .details-group-sr .detail-expand .expand-motivacional-phrase .expand-motivacional-phrase-text {
+            .details-group-sr
+                .detail-expand
+                .expand-motivacional-phrase
+                .expand-motivacional-phrase-text {
                 padding: 50px 90px;
                 line-height: 101px;
             }
 
-            .details-group-sr .detail-planning .planning-container-blue .description {
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .description {
                 padding-left: 100px;
                 padding-right: 100px;
                 line-height: 40px;
@@ -5769,7 +6687,6 @@ $titleWhite: #f5f5f5;
                 li.planning-slide-message-item {
                 line-height: 52px;
                 margin-block-start: 120px;
-
             }
 
             div.sr-content
@@ -5803,13 +6720,21 @@ $titleWhite: #f5f5f5;
                 padding-top: 40px;
             }
 
-            .details-group-sr .detail-planning .planning-health-and-welfare .planning-container-blue .subtitle {
+            .details-group-sr
+                .detail-planning
+                .planning-health-and-welfare
+                .planning-container-blue
+                .subtitle {
                 padding-top: 30px;
                 top: 30px;
                 padding-left: 75px;
             }
 
-            .details-group-sr .detail-planning .planning-health-and-welfare .planning-container-blue .subtitle::before {
+            .details-group-sr
+                .detail-planning
+                .planning-health-and-welfare
+                .planning-container-blue
+                .subtitle::before {
                 left: -340px;
             }
 
@@ -5824,7 +6749,11 @@ $titleWhite: #f5f5f5;
                 height: 640px;
             }
 
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-details .planning-summary {
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-details
+                .planning-summary {
                 font-size: 58px;
                 line-height: 77px;
                 width: auto;
@@ -5846,13 +6775,18 @@ $titleWhite: #f5f5f5;
                 height: 600px;
             }
 
-            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.continue div.continue-container-title h2.continue-title {
+            div.sr-content
+                section.details-group-sr
+                details.detail-planning.main-details.detail-planning-animate
+                section.continue
+                div.continue-container-title
+                h2.continue-title {
                 position: relative;
                 font-size: 130px;
                 z-index: 2;
                 margin-left: 10px;
                 color: #ece9e2;
-                font-family: "Open Sans",serif;
+                font-family: "Open Sans", serif;
                 text-transform: uppercase;
                 font-weight: 400;
                 letter-spacing: -5.6px;
@@ -5869,7 +6803,10 @@ $titleWhite: #f5f5f5;
                 line-height: 52px;
             }
 
-            .details-group-sr .detail-planning .pdf-section .download-pdf-button {
+            .details-group-sr
+                .detail-planning
+                .pdf-section
+                .download-pdf-button {
                 width: 360px;
                 font-size: 28px;
                 height: 60px;
@@ -5884,21 +6821,41 @@ $titleWhite: #f5f5f5;
                 // margin-top
             }
 
-            div.sr-content section.details-group-sr details.detail-expand.main-details.detail-expand-animate section#context-2.context div.ageism div#stair_etarism-1.stair_etarism {
+            div.sr-content
+                section.details-group-sr
+                details.detail-expand.main-details.detail-expand-animate
+                section#context-2.context
+                div.ageism
+                div#stair_etarism-1.stair_etarism {
                 width: 254px;
                 left: 906px;
-top: 300px;
+                top: 300px;
             }
 
-            div.sr-content section.details-group-sr details.detail-expand.main-details.detail-expand-animate section.expand-context div.expand-context-intro div.expand-context-title h2.expand-context-intro-text {
+            div.sr-content
+                section.details-group-sr
+                details.detail-expand.main-details.detail-expand-animate
+                section.expand-context
+                div.expand-context-intro
+                div.expand-context-title
+                h2.expand-context-intro-text {
                 width: 250px;
             }
 
-            div.sr-content section.details-group-sr details.detail-awakening.main-details.detail-awakening-animate section.live-the-present div.life-phases {
+            div.sr-content
+                section.details-group-sr
+                details.detail-awakening.main-details.detail-awakening-animate
+                section.live-the-present
+                div.life-phases {
                 justify-content: flex-start;
             }
 
-            div.sr-content section.details-group-sr details.detail-awakening.main-details.detail-awakening-animate section.live-the-present div.life-phases p.life-phases-text-desktop.life-phases {
+            div.sr-content
+                section.details-group-sr
+                details.detail-awakening.main-details.detail-awakening-animate
+                section.live-the-present
+                div.life-phases
+                p.life-phases-text-desktop.life-phases {
                 position: relative;
                 left: 40px;
                 width: 662px;
@@ -5916,20 +6873,38 @@ top: 300px;
                 width: 152px;
             }
 
-            .details-group-sr .detail-expand .crown-expand .crown-expand-figure {
+            .details-group-sr
+                .detail-expand
+                .crown-expand
+                .crown-expand-figure {
                 width: 300px;
             }
 
-            .details-group-sr .detail-planning .planning-job .planning-job-title-container .planning-job-title {
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-title-container
+                .planning-job-title {
                 left: 55px;
                 padding-top: 90px;
             }
 
-            .details-group-sr .detail-expand .crown-expand .crown-expand-figure .crown-expand-img {
+            .details-group-sr
+                .detail-expand
+                .crown-expand
+                .crown-expand-figure
+                .crown-expand-img {
                 width: 100%;
             }
 
-            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.planning-in-practice div.planning-slide-numbers ol.planning-slide-message-list.planning-in-practice-list span.planning-job-list-span li.planning-slide-message-item {
+            div.sr-content
+                section.details-group-sr
+                details.detail-planning.main-details.detail-planning-animate
+                section.planning-in-practice
+                div.planning-slide-numbers
+                ol.planning-slide-message-list.planning-in-practice-list
+                span.planning-job-list-span
+                li.planning-slide-message-item {
                 margin-top: 130px;
             }
 
@@ -5965,7 +6940,11 @@ top: 300px;
                 width: 120px;
             }
 
-            .details-group-sr .detail-expand .context .title .etaism-meditation-figure {
+            .details-group-sr
+                .detail-expand
+                .context
+                .title
+                .etaism-meditation-figure {
                 left: 130px;
                 position: relative;
                 width: 760px !important;
@@ -5979,8 +6958,6 @@ top: 300px;
                 div.invite-container.invite-container-animate
                 button.invite-button {
                 padding: 45px 180px;
-
-
             }
 
             div.sr-content
@@ -6015,7 +6992,10 @@ top: 300px;
                 left: -40px;
             }
 
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-cas-description {
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-cas-description {
                 line-height: normal;
                 padding-left: 90px;
             }
@@ -6036,16 +7016,18 @@ top: 300px;
 
             .details-group-sr .detail-expand .crown-expand {
                 height: 930px;
-
             }
-            .details-group-sr .detail-expand .crown-expand .crown-expand-container .expand-crown-button-share {
+            .details-group-sr
+                .detail-expand
+                .crown-expand
+                .crown-expand-container
+                .expand-crown-button-share {
                 width: 210px;
                 height: 55px;
                 font-size: 36px;
                 padding: 45px 220px;
-                    position: relative;
+                position: relative;
                 top: 8px;
-
             }
 
             div.sr-content
@@ -6090,7 +7072,10 @@ top: 300px;
                 margin-left: 190px;
             }
 
-            .details-group-sr .detail-planning .planning-culture-and-society .planning-culture-and-society-line {
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .planning-culture-and-society-line {
                 overflow-x: hidden;
             }
 
@@ -6111,7 +7096,10 @@ top: 300px;
                 top: auto;
             }
 
-            .details-group-sr .detail-planning .planning-culture-and-society .first-planning-details {
+            .details-group-sr
+                .detail-planning
+                .planning-culture-and-society
+                .first-planning-details {
                 padding-left: 80px;
                 padding-right: 80px;
             }
@@ -6138,21 +7126,33 @@ top: 300px;
                 font-style: normal;
             }
 
-            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.pdf-section h2.pdf-section-title span.pdf-section-title-italic {
+            div.sr-content
+                section.details-group-sr
+                details.detail-planning.main-details.detail-planning-animate
+                section.pdf-section
+                h2.pdf-section-title
+                span.pdf-section-title-italic {
                 font-size: 170px;
             }
 
-            .details-group-sr .detail-awakening .context .longevity .longevity-figure .longevity-img {
+            .details-group-sr
+                .detail-awakening
+                .context
+                .longevity
+                .longevity-figure
+                .longevity-img {
                 padding-right: 80px;
                 margin-left: -39px;
                 // margin-top: -180px;
             }
 
-            .details-group-sr .detail-awakening .culture-and-society .awake-cas-description {
+            .details-group-sr
+                .detail-awakening
+                .culture-and-society
+                .awake-cas-description {
                 margin-top: 110px;
                 padding-left: 110px;
                 line-height: 57px;
-
             }
 
             .introduction-sr .line-introduction-description {
@@ -6160,13 +7160,19 @@ top: 300px;
                 top: 910px;
             }
 
-            .details-group-sr .detail-planning .introduction-to-planning-container .introduction-to-planning-line {
+            .details-group-sr
+                .detail-planning
+                .introduction-to-planning-container
+                .introduction-to-planning-line {
                 padding-bottom: 0;
                 top: -15px;
                 left: 15px;
             }
 
-            .details-group-sr .detail-planning .planning-in-practice .practice-title {
+            .details-group-sr
+                .detail-planning
+                .planning-in-practice
+                .practice-title {
                 margin-top: 0;
             }
 
@@ -6175,23 +7181,38 @@ top: 300px;
                 .expand-culture-and-society
                 .expand-cas-subdescription-container
                 .expand-cas-subdescription,
-            .page-guiaproidade .container .details-group-sr .detail-expand .expand-context .expand-context-description {
+            .page-guiaproidade
+                .container
+                .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-context-description {
                 font-weight: 300;
                 line-height: 50px;
                 margin-block-end: 65px;
             }
-            .details-group-sr .detail-expand .context .expand-context-line .expand-context-line-hr {
+            .details-group-sr
+                .detail-expand
+                .context
+                .expand-context-line
+                .expand-context-line-hr {
                 top: 0px;
                 left: -692px;
                 width: 175px;
             }
 
-            .details-group-sr .detail-expand .expand-context .expand-line-bike::before {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-line-bike::before {
                 top: 21px;
                 left: -193px;
             }
 
-            .details-group-sr .detail-expand .crown-expand .crown-expand-container {
+            .details-group-sr
+                .detail-expand
+                .crown-expand
+                .crown-expand-container {
                 width: 800px;
                 height: 640px;
                 position: relative;
@@ -6209,7 +7230,11 @@ top: 300px;
                 top: -100px;
             }
 
-            .details-group-sr .detail-expand .expand-context .notime-x-everytime .time-text:nth-child(1) {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .notime-x-everytime
+                .time-text:nth-child(1) {
                 padding-bottom: 80px;
             }
 
@@ -6223,13 +7248,20 @@ top: 300px;
                 padding-bottom: 60px;
             }
 
-            .details-group-sr .detail-expand .expand-context .notime-x-everytime .time-text:nth-child(3) {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .notime-x-everytime
+                .time-text:nth-child(3) {
                 margin-top: 40px;
                 position: relative;
                 left: 0px;
             }
 
-            .details-group-sr .detail-expand .crown-expand .crown-expand-figure {
+            .details-group-sr
+                .detail-expand
+                .crown-expand
+                .crown-expand-figure {
                 width: 328px !important;
                 position: relative;
                 top: 10px;
@@ -6248,7 +7280,11 @@ top: 300px;
                 margin-top: 44px;
             }
 
-            .details-group-sr .detail-expand .crown-expand .crown-expand-container .crown-description {
+            .details-group-sr
+                .detail-expand
+                .crown-expand
+                .crown-expand-container
+                .crown-description {
                 line-height: 64px;
                 left: 20px;
                 top: 50px;
@@ -6260,23 +7296,37 @@ top: 300px;
                 left: -150px;
                 padding-left: 180px;
             }
-            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate div.planning-title{
+            div.sr-content
+                section.details-group-sr
+                details.detail-planning.main-details.detail-planning-animate
+                div.planning-title {
                 margin-block: 110px;
             }
-            .details-group-sr .detail-expand .expand-context .expand-line-bike-hr {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .expand-line-bike-hr {
                 top: 60px;
                 left: -92%;
                 border-width: 1px;
                 border-style: solid;
             }
 
-            .details-group-sr .detail-awakening .culture-and-society .cas-line .cas-line-hr {
+            .details-group-sr
+                .detail-awakening
+                .culture-and-society
+                .cas-line
+                .cas-line-hr {
                 top: 35px;
                 left: -51%;
                 border-width: 1px;
                 border-style: solid;
             }
-            .details-group-sr .detail-awakening .live-the-present h3.live-the-present-title .live-the-present-line {
+            .details-group-sr
+                .detail-awakening
+                .live-the-present
+                h3.live-the-present-title
+                .live-the-present-line {
                 top: 30px;
                 left: -52%;
             }
@@ -6291,33 +7341,53 @@ top: 300px;
                 border-style: solid;
             }
 
-            .details-group-sr .detail-planning .planning-in-practice .practice-title .practice-title-hr {
+            .details-group-sr
+                .detail-planning
+                .planning-in-practice
+                .practice-title
+                .practice-title-hr {
                 top: -32px;
                 border-width: 1px;
                 border-style: solid;
             }
 
-            .details-group-sr .detail-planning .planning-container-blue .subtitle .planning-container-blue-line-hr {
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .subtitle
+                .planning-container-blue-line-hr {
                 top: -30px;
                 border-width: 1px;
                 border-style: solid;
             }
 
-            .details-group-sr .detail-planning .planning-container-blue .planning-container-blue-hr,
-            .details-group-sr .detail-planning .planning-container-blue .planning-container-blue-hr-2 {
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .planning-container-blue-hr,
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .planning-container-blue-hr-2 {
                 top: 60px;
                 border-width: 1px;
                 border-style: solid;
             }
 
-            .details-group-sr .detail-planning .planning-job .planning-job-intro-text-hr {
+            .details-group-sr
+                .detail-planning
+                .planning-job
+                .planning-job-intro-text-hr {
                 top: -55px;
                 left: -43%;
                 border-width: 1px;
                 border-style: solid;
             }
 
-            .details-group-sr .detail-planning .planning-container-blue .planning-container-blue-hr,
+            .details-group-sr
+                .detail-planning
+                .planning-container-blue
+                .planning-container-blue-hr,
             .page-guiaproidade
                 .container
                 .details-group-sr
@@ -6359,7 +7429,12 @@ top: 300px;
                 left: -380px;
             }
 
-            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.recomendations details.recomendation-details ul{
+            div.sr-content
+                section.details-group-sr
+                details.detail-planning.main-details.detail-planning-animate
+                section.recomendations
+                details.recomendation-details
+                ul {
                 padding-left: 120px;
                 font-size: 21px;
             }
@@ -6369,7 +7444,11 @@ top: 300px;
                 top: 453px;
             }
 
-            .details-group-sr .detail-expand .expand-context .notime-x-everytime .time-text:nth-child(2) {
+            .details-group-sr
+                .detail-expand
+                .expand-context
+                .notime-x-everytime
+                .time-text:nth-child(2) {
                 font-size: 120px !important;
             }
 
@@ -6391,10 +7470,16 @@ top: 300px;
                 font-weight: 300 !important;
                 width: 740px;
                 justify-content: flex-start !important;
-
             }
 
-            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.planning-health-and-welfare div.planning-container-blue details.division summary.title div.division-container-box{
+            div.sr-content
+                section.details-group-sr
+                details.detail-planning.main-details.detail-planning-animate
+                section.planning-health-and-welfare
+                div.planning-container-blue
+                details.division
+                summary.title
+                div.division-container-box {
                 padding-block-end: 15px;
             }
 
@@ -6446,46 +7531,67 @@ top: 300px;
             }
 
             div.sr-content section.share-container div.share-container-blue,
-            div.sr-content section.invite-container-blue div.share-container-blue {
+            div.sr-content
+                section.invite-container-blue
+                div.share-container-blue {
                 margin-top: auto;
                 transform: scale(2);
             }
 
-            div.sr-content section.introduction-sr div.introduction-sr-title-container.introduction-sr-title-container-animate img.introduction-sr-img.introduction-sr-img-animate{
-
+            div.sr-content
+                section.introduction-sr
+                div.introduction-sr-title-container.introduction-sr-title-container-animate
+                img.introduction-sr-img.introduction-sr-img-animate {
                 max-width: 638px;
                 max-height: 598px;
-
             }
 
-            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.planning-in-practice{
+            div.sr-content
+                section.details-group-sr
+                details.detail-planning.main-details.detail-planning-animate
+                section.planning-in-practice {
                 min-height: 525px;
             }
 
-
-        div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.continue div.continue-container-title h2.continue-title button.cta-continue{
-            left: 328px;
-            top: -18px;
-            width: 360px;
-            font-size: 28px;
-            height: 60px;
-            padding-top: 45px;
-            padding-bottom: 45px;
-        }
-
-        div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.recomendations details.recomendation-details summary.recomendations-summary {
-            font-size: 36px;
-            padding: 40px;
-
-            div.sr-content section.details-group-sr details.detail-planning.main-details.detail-planning-animate section.recomendations details.recomendation-details ul li {
-                padding-bottom: 10px;
-                font-size: 24px;
+            div.sr-content
+                section.details-group-sr
+                details.detail-planning.main-details.detail-planning-animate
+                section.continue
+                div.continue-container-title
+                h2.continue-title
+                button.cta-continue {
+                left: 328px;
+                top: -18px;
+                width: 360px;
+                font-size: 28px;
+                height: 60px;
+                padding-top: 45px;
+                padding-bottom: 45px;
             }
-        }
 
+            div.sr-content
+                section.details-group-sr
+                details.detail-planning.main-details.detail-planning-animate
+                section.recomendations
+                details.recomendation-details
+                summary.recomendations-summary {
+                font-size: 36px;
+                padding: 40px;
 
-        // div.sr-content section.details-group-sr details.detail-expand.main-details.detail-expand-animate section.expand-context div.crown-expand div.crown-expand-container div.expand-crown-button-share-container button.expand-crown-button-share{
-        // }
+                div.sr-content
+                    section.details-group-sr
+                    details.detail-planning.main-details.detail-planning-animate
+                    section.recomendations
+                    details.recomendation-details
+                    ul
+                    li {
+                    padding-bottom: 10px;
+                    font-size: 24px;
+                }
+            }
+
+            // div.sr-content section.details-group-sr details.detail-expand.main-details.detail-expand-animate section.expand-context div.crown-expand div.crown-expand-container div.expand-crown-button-share-container button.expand-crown-button-share{
+            // }
         }
     }
 }
