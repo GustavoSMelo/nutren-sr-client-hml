@@ -292,7 +292,7 @@ const planningJob2PracticeListChangeElement = () => {
 
 const inviteByWhatsapp = () => {
     const URLEncoded = encodeURIComponent(
-        "http://nutren.com.br/senior/guiaproidade"
+        "http://nutren.com.br/senior/guiaproidade/"
     );
 
     window.open(
@@ -307,6 +307,8 @@ const inviteByFacebook = () => {
         "_blank"
     );
 };
+
+//
 
 const openInviteContainer = () => {
     const inviteContainer = window.document.querySelector(
@@ -414,7 +416,7 @@ pij2RightArrow.addEventListener("click", () => {
 
 btnCopy.addEventListener("click", async () => {
     try {
-        const link = "https://nestle.com.br/guiaproidade";
+        const link = "http://nutren.com.br/senior/guiaproidade";
         await navigator.clipboard.writeText(link);
 
         const copyLinkH4 = window.document.querySelector(".copy-link-h4");
