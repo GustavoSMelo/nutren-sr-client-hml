@@ -7,7 +7,7 @@ let isExpandedGlossary = false;
 let isAwakeningDetailsOpen = false;
 let isExpandDetailsOpen = false;
 let isPlanningDetailsOpen = false;
-let downloadImagePage = '1';
+let downloadImagePage = "1";
 
 const planningJobPracticeListItems = [
     '<li class="planning-slide-message-item">Mapeie seus talentos e hobbies</li>',
@@ -328,7 +328,7 @@ const closeInviteContainer = () => {
 /**
  * @param {'1' | '2' | '3'} imgNumber
  */
-const openShareContainer = (imgNumber = '1') => {
+const openShareContainer = (imgNumber = "1") => {
     downloadImagePage = imgNumber;
     const shareContainer = window.document.querySelector(".share-container");
     shareContainer.style.top = `${window.scrollY}`;
@@ -342,14 +342,11 @@ const closeShareContainer = () => {
     window.document.body.style.overflowX = "";
 };
 
-const downloadPDF = (download = '') => {
+const downloadPDF = (download = "") => {
     const pdfLoader = document.createElement("a");
-    if (download === 'pdf1') {
+    if (download === "pdf1") {
         pdfLoader.href = `./assets/GuiaProIdade.pdf`;
         pdfLoader.download = `GuiaProIdade.pdf`;
-    } else if (download === 'pdf2') {
-        pdfLoader.href = `./assets/conteudoExtra.pdf`;
-        pdfLoader.download = `conteudoExtra.pdf`;
     } else {
         pdfLoader.href = `./assets/nutren_sharepage${downloadImagePage}.png`;
         pdfLoader.download = `CONVITE-${downloadImagePage}.png`;
