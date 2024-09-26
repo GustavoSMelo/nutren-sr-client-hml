@@ -469,13 +469,13 @@ summaryAwakening.addEventListener("click", () => {
             summaryAwakening.style.top = mobileTopHeader + "px";
             anchorToChapter02.style.bottom = `${footer}px`;
         }, 300);
+        goToChapter("01", mobileTopHeader + 50);
     } else {
         mainSummaryAwakeningExpanded.style.display = "none";
         mainSummaryAwakeningClosed.style.display = "flex";
         summaryAwakening.style.top = deskTopHeader + "px";
+        goToChapter("01", deskTopHeader + 72);
     }
-
-    goToChapter("01");
 });
 
 summaryExpand.addEventListener("click", () => {
@@ -503,14 +503,14 @@ summaryExpand.addEventListener("click", () => {
             mainSummaryExpandClosed.style.display = "none";
             summaryExpand.style.top = mobileTopHeader + "px";
             anchorToChapter03.style.bottom = `${footer}px`;
+            goToChapter("02", mobileTopHeader + 63);
         }, 300);
     } else {
         mainSummaryExpandExpanded.style.display = "none";
         mainSummaryExpandClosed.style.display = "flex";
         summaryExpand.style.top = deskTopHeader + "px";
+        goToChapter("02", deskTopHeader + 10);
     }
-
-    goToChapter("02");
 });
 
 summaryPlanning.addEventListener("click", () => {
@@ -537,14 +537,14 @@ summaryPlanning.addEventListener("click", () => {
             mainSummaryPlanningClosed.style.display = "none";
             mainSummaryPlanningExpanded.style.display = "flex";
             summaryPlanning.style.top = mobileTopHeader + "px";
+            goToChapter("03", mobileTopHeader + 55);
         }, 300);
     } else {
         mainSummaryPlanningExpanded.style.display = "none";
         mainSummaryPlanningClosed.style.display = "flex";
         summaryPlanning.style.top = deskTopHeader + "px";
+        goToChapter("03", deskTopHeader + 0);
     }
-
-    goToChapter("03");
 });
 
 expandGlossaryArrowBtn.addEventListener("click", () => {
