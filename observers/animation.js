@@ -335,12 +335,14 @@ function applyZoom() {
             const containerZoom =
                 pageGuiaProIdade.querySelectorAll(".container")[0];
             containerZoom.style.zoom = "70%";
+            containerZoom.style.padding = "0px";
         } else {
             const pageGuiaProIdade =
                 document.querySelector("#page-guiaproidade");
             const containerZoom =
                 pageGuiaProIdade.querySelectorAll(".container")[0];
             containerZoom.style.zoom = "";
+            containerZoom.style.padding = "0px";
         }
     }
 }

@@ -427,6 +427,25 @@ btnCopy.addEventListener("click", async () => {
     }
 });
 
+let deskTopHeader = 0;
+let mobileTopHeader = 0;
+let footer = 0;
+
+try {
+    const navbar = document
+        .getElementsByTagName("header")[0]
+        .getBoundingClientRect().height;
+
+    const footerHeight = document
+        .querySelectorAll(".float-links")[0]
+        .getBoundingClientRect().height;
+
+    const header = document.querySelectorAll(".top-header__container")[0];
+    deskTopHeader = navbar * 2;
+    mobileTopHeader = header + navbar - 2;
+    footer = footerHeight;
+} catch (err) {}
+
 summaryAwakening.addEventListener("click", () => {
     isAwakeningDetailsOpen = !isAwakeningDetailsOpen;
 
@@ -447,10 +466,13 @@ summaryAwakening.addEventListener("click", () => {
         setTimeout(() => {
             mainSummaryAwakeningClosed.style.display = "none";
             mainSummaryAwakeningExpanded.style.display = "flex";
+            summaryAwakening.style.top = mobileTopHeader + "px";
+            anchorToChapter02.style.bottom = `${footer}px`;
         }, 300);
     } else {
         mainSummaryAwakeningExpanded.style.display = "none";
         mainSummaryAwakeningClosed.style.display = "flex";
+        summaryAwakening.style.top = deskTopHeader + "px";
     }
 
     goToChapter("01");
@@ -470,7 +492,7 @@ summaryExpand.addEventListener("click", () => {
     if (isPlanningDetailsOpen) {
         detailPlanning.open = false;
         isPlanningDetailsOpen = false;
-
+        summaryAwakening.style.top = "120px";
         mainSummaryPlanningExpanded.style.display = "none";
         mainSummaryPlanningClosed.style.display = "flex";
     }
@@ -479,10 +501,13 @@ summaryExpand.addEventListener("click", () => {
         setTimeout(() => {
             mainSummaryExpandExpanded.style.display = "flex";
             mainSummaryExpandClosed.style.display = "none";
+            summaryExpand.style.top = mobileTopHeader + "px";
+            anchorToChapter03.style.bottom = `${footer}px`;
         }, 300);
     } else {
         mainSummaryExpandExpanded.style.display = "none";
         mainSummaryExpandClosed.style.display = "flex";
+        summaryExpand.style.top = deskTopHeader + "px";
     }
 
     goToChapter("02");
@@ -511,10 +536,12 @@ summaryPlanning.addEventListener("click", () => {
         setTimeout(() => {
             mainSummaryPlanningClosed.style.display = "none";
             mainSummaryPlanningExpanded.style.display = "flex";
+            summaryPlanning.style.top = mobileTopHeader + "px";
         }, 300);
     } else {
         mainSummaryPlanningExpanded.style.display = "none";
         mainSummaryPlanningClosed.style.display = "flex";
+        summaryPlanning.style.top = deskTopHeader + "px";
     }
 
     goToChapter("03");

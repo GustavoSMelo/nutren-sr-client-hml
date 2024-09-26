@@ -195,6 +195,7 @@ $titleWhite: #f5f5f5;
         scroll-behavior: smooth;
         will-change: transform, opacity;
 
+        @include flexCenter();
         .main-summary-title {
             display: block;
             flex-direction: column;
